@@ -1,0 +1,12 @@
+D:\Facultate\.net\Proiect\LabsAndManagement\LabsAndManagement.Business\bin\Debug\net6.0\LabsAndManagement.Business.deps.json
+D:\Facultate\.net\Proiect\LabsAndManagement\LabsAndManagement.Business\bin\Debug\net6.0\LabsAndManagement.Business.dll
+D:\Facultate\.net\Proiect\LabsAndManagement\LabsAndManagement.Business\bin\Debug\net6.0\LabsAndManagement.Business.pdb
+D:\Facultate\.net\Proiect\LabsAndManagement\LabsAndManagement.Business\obj\Debug\net6.0\LabsAndManagement.Business.csproj.AssemblyReference.cache
+D:\Facultate\.net\Proiect\LabsAndManagement\LabsAndManagement.Business\obj\Debug\net6.0\LabsAndManagement.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\.net\Proiect\LabsAndManagement\LabsAndManagement.Business\obj\Debug\net6.0\LabsAndManagement.Business.AssemblyInfoInputs.cache
+D:\Facultate\.net\Proiect\LabsAndManagement\LabsAndManagement.Business\obj\Debug\net6.0\LabsAndManagement.Business.AssemblyInfo.cs
+D:\Facultate\.net\Proiect\LabsAndManagement\LabsAndManagement.Business\obj\Debug\net6.0\LabsAndManagement.Business.csproj.CoreCompileInputs.cache
+D:\Facultate\.net\Proiect\LabsAndManagement\LabsAndManagement.Business\obj\Debug\net6.0\LabsAndManagement.Business.dll
+D:\Facultate\.net\Proiect\LabsAndManagement\LabsAndManagement.Business\obj\Debug\net6.0\refint\LabsAndManagement.Business.dll
+D:\Facultate\.net\Proiect\LabsAndManagement\LabsAndManagement.Business\obj\Debug\net6.0\LabsAndManagement.Business.pdb
+D:\Facultate\.net\Proiect\LabsAndManagement\LabsAndManagement.Business\obj\Debug\net6.0\ref\LabsAndManagement.Business.dll
