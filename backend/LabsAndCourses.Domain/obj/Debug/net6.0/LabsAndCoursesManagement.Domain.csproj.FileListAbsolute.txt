@@ -10,3 +10,15 @@ C:\Users\Stefan\Desktop\LabsAndCoursesManagement\LabsAndCourses.Domain\obj\Debug
 C:\Users\Stefan\Desktop\LabsAndCoursesManagement\LabsAndCourses.Domain\obj\Debug\net6.0\refint\LabsAndCoursesManagement.Domain.dll
 C:\Users\Stefan\Desktop\LabsAndCoursesManagement\LabsAndCourses.Domain\obj\Debug\net6.0\LabsAndCoursesManagement.Domain.pdb
 C:\Users\Stefan\Desktop\LabsAndCoursesManagement\LabsAndCourses.Domain\obj\Debug\net6.0\ref\LabsAndCoursesManagement.Domain.dll
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\bin\Debug\net6.0\LabsAndCoursesManagement.Domain.deps.json
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\bin\Debug\net6.0\LabsAndCoursesManagement.Domain.dll
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\bin\Debug\net6.0\LabsAndCoursesManagement.Domain.pdb
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\obj\Debug\net6.0\LabsAndCoursesManagement.Domain.csproj.AssemblyReference.cache
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\obj\Debug\net6.0\LabsAndCoursesManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\obj\Debug\net6.0\LabsAndCoursesManagement.Domain.AssemblyInfoInputs.cache
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\obj\Debug\net6.0\LabsAndCoursesManagement.Domain.AssemblyInfo.cs
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\obj\Debug\net6.0\LabsAndCoursesManagement.Domain.csproj.CoreCompileInputs.cache
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\obj\Debug\net6.0\LabsAndCoursesManagement.Domain.dll
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\obj\Debug\net6.0\refint\LabsAndCoursesManagement.Domain.dll
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\obj\Debug\net6.0\LabsAndCoursesManagement.Domain.pdb
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\obj\Debug\net6.0\ref\LabsAndCoursesManagement.Domain.dll

@@ -2,6 +2,7 @@
 using LabsAndCoursesManagement.Infrastructure.Generics;
 using Microsoft.AspNetCore.Mvc;
 using LabsAndCoursesManagement.API.DTOs;
+using LabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories;
 
 
 namespace LabsAndCoursesManagement.API.Controllers
@@ -12,14 +13,16 @@ namespace LabsAndCoursesManagement.API.Controllers
     {
         private readonly IRepository<Student> studentRepository;
         private readonly IRepository<Grade> gradeRepository;
+        private readonly IRepository<Course> courseRepository;
 
         //private readonly ISamuraiRepository samuraiRepository;
         //private readonly IQuoteRepository quoteRepository;
 
-        public StudentsController(IRepository<Student> studentRepository, IRepository<Grade> gradeRepository)
+        public StudentsController(IRepository<Student> studentRepository, IRepository<Grade> gradeRepository, IRepository<Course> courseRepository)
         {
             this.studentRepository = studentRepository;
             this.gradeRepository = gradeRepository;
+            this.courseRepository = courseRepository;
         }
 
         [HttpPost]
@@ -37,23 +40,35 @@ namespace LabsAndCoursesManagement.API.Controllers
             return Ok(studentRepository.All());
         }
 
-        [HttpPost("{samuraiId:guid}/quotes")]
-        public IActionResult RegisterQuotes(Guid SID, 
-            [FromBody]List<CreateGradeDto> dtos)
+        [HttpPost("{studentId:guid}/{courseId:guid}/grade")]
+        public IActionResult RegisterGrade(Guid studentId, Guid courseId,
+            [FromBody]CreateGradeDto dto)
         {
-            var student = studentRepository.Get(SID);
+            var student = studentRepository.Get(studentId);
             if (student == null)
             {
                 return NotFound();
             }
 
-            List<Grade> grades = dtos.Select(d => new Grade(d.Value,d.GradeDate,d.IsLabGrade,d.IsExamGrade)).ToList();
+            var course = courseRepository.Get(courseId);
+            if (student == null)
+            {
+                return NotFound();
+            }
 
-            student.RegisterGradesToStudent(grades);
+            Grade tempGrade = new Grade(dto.Value, dto.GradeDate, dto.IsLabGrade, dto.IsExamGrade);
+            tempGrade.AttachGradeToCourse(course);
+            tempGrade.AttachGradeToStudent(student);
 
-            grades.ForEach(q=> gradeRepository.Add(q));
+            gradeRepository.Add(tempGrade);
+            
+
+            List<Grade> gradeList = new List<Grade>();
+            gradeList.Add(tempGrade);
+            student.RegisterGradesToStudent(gradeList);
+            
             gradeRepository.SaveChanges();
-            return NoContent();
+            return Created(nameof(Get), course);
         }
     }
 }

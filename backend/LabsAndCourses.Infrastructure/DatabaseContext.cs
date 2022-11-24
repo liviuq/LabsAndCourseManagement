@@ -12,14 +12,6 @@ namespace LabsAndCoursesManagement.Infrastructure
         public DbSet<Grade> Grades => Set<Grade>();
         public DbSet<Course> Courses => Set<Course>();
         public DbSet<Didactic> Didactics => Set<Didactic>();
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Didactic>()
-                .HasKey(d => new { d.CourseId, d.TeacherId });
-            modelBuilder.Entity<Grade>()
-                .HasKey(g => new { g.StudentId, g.CourseId });
-
-        }
 
         public void Save()
         {
@@ -29,6 +21,15 @@ namespace LabsAndCoursesManagement.Infrastructure
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite("DataSource = LabsAndCoursesManagement.db");
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Didactic>()
+                .HasKey(d => new { d.CourseId, d.TeacherId });
+            modelBuilder.Entity<Grade>()
+                .HasKey(g => new { g.StudentId, g.CourseId });
+
         }
     }
 }

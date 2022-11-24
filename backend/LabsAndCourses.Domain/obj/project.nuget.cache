@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a90AMaMd/m11816Qhg2VpJ+AHzc767XHN0p28pORMy7ZjLyyV0aCvQiGc+dZbfCmvytBE/yqFSNLZkzP968whA==",
+  "dgSpecHash": "W9qvLFsH6YTxHjj+/7E2LimGDUyGI317I6NC7Ko1yn5AOu/5yxuYxeNaKCUcSvaPIWJPMtCDtBY7vjKy0uM+aQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stefan\\Desktop\\LabsAndCoursesManagement\\LabsAndCourses.Domain\\LabsAndCoursesManagement.Domain.csproj",
+  "projectFilePath": "D:\\Facultate\\.net\\Proiect\\LabsAndCourseManagement\\backend\\LabsAndCourses.Domain\\LabsAndCoursesManagement.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

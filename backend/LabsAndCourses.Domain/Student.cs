@@ -25,8 +25,6 @@ namespace LabsAndCoursesManagement.Domain
         public int Semester { get; private set; }
         public string Group { get; private set; }
         public int? Scholarship { get; private set; }
-
-        [NotMapped]
         public List<Grade> Grades { get; private set; } = new List<Grade>();
         public Result RegisterGradesToStudent(List<Grade> grades)
         {
