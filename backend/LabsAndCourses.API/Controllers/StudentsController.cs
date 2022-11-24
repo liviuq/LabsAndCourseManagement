@@ -12,17 +12,10 @@ namespace LabsAndCoursesManagement.API.Controllers
     public class StudentsController : ControllerBase
     {
         private readonly IRepository<Student> studentRepository;
-        private readonly IRepository<Grade> gradeRepository;
-        private readonly IRepository<Course> courseRepository;
 
-        //private readonly ISamuraiRepository samuraiRepository;
-        //private readonly IQuoteRepository quoteRepository;
-
-        public StudentsController(IRepository<Student> studentRepository, IRepository<Grade> gradeRepository, IRepository<Course> courseRepository)
+        public StudentsController(IRepository<Student> studentRepository)
         {
             this.studentRepository = studentRepository;
-            this.gradeRepository = gradeRepository;
-            this.courseRepository = courseRepository;
         }
 
         [HttpPost]
@@ -33,42 +26,23 @@ namespace LabsAndCoursesManagement.API.Controllers
             studentRepository.SaveChanges();
             return Created(nameof(Get), student);
         }
-
         [HttpGet]
         public IActionResult Get()
         {
             return Ok(studentRepository.All());
         }
-
-        [HttpPost("{studentId:guid}/{courseId:guid}/grade")]
-        public IActionResult RegisterGrade(Guid studentId, Guid courseId,
-            [FromBody]CreateGradeDto dto)
+        [HttpGet("{id:guid}")]
+        public IActionResult GetById(Guid id)
         {
-            var student = studentRepository.Get(studentId);
-            if (student == null)
-            {
-                return NotFound();
-            }
-
-            var course = courseRepository.Get(courseId);
-            if (student == null)
-            {
-                return NotFound();
-            }
-
-            Grade tempGrade = new Grade(dto.Value, dto.GradeDate, dto.IsLabGrade, dto.IsExamGrade);
-            tempGrade.AttachGradeToCourse(course);
-            tempGrade.AttachGradeToStudent(student);
-
-            gradeRepository.Add(tempGrade);
-            
-
-            List<Grade> gradeList = new List<Grade>();
-            gradeList.Add(tempGrade);
-            student.RegisterGradesToStudent(gradeList);
-            
-            gradeRepository.SaveChanges();
-            return Created(nameof(Get), course);
+            return Ok(studentRepository.Get(id));
         }
+        [HttpDelete("{id:guid}")]
+        public IActionResult Delete(Guid id)
+        {
+            studentRepository.Delete(id);
+            studentRepository.SaveChanges();
+            return Ok("Student deleted succesfully");
+        }
+
     }
 }

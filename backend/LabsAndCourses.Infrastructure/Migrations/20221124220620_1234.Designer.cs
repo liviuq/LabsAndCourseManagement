@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LabsAndCoursesManagement.Infrastructure.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20221124191117_initial_create2")]
-    partial class initialcreate2
+    [Migration("20221124220620_1234")]
+    partial class _1234
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -43,20 +43,25 @@ namespace LabsAndCoursesManagement.Infrastructure.Migrations
 
             modelBuilder.Entity("LabsAndCoursesManagement.Domain.Didactic", b =>
                 {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
                     b.Property<Guid>("CourseId")
                         .HasColumnType("TEXT");
 
                     b.Property<Guid>("TeacherId")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("CourseId", "TeacherId");
+                    b.HasKey("Id");
 
                     b.ToTable("Didactics");
                 });
 
             modelBuilder.Entity("LabsAndCoursesManagement.Domain.Grade", b =>
                 {
-                    b.Property<Guid>("StudentId")
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT");
 
                     b.Property<Guid>("CourseId")
@@ -71,10 +76,15 @@ namespace LabsAndCoursesManagement.Infrastructure.Migrations
                     b.Property<bool>("IsLabGrade")
                         .HasColumnType("INTEGER");
 
+                    b.Property<Guid>("StudentId")
+                        .HasColumnType("TEXT");
+
                     b.Property<int>("Value")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("StudentId", "CourseId");
+                    b.HasKey("Id");
+
+                    b.HasIndex("StudentId");
 
                     b.ToTable("Grades");
                 });
@@ -137,6 +147,20 @@ namespace LabsAndCoursesManagement.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Teachers");
+                });
+
+            modelBuilder.Entity("LabsAndCoursesManagement.Domain.Grade", b =>
+                {
+                    b.HasOne("LabsAndCoursesManagement.Domain.Student", null)
+                        .WithMany("Grades")
+                        .HasForeignKey("StudentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("LabsAndCoursesManagement.Domain.Student", b =>
+                {
+                    b.Navigation("Grades");
                 });
 #pragma warning restore 612, 618
         }

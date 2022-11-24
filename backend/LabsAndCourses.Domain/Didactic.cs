@@ -1,12 +1,14 @@
 ﻿
 
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Security.Cryptography;
-
 namespace LabsAndCoursesManagement.Domain
 {
     public class Didactic
     {
+        public Didactic()
+        {
+            Id = Guid.NewGuid();
+        }
+        public Guid Id { get; private set; }
         public Guid TeacherId { get; private set; }
         public Guid CourseId { get; private set; }
 

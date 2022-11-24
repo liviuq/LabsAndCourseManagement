@@ -2,6 +2,7 @@
 using LabsAndCoursesManagement.Infrastructure.Generics;
 using Microsoft.AspNetCore.Mvc;
 using LabsAndCoursesManagement.API.DTOs;
+using LabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories;
 
 
 namespace LabsAndCoursesManagement.API.Controllers
@@ -33,6 +34,18 @@ namespace LabsAndCoursesManagement.API.Controllers
         public IActionResult Get()
         {
             return Ok(courseRepository.All());
+        }
+        [HttpGet("{id:guid}")]
+        public IActionResult GetById(Guid id)
+        {
+            return Ok(courseRepository.Get(id));
+        }
+        [HttpDelete("{id:guid}")]
+        public IActionResult Delete(Guid id)
+        {
+            courseRepository.Delete(id);
+            courseRepository.SaveChanges();
+            return Ok("Course deleted succesfully");
         }
 
     }

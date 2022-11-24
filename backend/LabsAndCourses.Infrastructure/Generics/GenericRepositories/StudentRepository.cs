@@ -11,10 +11,17 @@ namespace LabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories
         }
 
         override
+        public Student Get(Guid id)
+        {
+            return context.Students.Include(student => student.Grades).FirstOrDefault(x => x.Id == id);
+        }
+
+        override
         public IEnumerable<Student> All()
         {
-            return context.Students.Include(student => student.Grades)
-                .ToList();
+            return context.Students.Include(student => student.Grades).ToList();
         }
+
+
     }
 }

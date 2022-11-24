@@ -1,4 +1,5 @@
 ﻿using LabsAndCoursesManagement.Domain;
+using Microsoft.EntityFrameworkCore;
 
 namespace LabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories
 {
@@ -7,5 +8,6 @@ namespace LabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories
         public CourseRepository(DatabaseContext context) : base(context)
         {
         }
+    
     }
 }

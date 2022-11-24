@@ -2,9 +2,10 @@
 {
     public class CreateTeacherDto
     {
-        public string Title { get;  set; }
-        public int Semester { get;  set; }
-        public int Credits { get;  set; }
+        public string FirstName { get;  set; }
+        public string LastName { get;  set; }
+        public string Email { get;  set; }
+        public string TeachingDegree { get;  set; }
 
     }
 }

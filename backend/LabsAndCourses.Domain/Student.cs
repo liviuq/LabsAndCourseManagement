@@ -1,7 +1,6 @@
 ﻿
 
 using LabsAndCoursesManagement.Domain.Helpers;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LabsAndCoursesManagement.Domain
 {

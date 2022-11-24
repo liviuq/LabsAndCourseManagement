@@ -10,8 +10,6 @@ namespace LabsAndCoursesManagement.Application
         DbSet<Course> Courses { get; }
         DbSet<Grade> Grades { get; }
         DbSet<Didactic> Didactics { get; }
-
-
         void Save();
     }
 }

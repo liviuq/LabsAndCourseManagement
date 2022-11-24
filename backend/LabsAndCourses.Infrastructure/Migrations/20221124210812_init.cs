@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace LabsAndCoursesManagement.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class initialcreate2 : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -35,22 +35,6 @@ namespace LabsAndCoursesManagement.Infrastructure.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Didactics", x => new { x.CourseId, x.TeacherId });
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Grades",
-                columns: table => new
-                {
-                    StudentId = table.Column<Guid>(type: "TEXT", nullable: false),
-                    CourseId = table.Column<Guid>(type: "TEXT", nullable: false),
-                    Value = table.Column<int>(type: "INTEGER", nullable: false),
-                    GradeDate = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    IsLabGrade = table.Column<bool>(type: "INTEGER", nullable: false),
-                    IsExamGrade = table.Column<bool>(type: "INTEGER", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Grades", x => new { x.StudentId, x.CourseId });
                 });
 
             migrationBuilder.CreateTable(
@@ -84,6 +68,29 @@ namespace LabsAndCoursesManagement.Infrastructure.Migrations
                 {
                     table.PrimaryKey("PK_Teachers", x => x.Id);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "Grades",
+                columns: table => new
+                {
+                    StudentId = table.Column<Guid>(type: "TEXT", nullable: false),
+                    CourseId = table.Column<Guid>(type: "TEXT", nullable: false),
+                    Id = table.Column<Guid>(type: "TEXT", nullable: false),
+                    Value = table.Column<int>(type: "INTEGER", nullable: false),
+                    GradeDate = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    IsLabGrade = table.Column<bool>(type: "INTEGER", nullable: false),
+                    IsExamGrade = table.Column<bool>(type: "INTEGER", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Grades", x => new { x.StudentId, x.CourseId });
+                    table.ForeignKey(
+                        name: "FK_Grades_Students_StudentId",
+                        column: x => x.StudentId,
+                        principalTable: "Students",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
         }
 
         /// <inheritdoc />
@@ -99,10 +106,10 @@ namespace LabsAndCoursesManagement.Infrastructure.Migrations
                 name: "Grades");
 
             migrationBuilder.DropTable(
-                name: "Students");
+                name: "Teachers");
 
             migrationBuilder.DropTable(
-                name: "Teachers");
+                name: "Students");
         }
     }
 }

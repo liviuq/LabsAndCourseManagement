@@ -23,13 +23,5 @@ namespace LabsAndCoursesManagement.Infrastructure
             optionsBuilder.UseSqlite("DataSource = LabsAndCoursesManagement.db");
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Didactic>()
-                .HasKey(d => new { d.CourseId, d.TeacherId });
-            modelBuilder.Entity<Grade>()
-                .HasKey(g => new { g.StudentId, g.CourseId });
-
-        }
     }
 }

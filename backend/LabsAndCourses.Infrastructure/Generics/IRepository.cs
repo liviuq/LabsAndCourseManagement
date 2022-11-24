@@ -1,4 +1,5 @@
-﻿using System.Linq.Expressions;
+﻿using LabsAndCoursesManagement.Domain;
+using System.Linq.Expressions;
 
 namespace LabsAndCoursesManagement.Infrastructure.Generics
 {
@@ -9,6 +10,7 @@ namespace LabsAndCoursesManagement.Infrastructure.Generics
         T Get(Guid id);
         IEnumerable<T> All();
         IEnumerable<T> Find(Expression<Func<T, bool>> predicate);
+        void Delete(Guid id);
         void SaveChanges();
     }
 }

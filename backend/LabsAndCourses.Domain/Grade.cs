@@ -7,12 +7,14 @@ namespace LabsAndCoursesManagement.Domain
     {
         public Grade(int value, DateTime gradeDate, bool isLabGrade, bool isExamGrade)
         {
+            Id = Guid.NewGuid();
             Value = value;
             GradeDate = gradeDate;
             IsLabGrade = isLabGrade;
             IsExamGrade = isExamGrade;
         }
 
+        public Guid Id { get; private set; }
         public Guid StudentId { get; private set; }
         public Guid CourseId { get; private set; }
         public int Value { get; private set; }

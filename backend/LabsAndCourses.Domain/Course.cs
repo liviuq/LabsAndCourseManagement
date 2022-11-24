@@ -1,7 +1,4 @@
 ﻿
-using LabsAndCoursesManagement.Domain.Helpers;
-using System.ComponentModel.DataAnnotations;
-
 namespace LabsAndCoursesManagement.Domain
 {
     public class Course
