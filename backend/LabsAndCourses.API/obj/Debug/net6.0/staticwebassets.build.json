@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "UkHM0GQPsvVtq9jf9OJv/iYjb+Qhm4zeuG5PQkWKr+M=",
+  "Source": "LabsAndCoursesManagement.API",
+  "BasePath": "_content/LabsAndCoursesManagement.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
