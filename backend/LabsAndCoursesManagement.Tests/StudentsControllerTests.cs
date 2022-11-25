@@ -1,12 +1,5 @@
 ﻿using LabsAndCoursesManagement.Domain;
-using LabsAndCoursesManagement.Infrastructure;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LabsAndCoursesManagement.Tests
 {
@@ -25,6 +18,9 @@ namespace LabsAndCoursesManagement.Tests
 
             var students = JsonConvert.DeserializeObject<List<Student>>(content);
             Assert.IsTrue(students.Any(s => s.Email == "mockemail"));
+
+            // ensure deleted
+            _db.Students.RemoveRange(_db.Students);
         }
     }
 }
