@@ -40,8 +40,29 @@ namespace LabsAndCoursesManagement.Tests
 
             var response = await _httpClient.GetAsync("api/courses");
             var content = await response.Content.ReadAsStringAsync();
+            Console.WriteLine(content);
             var courses = JsonConvert.DeserializeObject<List<Course>>(content);
             Assert.IsTrue(courses.Any(c => c.Title == "TestCourse"));
+        }
+
+        [TestMethod]
+        public async Task StudentController_Get_ReturnsEmptyResponse()
+        {
+
+            // create db instance
+            var db = new DatabaseContext();
+
+            // enusre created and migration
+            db.Database.EnsureCreated();
+            db.Students.Add(new Student("mockemail", "mockName", "mockLastName", 3, "2B4", 500));
+            db.SaveChanges();
+
+
+            var response = await _httpClient.GetAsync("api/Students");
+            var content = await response.Content.ReadAsStringAsync();
+            Console.WriteLine(content);
+            var students = JsonConvert.DeserializeObject<List<Student>>(content);
+            Assert.IsTrue(students.Any(s => s.Email == "mockemail"));
         }
     }
 }
