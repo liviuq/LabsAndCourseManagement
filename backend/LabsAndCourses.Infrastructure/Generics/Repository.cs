@@ -37,9 +37,16 @@ namespace LabsAndCoursesManagement.Infrastructure.Generics
                 .ToList();
         }
 
-        public virtual T Update(T entity)
+        public virtual T Update(Guid id, T entity)
         {
-            return context.Update(entity).Entity;
+            var entityToUpdate = context.Find<T>(id);
+            if (entityToUpdate == null)
+                return null;
+                    
+            context.Set<T>().Remove(entityToUpdate);
+            context.SaveChanges();
+
+            return context.Add(entity).Entity;     
         }
 
         public virtual void Delete(Guid id) {

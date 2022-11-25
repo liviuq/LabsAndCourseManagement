@@ -23,8 +23,7 @@ namespace LabsAndCoursesManagement.API.Controllers
         }
 
         [HttpPost("{teacherId:guid}/{courseId:guid}")]
-        public IActionResult Create(Guid teacherId, Guid courseId,
-            [FromBody] CreateGradeDto dto)
+        public IActionResult Create(Guid teacherId, Guid courseId)
         {
             var teacher = teacherRepository.Get(teacherId);
             var course = courseRepository.Get(courseId);
@@ -54,6 +53,25 @@ namespace LabsAndCoursesManagement.API.Controllers
             didacticRepository.Delete(id);
             didacticRepository.SaveChanges();
             return Ok("Didactic deleted succesfully");
+        }
+        [HttpPut("{id:guid}")]
+        public IActionResult Update(Guid id, Guid teacherId, Guid courseId)
+        {
+            var teacher = teacherRepository.Get(teacherId);
+            var course = courseRepository.Get(courseId);
+
+            if (teacher == null || course == null)
+            {
+                return NotFound();
+            }
+
+            Didactic tempDidactic = new Didactic();
+            tempDidactic.AttachDidacticToTeacher(teacher);
+            tempDidactic.AttachDidacticToCourse(course);
+            
+            didacticRepository.Update(id, tempDidactic);
+            didacticRepository.SaveChanges();
+            return Ok("Didactic updated succesfully");
         }
     }
 }

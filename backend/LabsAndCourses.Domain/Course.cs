@@ -17,5 +17,13 @@ namespace LabsAndCoursesManagement.Domain
         public int Semester { get; private set; }
         public int Credits { get; private set; }
 
+        // update
+        public void Update(string title, int semester, int credits)
+        {
+            Title = title;
+            Semester = semester;
+            Credits = credits;
+        }
+
     }
 }

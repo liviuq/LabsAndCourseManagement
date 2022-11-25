@@ -24,7 +24,7 @@ namespace LabsAndCoursesManagement.API.Controllers
         [HttpPost]
         public IActionResult Create([FromBody] CreateCourseDto dto)
         {
-            var course = new Course(dto.Title,dto.Semester,dto.Credits);
+            var course = new Course(dto.Title, dto.Semester, dto.Credits);
             courseRepository.Add(course);
             courseRepository.SaveChanges();
             return Created(nameof(Get), course);
@@ -46,6 +46,14 @@ namespace LabsAndCoursesManagement.API.Controllers
             courseRepository.Delete(id);
             courseRepository.SaveChanges();
             return Ok("Course deleted succesfully");
+        }
+        [HttpPut("{id:guid}")]
+        public IActionResult Update(Guid id, [FromBody] UpdateCourseDto dto)
+        {
+            var course = courseRepository.Get(id);
+            course.Update(dto.Title, dto.Semester, dto.Credits);
+            courseRepository.SaveChanges();
+            return Ok("Course updated succesfully");
         }
 
     }
