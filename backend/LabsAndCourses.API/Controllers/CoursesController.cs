@@ -48,7 +48,7 @@ namespace LabsAndCoursesManagement.API.Controllers
             return Ok("Course deleted succesfully");
         }
         [HttpPut("{id:guid}")]
-        public IActionResult Update(Guid id, [FromBody] UpdateCourseDto dto)
+        public IActionResult Update(Guid id, [FromBody] CreateCourseDto dto)
         {
             var course = courseRepository.Get(id);
             course.Update(dto.Title, dto.Semester, dto.Credits);
