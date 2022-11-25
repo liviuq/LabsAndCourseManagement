@@ -11,13 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{994FFE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{08BCBF0D-F9AD-414F-BA84-B35AA0E16366}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabsAndCoursesManagement.Application", "LabsAndCourses.Application\LabsAndCoursesManagement.Application.csproj", "{962490F3-E82F-4E4C-8060-C4579C0B8727}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabsAndCoursesManagement.Application", "LabsAndCourses.Application\LabsAndCoursesManagement.Application.csproj", "{962490F3-E82F-4E4C-8060-C4579C0B8727}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabsAndCoursesManagement.Domain", "LabsAndCourses.Domain\LabsAndCoursesManagement.Domain.csproj", "{0DB8FAC0-B027-46BA-96BF-F082BFB05556}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabsAndCoursesManagement.Domain", "LabsAndCourses.Domain\LabsAndCoursesManagement.Domain.csproj", "{0DB8FAC0-B027-46BA-96BF-F082BFB05556}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabsAndCoursesManagement.Infrastructure", "LabsAndCourses.Infrastructure\LabsAndCoursesManagement.Infrastructure.csproj", "{53351409-B164-4D1C-999C-5936516958E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabsAndCoursesManagement.Infrastructure", "LabsAndCourses.Infrastructure\LabsAndCoursesManagement.Infrastructure.csproj", "{53351409-B164-4D1C-999C-5936516958E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabsAndCoursesManagement.API", "LabsAndCourses.API\LabsAndCoursesManagement.API.csproj", "{2CBC651F-CD39-48D3-A45B-93CD064AA251}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabsAndCoursesManagement.API", "LabsAndCourses.API\LabsAndCoursesManagement.API.csproj", "{2CBC651F-CD39-48D3-A45B-93CD064AA251}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTests", "IntegrationTests", "{F50F404E-CC1A-497E-9649-2BC09B9E0473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabsAndCoursesManagement.Tests", "LabsAndCoursesManagement.Tests\LabsAndCoursesManagement.Tests.csproj", "{10BF3247-6D24-4210-A147-47E1A00837F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,10 @@ Global
 		{2CBC651F-CD39-48D3-A45B-93CD064AA251}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CBC651F-CD39-48D3-A45B-93CD064AA251}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CBC651F-CD39-48D3-A45B-93CD064AA251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10BF3247-6D24-4210-A147-47E1A00837F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10BF3247-6D24-4210-A147-47E1A00837F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10BF3247-6D24-4210-A147-47E1A00837F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10BF3247-6D24-4210-A147-47E1A00837F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +58,7 @@ Global
 		{0DB8FAC0-B027-46BA-96BF-F082BFB05556} = {994FFED1-0DD9-4504-8C1E-F879164A968D}
 		{53351409-B164-4D1C-999C-5936516958E3} = {07146393-7149-49CE-8E1E-1DB8B963F557}
 		{2CBC651F-CD39-48D3-A45B-93CD064AA251} = {ABAB98A3-3591-4DE0-9DA1-E86691FC72C2}
+		{10BF3247-6D24-4210-A147-47E1A00837F7} = {F50F404E-CC1A-497E-9649-2BC09B9E0473}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5EE703D6-2745-4244-A6EC-B0DF02C539C3}
