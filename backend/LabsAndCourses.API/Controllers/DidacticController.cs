@@ -57,6 +57,13 @@ namespace LabsAndCoursesManagement.API.Controllers
         [HttpPut("{id:guid}")]
         public IActionResult Update(Guid id, Guid teacherId, Guid courseId)
         {
+            var tempDidactic = didacticRepository.Get(id);
+            
+            if (tempDidactic == null)
+            {
+                return NotFound();
+            }
+            
             var teacher = teacherRepository.Get(teacherId);
             var course = courseRepository.Get(courseId);
 
@@ -64,12 +71,12 @@ namespace LabsAndCoursesManagement.API.Controllers
             {
                 return NotFound();
             }
-
-            Didactic tempDidactic = new Didactic();
+            
+            
             tempDidactic.AttachDidacticToTeacher(teacher);
             tempDidactic.AttachDidacticToCourse(course);
             
-            didacticRepository.Update(id, tempDidactic);
+            didacticRepository.Update(tempDidactic.Id, tempDidactic);
             didacticRepository.SaveChanges();
             return Ok("Didactic updated succesfully");
         }

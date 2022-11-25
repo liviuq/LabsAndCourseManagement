@@ -51,7 +51,15 @@ namespace LabsAndCoursesManagement.API.Controllers
         public IActionResult Update(Guid id, [FromBody] CreateCourseDto dto)
         {
             var course = courseRepository.Get(id);
+            
+            if (course == null)
+            {
+                return NotFound();
+            }
+            
             course.Update(dto.Title, dto.Semester, dto.Credits);
+
+            courseRepository.Update(id, course);
             courseRepository.SaveChanges();
             return Ok("Course updated succesfully");
         }
