@@ -38,5 +38,16 @@ namespace LabsAndCoursesManagement.Domain
             });
             return Result.Success();
         }
+
+        // update
+        public void Update(string email, string firstName, string lastName, int semester, string group, int? scholarship)
+        {
+            Email = email;
+            FirstName = firstName;
+            LastName = lastName;
+            Semester = semester;
+            Group = group;
+            Scholarship = scholarship;
+        }
     }
 }

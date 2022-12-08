@@ -22,7 +22,7 @@ namespace LabsAndCoursesManagement.API.Controllers
             this.courseRepository = courseRepository;
         }
 
-        [HttpPost("{studentId:guid}/{courseId:guid}")]
+        [HttpPost("student/{studentId:guid}/course/{courseId:guid}")]
         public IActionResult Create(Guid studentId, Guid courseId,
             [FromBody] CreateGradeDto dto)
         {
@@ -56,6 +56,23 @@ namespace LabsAndCoursesManagement.API.Controllers
             gradeRepository.Delete(id);
             gradeRepository.SaveChanges();
             return Ok("Grade deleted succesfully");
+        }
+
+        [HttpPut("{id:guid}")]
+        public IActionResult Update(Guid id, [FromBody] CreateGradeDto dto)
+        {
+            var grade = gradeRepository.Get(id);
+
+            if (grade == null)
+            {
+                return NotFound();
+            }
+
+            grade.Update(dto.Value, dto.GradeDate, dto.IsLabGrade, dto.IsExamGrade);
+
+            gradeRepository.Update(id, grade);
+            gradeRepository.SaveChanges();
+            return Ok("Grade updated succesfully");
         }
     }
 }

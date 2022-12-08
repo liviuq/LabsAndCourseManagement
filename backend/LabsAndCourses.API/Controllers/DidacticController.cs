@@ -22,7 +22,7 @@ namespace LabsAndCoursesManagement.API.Controllers
             this.courseRepository = courseRepository;
         }
 
-        [HttpPost("{teacherId:guid}/{courseId:guid}")]
+        [HttpPost("teacher/{teacherId:guid}/course/{courseId:guid}")]
         public IActionResult Create(Guid teacherId, Guid courseId)
         {
             var teacher = teacherRepository.Get(teacherId);

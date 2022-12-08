@@ -44,5 +44,22 @@ namespace LabsAndCoursesManagement.API.Controllers
             return Ok("Student deleted succesfully");
         }
 
+        [HttpPut("{id:guid}")]
+        public IActionResult Update(Guid id, [FromBody] CreateStudentDto dto)
+        {
+            var student = studentRepository.Get(id);
+
+            if (student == null)
+            {
+                return NotFound();
+            }
+
+            student.Update(dto.Email, dto.FirstName, dto.LastName, dto.Semester, dto.Group, dto.Scholarship);
+
+            studentRepository.Update(id, student);
+            studentRepository.SaveChanges();
+            return Ok("Student updated succesfully");
+        }
+
     }
 }

@@ -1,4 +1,6 @@
 ﻿
+using System.Text.RegularExpressions;
+
 namespace LabsAndCoursesManagement.Domain
 {
     public class Teacher
@@ -17,6 +19,15 @@ namespace LabsAndCoursesManagement.Domain
         public string LastName { get; private set; }
         public string Email { get; private set; }
         public string TeachingDegree { get; private set; }
+
+        // update
+        public void Update(string firstName, string lastName, string email, string teachingDegree)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            Email = email;
+            TeachingDegree = teachingDegree;
+        }
 
     }
 }

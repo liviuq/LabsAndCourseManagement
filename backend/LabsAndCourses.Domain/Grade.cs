@@ -1,5 +1,6 @@
 ﻿
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.RegularExpressions;
 
 namespace LabsAndCoursesManagement.Domain
 {
@@ -28,6 +29,15 @@ namespace LabsAndCoursesManagement.Domain
         public void AttachGradeToStudent(Student student)
         {
             StudentId = student.Id;
+        }
+
+        // update
+        public void Update(int value, DateTime gradeDate, bool isLabGrade, bool isExamGrade)
+        {
+            Value = value;
+            GradeDate = gradeDate;
+            IsLabGrade = isLabGrade;
+            IsExamGrade = isExamGrade;
         }
     }
 }
