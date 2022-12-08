@@ -466,3 +466,4 @@ backend/.vs/ProjectEvaluation/labsandcoursesmanagement.metadata.v5.2
 backend/.vs/ProjectEvaluation/labsandcoursesmanagement.projects.v5.2
 backend/LabsAndCourses.API/LabsAndCoursesManagement.db-shm
 backend/LabsAndCourses.API/LabsAndCoursesManagement.db-wal
+*.v2
