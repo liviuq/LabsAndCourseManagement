@@ -9,7 +9,7 @@ namespace LabsAndCoursesManagement.Tests
     public class DidacticControllerTests : IntegrationTest
     {
         [TestMethod]
-        public async Task DidacticController_CheckIfReturnsPostedCourse()
+        public async Task DidacticController_CheckIfGetWorks()
         {
             var course = new Course("Test Course", 4, 5);
             var teacher = new Teacher("Alice", "Smith", "teacher@college.com", "Math");
@@ -46,20 +46,16 @@ namespace LabsAndCoursesManagement.Tests
         }
 
         [TestMethod]
-        public async Task DidacticController_CheckIfReturnsPostedDidactic()
+        public async Task DidacticController_CheckIfPostWorks()
         {
             var course = new Course("Test Course", 4, 5);
             var teacher = new Teacher("Alice", "Smith", "teacher@college.com", "Math");
-
-            var didactic = new Didactic();
-
-            didactic.AttachDidacticToCourse(course);
-            didactic.AttachDidacticToTeacher(teacher);
-
+            
             _db.Courses.Add(course);
             _db.Teachers.Add(teacher);
-            _db.Didactics.Add(didactic);
             _db.SaveChanges();
+
+            var didactic = new Didactic();
 
             // post didactic together with its data
             var didacticJson = JsonConvert.SerializeObject(didactic);
@@ -82,7 +78,6 @@ namespace LabsAndCoursesManagement.Tests
             // delete test data from db
             _db.Courses.Remove(course);
             _db.Teachers.Remove(teacher);
-            _db.Didactics.Remove(didactic);
             _db.SaveChanges();
         }
     }
