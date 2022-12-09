@@ -3,12 +3,13 @@ using LabsAndCoursesManagement.Infrastructure.Generics;
 using Microsoft.AspNetCore.Mvc;
 using LabsAndCoursesManagement.API.DTOs;
 using LabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories;
-
+using Microsoft.AspNetCore.Cors;
 
 namespace LabsAndCoursesManagement.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors]
     public class StudentsController : ControllerBase
     {
         private readonly IRepository<Student> studentRepository;
@@ -17,7 +18,6 @@ namespace LabsAndCoursesManagement.API.Controllers
         {
             this.studentRepository = studentRepository;
         }
-
         [HttpPost]
         public IActionResult Create([FromBody] CreateStudentDto dto)
         {
@@ -31,6 +31,7 @@ namespace LabsAndCoursesManagement.API.Controllers
         {
             return Ok(studentRepository.All());
         }
+
         [HttpGet("{id:guid}")]
         public IActionResult GetById(Guid id)
         {

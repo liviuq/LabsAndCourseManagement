@@ -3,12 +3,14 @@ using LabsAndCoursesManagement.Infrastructure.Generics;
 using Microsoft.AspNetCore.Mvc;
 using LabsAndCoursesManagement.API.DTOs;
 using LabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories;
-
+using Microsoft.AspNetCore.Cors;
 
 namespace LabsAndCoursesManagement.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors]
+
     public class TeachersController : ControllerBase
     {
         private readonly IRepository<Teacher> teacherRepository;
