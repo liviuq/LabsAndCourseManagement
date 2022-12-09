@@ -11,41 +11,55 @@ namespace LabsAndCoursesManagement.UnitTests
 {
     public class GradesUnitTests
     {
-        // moq database
-        private readonly Mock<IRepository<Grade>> _gradeRepositoryMock = new Mock<IRepository<Grade>>();
-
         // sut
         private readonly Grade _sut;
-        
+
         public GradesUnitTests()
         {
-            // get a grade from mock db
-            _sut = _gradeRepositoryMock.Object.All().FirstOrDefault();
-
-            if (_sut == null)
-            {
-                // if there is no grade in mock db, create a new one
-                _sut = new Grade(10, gradeDate: DateTime.Now, false, true);
-            }
+            _sut = new Grade(10, gradeDate: DateTime.Now, false, true);
         }
 
         [Fact]
         public void Grade_Update_UpdatesGrade()
         {
             // arrange
-            int value = 10;
-            DateTime gradeDate = DateTime.Now;
-            bool isLabGrade = false;
-            bool isExamGrade = true;
+            Grade sameGrade = new Grade(10, DateTime.Now, false, true);
 
             // act
-            _sut.Update(value, gradeDate, isLabGrade, isExamGrade);
+            _sut.Update(sameGrade.Value, sameGrade.GradeDate, sameGrade.IsLabGrade, sameGrade.IsExamGrade);
 
             // assert
-            Assert.Equal(value, _sut.Value);
-            Assert.Equal(gradeDate, _sut.GradeDate);
-            Assert.Equal(isLabGrade, _sut.IsLabGrade);
-            Assert.Equal(isExamGrade, _sut.IsExamGrade);
+            Assert.NotEqual(Guid.Empty, _sut.Id);
+            Assert.Equal(sameGrade.Value, _sut.Value);
+            Assert.Equal(sameGrade.GradeDate, _sut.GradeDate);
+            Assert.Equal(sameGrade.IsLabGrade, _sut.IsLabGrade);
+            Assert.Equal(sameGrade.IsExamGrade, _sut.IsExamGrade);
+        }
+
+        [Fact]
+        public void Grade_AttachGradeToCourse_AttachesGradeToCourse()
+        {
+            // arrange
+            var course = new Course("mockTitle", 1, 5);
+
+            // act
+             _sut.AttachGradeToCourse(course);
+
+            // assert
+            Assert.Equal(course.Id, _sut.CourseId);
+        }
+
+        [Fact]
+        public void Grade_AttachGradeToStudent_AttachesGradeToStudent()
+        {
+            // arrange
+            var student = new Student("mockemail", "mockName", "mockLastName", 3, "2B4", 500);
+
+            // act
+            _sut.AttachGradeToStudent(student);
+
+            // assert
+            Assert.Equal(student.Id, _sut.StudentId);
         }
     }
 }

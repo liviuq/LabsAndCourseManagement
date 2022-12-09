@@ -7,9 +7,6 @@ namespace LabsAndCoursesManagement.UnitTests
 {
     public class StudentsUnitTests
     {
-        // moq
-        private readonly Mock<IRepository<Student>> _studentRepositoryMock = new Mock<IRepository<Student>>();
-
         // sut
         private readonly Student _sut;
 
