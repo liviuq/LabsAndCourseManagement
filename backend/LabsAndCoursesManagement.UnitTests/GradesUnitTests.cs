@@ -1,11 +1,6 @@
 ﻿using LabsAndCoursesManagement.Domain;
 using LabsAndCoursesManagement.Infrastructure.Generics;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LabsAndCoursesManagement.UnitTests
 {
@@ -13,10 +8,16 @@ namespace LabsAndCoursesManagement.UnitTests
     {
         // sut
         private readonly Grade _sut;
+        // moq course db
+        private readonly Mock<IRepository<Course>> _courseDbMock;
+        // moq student db
+        private readonly Mock<IRepository<Student>> _studentDbMock;
 
         public GradesUnitTests()
         {
             _sut = new Grade(10, gradeDate: DateTime.Now, false, true);
+            _courseDbMock = new Mock<IRepository<Course>>();
+            _studentDbMock = new Mock<IRepository<Student>>();
         }
 
         [Fact]
@@ -40,26 +41,38 @@ namespace LabsAndCoursesManagement.UnitTests
         public void Grade_AttachGradeToCourse_AttachesGradeToCourse()
         {
             // arrange
-            var course = new Course("mockTitle", 1, 5);
+            // setup get course
+            var courseMock = new Course("mockCourse", 3, 4);
+            _courseDbMock.Setup(x => x.Get(It.IsAny<Guid>())).Returns(courseMock);
 
             // act
-             _sut.AttachGradeToCourse(course);
+            // attach grade to course get from db
+            _sut.AttachGradeToCourse(_courseDbMock.Object.Get(courseMock.Id));
 
             // assert
-            Assert.Equal(course.Id, _sut.CourseId);
+            Assert.Equal(courseMock.Id, _sut.CourseId);
+
+            // verify get course
+            _courseDbMock.Verify(x => x.Get(It.IsAny<Guid>()), Times.Once);
         }
 
         [Fact]
         public void Grade_AttachGradeToStudent_AttachesGradeToStudent()
         {
             // arrange
-            var student = new Student("mockemail", "mockName", "mockLastName", 3, "2B4", 500);
+            // setup get student
+            var studentMock = new Student("mockemail", "mockName", "mockLastName", 3, "2B4", 500);
+            _studentDbMock.Setup(x => x.Get(It.IsAny<Guid>())).Returns(studentMock);
 
             // act
-            _sut.AttachGradeToStudent(student);
+            // attach grade to student get from db
+            _sut.AttachGradeToStudent(_studentDbMock.Object.Get(studentMock.Id));
 
             // assert
-            Assert.Equal(student.Id, _sut.StudentId);
+            Assert.Equal(studentMock.Id, _sut.StudentId);
+
+            // verify get student
+            _studentDbMock.Verify(x => x.Get(It.IsAny<Guid>()), Times.Once);
         }
     }
 }
