@@ -58,7 +58,88 @@ namespace LabsAndCoursesManagement.Tests
             _db.Courses.Remove(course);
             _db.Students.Remove(student);
             _db.SaveChanges();
+        }
+        
+        [TestMethod]
+        public async Task GradeController_CheckIfPutWorks()
+        {
+            var grade = new Grade(3, DateTime.Now, false, true);
+            var student = new Student("mockemail", "mockName", "mockLastName", 3, "2B4", 500);
+            var course = new Course("Test Course", 4, 5);
+            
+            _db.Students.Add(student);
+            _db.Courses.Add(course);
 
+            grade.AttachGradeToCourse(course);
+            grade.AttachGradeToStudent(student);
+
+            _db.Grades.Add(grade);
+            _db.SaveChanges();
+             
+            var modifiedGrade = new Grade(4, DateTime.Now, false, true);
+
+            var response = await _httpClient.PutAsync($"api/Grades/{grade.Id}", new StringContent(JsonConvert.SerializeObject(modifiedGrade), Encoding.UTF8, "application/json"));
+            response.EnsureSuccessStatusCode();
+            var responseString = await response.Content.ReadAsStringAsync();
+            var jsonresponse = JsonConvert.DeserializeObject<Dictionary<string, object>>(responseString);
+            
+            Assert.IsTrue(jsonresponse["value"].ToString() == modifiedGrade.Value.ToString());
+            
+            _db.Grades.Remove(grade);
+            _db.SaveChanges();
+        }
+        
+        [TestMethod]
+        public async Task GradeController_CheckIfDeleteWorks()
+        {
+            var grade = new Grade(3, DateTime.Now, false, true);
+            var student = new Student("mockemail", "mockName", "mockLastName", 3, "2B4", 500);
+            var course = new Course("Test Course", 4, 5);
+            
+            _db.Students.Add(student);
+            _db.Courses.Add(course);
+            
+            grade.AttachGradeToCourse(course);
+            grade.AttachGradeToStudent(student);
+            
+            _db.Grades.Add(grade);
+            _db.SaveChanges();
+            
+            var response = await _httpClient.DeleteAsync($"api/Grades/{grade.Id}");
+            response.EnsureSuccessStatusCode();
+
+            _db.SaveChanges();
+
+            // Check if the grade has been deleted from the database
+            Assert.IsFalse(_db.Grades.Any(g => g.Id == grade.Id));
+            
+        }
+        
+        [TestMethod]
+        public async Task GradeController_CheckIfGetByIdWorks()
+        {
+            var grade = new Grade(3, DateTime.Now, false, true);
+            var student = new Student("mockemail", "mockName", "mockLastName", 3, "2B4", 500);
+            var course = new Course("Test Course", 4, 5);
+            
+            _db.Students.Add(student);
+            _db.Courses.Add(course);
+            
+            grade.AttachGradeToCourse(course);
+            grade.AttachGradeToStudent(student);
+            
+            _db.Grades.Add(grade);
+            _db.SaveChanges();
+            
+            var response = await _httpClient.GetAsync($"api/Grades/{grade.Id}");
+            response.EnsureSuccessStatusCode();
+            var responseString = await response.Content.ReadAsStringAsync();
+            var jsonresponse = JsonConvert.DeserializeObject<Dictionary<string, object>>(responseString);
+            
+            Assert.IsTrue(jsonresponse["id"].ToString() == grade.Id.ToString());
+            
+            _db.Grades.Remove(grade);
+            _db.SaveChanges();
         }
 
     }

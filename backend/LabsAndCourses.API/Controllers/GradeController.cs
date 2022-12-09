@@ -52,6 +52,17 @@ namespace LabsAndCoursesManagement.API.Controllers
         {
             return Ok(gradeRepository.All());
         }
+        [HttpGet("{id:guid}")]
+        public IActionResult Get(Guid id)
+        {
+            var grade = gradeRepository.Get(id);
+            if (grade == null)
+            {
+                return NotFound();
+            }
+            return Ok(grade);
+        }
+        
         [HttpDelete("{id:guid}")]
         public IActionResult Delete(Guid id)
         {
@@ -74,7 +85,7 @@ namespace LabsAndCoursesManagement.API.Controllers
 
             gradeRepository.Update(id, grade);
             gradeRepository.SaveChanges();
-            return Ok("Grade updated succesfully");
+            return Ok(grade);
         }
     }
 }
