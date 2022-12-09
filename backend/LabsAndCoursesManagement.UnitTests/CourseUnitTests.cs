@@ -1,23 +1,35 @@
 ﻿using LabsAndCoursesManagement.Domain;
-using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LabsAndCoursesManagement.UnitTests
 {
     public class CourseUnitTests
     {
         // unit tests for Course class
-        // sut
-        private readonly Course _sut;
+        private readonly Course _course;
 
         public CourseUnitTests()
         {
-            _sut = new Course("mockTitle", 1, 5);
+            _course = new Course("mockTitle", 1, 5);
         }
+
+        // unit test for constructor
+        [Fact]
+        public void CourseConstructorTest()
+        {
+            // Arrange
+            var title = "mockTitle";
+            var semester = 2;
+            var credits = 5;
+
+            // Act
+            var course = new Course(title, semester, credits);
+
+            // Assert
+            Assert.Equal(title, course.Title);
+            Assert.Equal(semester, course.Semester);
+            Assert.Equal(credits, course.Credits);
+        }
+        
 
         [Fact]
         public void Course_Update_UpdatesCourse()
@@ -26,14 +38,13 @@ namespace LabsAndCoursesManagement.UnitTests
             Course sameCourse = new Course("mockTitle", 1, 5);
 
             // act
-            _sut.Update(sameCourse.Title, sameCourse.Semester, sameCourse.Credits);
+            _course.Update(sameCourse.Title, sameCourse.Semester, sameCourse.Credits);
 
             // assert
-            Assert.NotEqual(Guid.Empty, _sut.Id);
-            Assert.Equal(sameCourse.Title, _sut.Title);
-            Assert.Equal(sameCourse.Semester, _sut.Semester);
-            Assert.Equal(sameCourse.Credits, _sut.Credits);
+            Assert.NotEqual(Guid.Empty, _course.Id);
+            Assert.Equal(sameCourse.Title, _course.Title);
+            Assert.Equal(sameCourse.Semester, _course.Semester);
+            Assert.Equal(sameCourse.Credits, _course.Credits);
         }
-
     }
 }

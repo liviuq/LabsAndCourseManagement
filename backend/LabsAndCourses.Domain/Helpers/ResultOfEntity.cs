@@ -1,4 +1,4 @@
-﻿namespace LabsAndCOurses.Domain.Helpers
+﻿namespace LabsAndCourses.Domain.Helpers
 {
     public class Result<TEntity>
     {
