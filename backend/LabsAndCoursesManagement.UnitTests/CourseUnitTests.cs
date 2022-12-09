@@ -17,6 +17,7 @@ namespace LabsAndCoursesManagement.UnitTests
         public CourseUnitTests()
         {
             _sut = new Course("mockTitle", 1, 5);
+
         }
 
         [Fact]
