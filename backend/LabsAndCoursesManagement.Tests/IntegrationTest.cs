@@ -19,7 +19,7 @@ namespace LabsAndCoursesManagement.Tests
 
             // create db instance
             _db = new DatabaseContext();
-            // enusre created and migration
+            // ensure created and migration
             _db.Database.EnsureCreated();
         }
     }
