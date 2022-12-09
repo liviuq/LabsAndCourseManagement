@@ -20,6 +20,17 @@ namespace LabsAndCoursesManagement.UnitTests
             _studentDbMock = new Mock<IRepository<Student>>();
         }
 
+        // unit test for Grade constructor
+        [Fact]
+        public void GradeConstructorTest()
+        {
+            // arrange
+            var grade = new Grade(10, gradeDate: DateTime.Now, false, true);
+            // act
+            // assert
+            Assert.Equal(10, grade.Value);
+        }
+
         [Fact]
         public void Grade_Update_UpdatesGrade()
         {

@@ -6,14 +6,7 @@ namespace LabsAndCoursesManagement.Domain
 {
     public class Grade
     {
-        public Grade(int value, DateTime gradeDate, bool isLabGrade, bool isExamGrade)
-        {
-            Id = Guid.NewGuid();
-            Value = value;
-            GradeDate = gradeDate;
-            IsLabGrade = isLabGrade;
-            IsExamGrade = isExamGrade;
-        }
+
 
         public Guid Id { get; private set; }
         public Guid StudentId { get; private set; }
@@ -22,6 +15,16 @@ namespace LabsAndCoursesManagement.Domain
         public DateTime GradeDate { get; private set; }
         public bool IsLabGrade { get; private set; }
         public bool IsExamGrade { get; private set; }
+
+        public Grade(int value, DateTime gradeDate, bool isLabGrade, bool isExamGrade)
+        {
+            Id = Guid.NewGuid();
+            Value = value;
+            GradeDate = gradeDate;
+            IsLabGrade = isLabGrade;
+            IsExamGrade = isExamGrade;
+        }
+        
         public void AttachGradeToCourse(Course course)
         {
             CourseId = course.Id;
