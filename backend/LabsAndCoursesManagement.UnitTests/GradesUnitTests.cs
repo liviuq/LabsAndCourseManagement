@@ -67,7 +67,9 @@ namespace LabsAndCoursesManagement.UnitTests
 
             // act
             // attach grade to course get from db
-            _grade.AttachGradeToCourse(_courseDbMock.Object.Get(courseMock.Id));
+            var tempCourse = _courseDbMock.Object.Get(courseMock.Id);
+            Assert.NotNull(tempCourse);
+            _grade.AttachGradeToCourse(tempCourse);
 
             // assert
             Assert.Equal(courseMock.Id, _grade.CourseId);
@@ -86,7 +88,9 @@ namespace LabsAndCoursesManagement.UnitTests
 
             // act
             // attach grade to student get from db
-            _grade.AttachGradeToStudent(_studentDbMock.Object.Get(studentMock.Id));
+            var tempStudent = _studentDbMock.Object.Get(studentMock.Id);
+            Assert.NotNull(tempStudent);
+            _grade.AttachGradeToStudent(tempStudent);
 
             // assert
             Assert.Equal(studentMock.Id, _grade.StudentId);

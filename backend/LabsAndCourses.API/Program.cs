@@ -52,4 +52,9 @@ app.MapControllers();
 
 app.Run();
 
-public static partial class Program { }
+public partial class Program {
+    public Program()
+    {
+
+    }
+}
