@@ -38,7 +38,7 @@ namespace LabsAndCoursesManagement.UnitTests
             Course sameCourse = new Course("mockTitle", 1, 5);
 
             // act
-            _course.Update(sameCourse.Title, sameCourse.Semester, sameCourse.Credits);
+            _course.Update(sameCourse);
 
             // assert
             Assert.NotEqual(Guid.Empty, _course.Id);

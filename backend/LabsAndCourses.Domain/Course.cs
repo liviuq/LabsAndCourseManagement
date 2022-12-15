@@ -18,11 +18,11 @@ namespace LabsAndCoursesManagement.Domain
         public int Credits { get; private set; }
 
         // update
-        public void Update(string title, int semester, int credits)
+        public void Update(Course updatedCourse)
         {
-            Title = title;
-            Semester = semester;
-            Credits = credits;
+            Title = updatedCourse.Title;
+            Semester = updatedCourse.Semester;
+            Credits = updatedCourse.Credits;
         }
 
     }

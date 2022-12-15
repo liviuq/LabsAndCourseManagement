@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using LabsAndCoursesManagement.API.DTOs;
 using LabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories;
 using Microsoft.AspNetCore.Cors;
+using AutoMapper;
 
 namespace LabsAndCoursesManagement.API.Controllers
 {
@@ -14,18 +15,20 @@ namespace LabsAndCoursesManagement.API.Controllers
     {
         private readonly IRepository<Grade> gradeRepository;
         private readonly IRepository<Course> courseRepository;
+        private readonly IMapper mapper;
 
 
-        public CoursesController(IRepository<Grade> gradeRepository, IRepository<Course> courseRepository)
+        public CoursesController(IRepository<Grade> gradeRepository, IRepository<Course> courseRepository, IMapper mapper)
         {
             this.gradeRepository = gradeRepository;
             this.courseRepository = courseRepository;
+            this.mapper = mapper;
         }
 
         [HttpPost]
         public IActionResult Create([FromBody] CreateCourseDto dto)
         {
-            var course = new Course(dto.Title, dto.Semester, dto.Credits);
+            var course = mapper.Map<Course>(dto);
             courseRepository.Add(course);
             courseRepository.SaveChanges();
             return Created(nameof(Get), course);
@@ -58,7 +61,8 @@ namespace LabsAndCoursesManagement.API.Controllers
                 return NotFound();
             }
             
-            course.Update(dto.Title, dto.Semester, dto.Credits);
+            var updatedCourse = mapper.Map<Course>(dto);
+            course.Update(updatedCourse);
 
             courseRepository.Update(id, course);
             courseRepository.SaveChanges();

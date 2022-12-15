@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using LabsAndCoursesManagement.API.DTOs;
 using LabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories;
 using Microsoft.AspNetCore.Cors;
+using AutoMapper;
 
 namespace LabsAndCoursesManagement.API.Controllers
 {
@@ -16,12 +17,14 @@ namespace LabsAndCoursesManagement.API.Controllers
         private readonly IRepository<Student> studentRepository;
         private readonly IRepository<Grade> gradeRepository;
         private readonly IRepository<Course> courseRepository;
+        private readonly IMapper mapper;
 
-        public GradesController(IRepository<Student> studentRepository, IRepository<Grade> gradeRepository, IRepository<Course> courseRepository)
+        public GradesController(IRepository<Student> studentRepository, IRepository<Grade> gradeRepository, IRepository<Course> courseRepository, IMapper mapper)
         {
             this.studentRepository = studentRepository;
             this.gradeRepository = gradeRepository;
             this.courseRepository = courseRepository;
+            this.mapper = mapper;
         }
 
         [HttpPost("student/{studentId:guid}/course/{courseId:guid}")]
@@ -36,7 +39,8 @@ namespace LabsAndCoursesManagement.API.Controllers
                 return NotFound();
             }
 
-            Grade tempGrade = new Grade(dto.Value, dto.GradeDate, dto.IsLabGrade, dto.IsExamGrade);
+            var tempGrade = mapper.Map<Grade>(dto);
+
             tempGrade.AttachGradeToCourse(course);
             tempGrade.AttachGradeToStudent(student);
 
@@ -81,7 +85,8 @@ namespace LabsAndCoursesManagement.API.Controllers
                 return NotFound();
             }
 
-            grade.Update(dto.Value, dto.GradeDate, dto.IsLabGrade, dto.IsExamGrade);
+            var updatedGrade = mapper.Map<Grade>(dto);
+            grade.Update(updatedGrade);
 
             gradeRepository.Update(id, grade);
             gradeRepository.SaveChanges();

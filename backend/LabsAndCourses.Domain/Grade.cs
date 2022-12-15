@@ -35,12 +35,12 @@ namespace LabsAndCoursesManagement.Domain
         }
 
         // update
-        public void Update(int value, DateTime gradeDate, bool isLabGrade, bool isExamGrade)
+        public void Update(Grade updatedGrade)
         {
-            Value = value;
-            GradeDate = gradeDate;
-            IsLabGrade = isLabGrade;
-            IsExamGrade = isExamGrade;
+            Value = updatedGrade.Value;
+            GradeDate = updatedGrade.GradeDate;
+            IsLabGrade = updatedGrade.IsLabGrade;
+            IsExamGrade = updatedGrade.IsExamGrade;
         }
     }
 }

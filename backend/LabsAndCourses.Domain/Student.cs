@@ -40,14 +40,14 @@ namespace LabsAndCoursesManagement.Domain
         }
 
         // update
-        public void Update(string email, string firstName, string lastName, int semester, string group, int? scholarship)
+        public void Update(Student updatedStudent)
         {
-            Email = email;
-            FirstName = firstName;
-            LastName = lastName;
-            Semester = semester;
-            Group = group;
-            Scholarship = scholarship;
+            Email = updatedStudent.Email;
+            FirstName = updatedStudent.FirstName;
+            LastName = updatedStudent.LastName;
+            Semester = updatedStudent.Semester;
+            Group = updatedStudent.Group;
+            Scholarship = updatedStudent.Scholarship;
         }
     }
 }

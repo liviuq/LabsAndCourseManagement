@@ -38,19 +38,16 @@ namespace LabsAndCoursesManagement.UnitTests
         public void UpdateTeacherTest()
         {
             // Arrange
-            var firstName = "mockFirstName";
-            var lastName = "mockLastName";
-            var email = "mockEmail";
-            var teachingDegree = "mockTeachingDegree";
+            Teacher sameTeacher = new Teacher("mockFirstName", "mockLastName", "mockEmail", "mockTeachingDegree");
 
             // Act
-            _teacher.Update(firstName, lastName, email, teachingDegree);
+            _teacher.Update(sameTeacher);
 
             // Assert
-            Assert.Equal(firstName, _teacher.FirstName);
-            Assert.Equal(lastName, _teacher.LastName);
-            Assert.Equal(email, _teacher.Email);
-            Assert.Equal(teachingDegree, _teacher.TeachingDegree);
+            Assert.Equal(sameTeacher.FirstName, _teacher.FirstName);
+            Assert.Equal(sameTeacher.LastName, _teacher.LastName);
+            Assert.Equal(sameTeacher.Email, _teacher.Email);
+            Assert.Equal(sameTeacher.TeachingDegree, _teacher.TeachingDegree);
         }
     }
 }

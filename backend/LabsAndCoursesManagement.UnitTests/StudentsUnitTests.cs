@@ -44,7 +44,7 @@ namespace LabsAndCoursesManagement.UnitTests
             Student sameStudent = new Student("mockemail", "mockName", "mockLastName", 3, "2B4", 500);
 
             // act
-            _student.Update(sameStudent.Email, sameStudent.FirstName, sameStudent.LastName, sameStudent.Semester, sameStudent.Group, sameStudent.Scholarship);
+            _student.Update(sameStudent);
 
             // assert
             Assert.NotEqual(Guid.Empty, _student.Id);

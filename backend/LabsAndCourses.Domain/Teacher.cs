@@ -21,12 +21,12 @@ namespace LabsAndCoursesManagement.Domain
         public string TeachingDegree { get; private set; }
 
         // update
-        public void Update(string firstName, string lastName, string email, string teachingDegree)
+        public void Update(Teacher updatedTeacher)
         {
-            FirstName = firstName;
-            LastName = lastName;
-            Email = email;
-            TeachingDegree = teachingDegree;
+            FirstName = updatedTeacher.FirstName;
+            LastName = updatedTeacher.LastName;
+            Email = updatedTeacher.Email;
+            TeachingDegree = updatedTeacher.TeachingDegree;
         }
 
     }

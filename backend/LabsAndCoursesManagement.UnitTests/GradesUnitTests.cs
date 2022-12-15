@@ -47,7 +47,7 @@ namespace LabsAndCoursesManagement.UnitTests
             Grade sameGrade = new Grade(10, DateTime.Now, false, true);
 
             // act
-            _grade.Update(sameGrade.Value, sameGrade.GradeDate, sameGrade.IsLabGrade, sameGrade.IsExamGrade);
+            _grade.Update(sameGrade);
 
             // assert
             Assert.NotEqual(Guid.Empty, _grade.Id);
