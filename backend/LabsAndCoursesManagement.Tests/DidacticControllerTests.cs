@@ -33,8 +33,8 @@ namespace LabsAndCoursesManagement.Tests
             Console.WriteLine(content);
             
             var jsonresponse = JsonConvert.DeserializeObject<List<Dictionary<string, object>>>(content);
-            
-            
+
+            Assert.IsTrue(jsonresponse != null);
             Assert.IsTrue(jsonresponse.Any(j => j["courseId"].ToString() == course.Id.ToString()));
             Assert.IsTrue(jsonresponse.Any(j => j["teacherId"].ToString() == teacher.Id.ToString()));
             
@@ -72,6 +72,7 @@ namespace LabsAndCoursesManagement.Tests
 
             var jsonresponse = JsonConvert.DeserializeObject<Dictionary<string, object>>(content);
 
+            Assert.IsTrue(jsonresponse != null);
             Assert.IsTrue(jsonresponse["courseId"].ToString() == course.Id.ToString());
             Assert.IsTrue(jsonresponse["teacherId"].ToString() == teacher.Id.ToString());
             

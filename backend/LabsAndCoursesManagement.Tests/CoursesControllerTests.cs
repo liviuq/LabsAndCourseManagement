@@ -34,7 +34,8 @@ namespace LabsAndCoursesManagement.Tests
             var response = await _httpClient.PostAsync("api/courses", stringContent);
             var responseContent = await response.Content.ReadAsStringAsync();
             var postedCourse = JsonConvert.DeserializeObject<Course>(responseContent);
-            
+
+            Assert.IsTrue(postedCourse != null);
             Assert.AreEqual(course.Title, postedCourse.Title);
 
             // ensure deleted
