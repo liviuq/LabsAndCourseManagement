@@ -18,6 +18,8 @@ namespace LabsAndCoursesManagement.Tests
             var content = await response.Content.ReadAsStringAsync();
             Console.WriteLine(content);
             var courses = JsonConvert.DeserializeObject<List<Course>>(content);
+
+            Assert.IsTrue(courses != null);
             Assert.IsTrue(courses.Any(c => c.Title == "TestCourseGet"));
 
             // ensure deleted

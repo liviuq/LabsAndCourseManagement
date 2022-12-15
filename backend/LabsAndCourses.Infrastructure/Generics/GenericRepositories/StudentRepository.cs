@@ -11,7 +11,7 @@ namespace LabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories
         }
 
         override
-        public Student Get(Guid id)
+        public Student? Get(Guid id)
         {
             return context.Students.Include(student => student.Grades).FirstOrDefault(x => x.Id == id);
         }

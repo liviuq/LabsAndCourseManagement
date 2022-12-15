@@ -7,7 +7,7 @@ namespace LabsAndCoursesManagement.Infrastructure.Generics
     {
         protected DatabaseContext context;
 
-        public Repository(DatabaseContext context)
+        protected Repository(DatabaseContext context)
         {
             this.context = context;
         }
@@ -26,7 +26,7 @@ namespace LabsAndCoursesManagement.Infrastructure.Generics
                 .Where(predicate).ToList();
         }
 
-        public virtual T Get(Guid id)
+        public virtual T? Get(Guid id)
         {
             return context.Find<T>(id);
         }
@@ -37,7 +37,7 @@ namespace LabsAndCoursesManagement.Infrastructure.Generics
                 .ToList();
         }
 
-        public virtual T Update(Guid id, T entity)
+        public virtual T? Update(Guid id, T entity)
         {
             var entityToUpdate = context.Find<T>(id);
             if (entityToUpdate == null)
@@ -50,8 +50,11 @@ namespace LabsAndCoursesManagement.Infrastructure.Generics
         }
 
         public virtual void Delete(Guid id) {
-            T entry = context.Find<T>(id);
-            context.Set<T>().Remove(entry);
+            var entry = context.Find<T>(id);
+            if(entry != null)
+            {
+                context.Set<T>().Remove(entry);
+            }
         }
 
         public void SaveChanges()
