@@ -1,0 +1,12 @@
+—
+&LabsAndCoursesManagement.Domain.Courseobject[
+Course(string, int, int)?LabsAndCoursesManagement.Domain.Course.Course(string, int, int)‡
+.Update(LabsAndCoursesManagement.Domain.Course)ULabsAndCoursesManagement.Domain.Course.Update(LabsAndCoursesManagement.Domain.Course)7
+Id.get-LabsAndCoursesManagement.Domain.Course.Id.get7
+Id.set-LabsAndCoursesManagement.Domain.Course.Id.set=
+	Title.get0LabsAndCoursesManagement.Domain.Course.Title.get=
+	Title.set0LabsAndCoursesManagement.Domain.Course.Title.setC
+Semester.get3LabsAndCoursesManagement.Domain.Course.Semester.getC
+Semester.set3LabsAndCoursesManagement.Domain.Course.Semester.setA
+Credits.get2LabsAndCoursesManagement.Domain.Course.Credits.getA
+Credits.set2LabsAndCoursesManagement.Domain.Course.Credits.set

@@ -1,0 +1,93 @@
+
+WLabsAndCoursesManagement.Domain.Student.Update(LabsAndCoursesManagement.Domain.Student)d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs+ +("0*È
+0d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs- 2(4é
+æ
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs- -((
+%0string"1LabsAndCoursesManagement.Domain.Student.Email.get*=;
+9
+updatedStudent'LabsAndCoursesManagement.Domain.Studentë
+è
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs- -((
+%1string"1LabsAndCoursesManagement.Domain.Student.Email.set*-+)
+'LabsAndCoursesManagement.Domain.Student*
+
+%0stringí
+ê
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs. .(0
+%2string"5LabsAndCoursesManagement.Domain.Student.FirstName.get*=;
+9
+updatedStudent'LabsAndCoursesManagement.Domain.Studentï
+ì
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs. .(0
+%3string"5LabsAndCoursesManagement.Domain.Student.FirstName.set*-+)
+'LabsAndCoursesManagement.Domain.Student*
+
+%2stringì
+é
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs/ /(.
+%4string"4LabsAndCoursesManagement.Domain.Student.LastName.get*=;
+9
+updatedStudent'LabsAndCoursesManagement.Domain.Studentî
+ë
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs/ /(.
+%5string"4LabsAndCoursesManagement.Domain.Student.LastName.set*-+)
+'LabsAndCoursesManagement.Domain.Student*
+
+%4stringé
+æ
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs0 0(.	
+%6int"4LabsAndCoursesManagement.Domain.Student.Semester.get*=;
+9
+updatedStudent'LabsAndCoursesManagement.Domain.Studentè
+å
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs0 0(.	
+%7int"4LabsAndCoursesManagement.Domain.Student.Semester.set*-+)
+'LabsAndCoursesManagement.Domain.Student*
+	
+%6inté
+æ
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs1 1((
+%8string"1LabsAndCoursesManagement.Domain.Student.Group.get*=;
+9
+updatedStudent'LabsAndCoursesManagement.Domain.Studentë
+è
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs1 1((
+%9string"1LabsAndCoursesManagement.Domain.Student.Group.set*-+)
+'LabsAndCoursesManagement.Domain.Student*
+
+%8stringü
+ù
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs2 2(4
+%10System.Nullable<T>"7LabsAndCoursesManagement.Domain.Student.Scholarship.get*=;
+9
+updatedStudent'LabsAndCoursesManagement.Domain.Student‹
+ˆ
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs2 2(4
+%11System.Nullable<T>"7LabsAndCoursesManagement.Domain.Student.Scholarship.set*-+)
+'LabsAndCoursesManagement.Domain.Student*
+
+%10System.Nullable<T>*
+1*æ
+1d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs3	 3(	"{
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs3 3(	
+implicit return:¡
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs+ +(19
+updatedStudent'LabsAndCoursesManagement.Domain.StudentB+)
+'LabsAndCoursesManagement.Domain.Student

@@ -1,0 +1,10 @@
+Ø
+>LabsAndCoursesManagement.Infrastructure.Generics.Repository<T>object?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>Ê
+CRepository(LabsAndCoursesManagement.Infrastructure.DatabaseContext)‚LabsAndCoursesManagement.Infrastructure.Generics.Repository<T>.Repository(LabsAndCoursesManagement.Infrastructure.DatabaseContext)O
+Add(T)ELabsAndCoursesManagement.Infrastructure.Generics.Repository<T>.Add(T)¿
+>Find(System.Linq.Expressions.Expression<System.Func<T, bool>>)}LabsAndCoursesManagement.Infrastructure.Generics.Repository<T>.Find(System.Linq.Expressions.Expression<System.Func<T, bool>>)c
+Get(System.Guid)OLabsAndCoursesManagement.Infrastructure.Generics.Repository<T>.Get(System.Guid)M
+All()DLabsAndCoursesManagement.Infrastructure.Generics.Repository<T>.All()o
+Update(System.Guid, T)ULabsAndCoursesManagement.Infrastructure.Generics.Repository<T>.Update(System.Guid, T)i
+Delete(System.Guid)RLabsAndCoursesManagement.Infrastructure.Generics.Repository<T>.Delete(System.Guid)]
+SaveChanges()LLabsAndCoursesManagement.Infrastructure.Generics.Repository<T>.SaveChanges()

@@ -28,6 +28,7 @@ namespace LabsAndCoursesManagement.Tests
             var responseString = await response.Content.ReadAsStringAsync();
             var jsonresponse = JsonConvert.DeserializeObject<List<Dictionary<string, object>>>(responseString);
 
+            Assert.IsTrue(jsonresponse != null);
             Assert.IsTrue(jsonresponse.Any(j => j["id"].ToString() == grade.Id.ToString()));
 
             _db.Grades.Remove(grade);
@@ -51,7 +52,8 @@ namespace LabsAndCoursesManagement.Tests
             response.EnsureSuccessStatusCode();
             var responseString = await response.Content.ReadAsStringAsync();
             var jsonresponse = JsonConvert.DeserializeObject<Dictionary<string, object>>(responseString);
-            
+
+            Assert.IsTrue(jsonresponse != null);
             Assert.IsTrue(jsonresponse["studentId"].ToString() == student.Id.ToString());
             Assert.IsTrue(jsonresponse["courseId"].ToString() == course.Id.ToString());
             
@@ -82,7 +84,8 @@ namespace LabsAndCoursesManagement.Tests
             response.EnsureSuccessStatusCode();
             var responseString = await response.Content.ReadAsStringAsync();
             var jsonresponse = JsonConvert.DeserializeObject<Dictionary<string, object>>(responseString);
-            
+
+            Assert.IsTrue(jsonresponse != null);
             Assert.IsTrue(jsonresponse["value"].ToString() == modifiedGrade.Value.ToString());
             
             _db.Grades.Remove(grade);
@@ -135,7 +138,8 @@ namespace LabsAndCoursesManagement.Tests
             response.EnsureSuccessStatusCode();
             var responseString = await response.Content.ReadAsStringAsync();
             var jsonresponse = JsonConvert.DeserializeObject<Dictionary<string, object>>(responseString);
-            
+
+            Assert.IsTrue(jsonresponse != null);
             Assert.IsTrue(jsonresponse["id"].ToString() == grade.Id.ToString());
             
             _db.Grades.Remove(grade);

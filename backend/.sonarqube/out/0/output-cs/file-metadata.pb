@@ -1,0 +1,10 @@
+b
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.csutf-8d
+[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.csutf-8a
+XD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Grade.csutf-8j
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.csutf-8c
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.csutf-8c
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.csutf-8û
+íD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\obj\Debug\net7.0\LabsAndCoursesManagement.Domain.GlobalUsings.g.csutf-8õ
+èD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.csutf-8ú
+êD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\obj\Debug\net7.0\LabsAndCoursesManagement.Domain.AssemblyInfo.csutf-8

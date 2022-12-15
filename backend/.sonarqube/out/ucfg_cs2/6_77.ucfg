@@ -1,0 +1,55 @@
+
+áLabsAndCoursesManagement.Domain.Student.RegisterGradesToStudent(System.Collections.Generic.List<LabsAndCoursesManagement.Domain.Grade>)d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs (-"0*è
+0d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs (õ
+ò
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs (
+
+%0bool"TSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*0.
+,
+grades"System.Collections.Generic.List<T>*
+1
+2*Õ
+1d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs   (K¿
+Ω
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs   (L4
+%1.LabsAndCoursesManagement.Domain.Helpers.Result">LabsAndCoursesManagement.Domain.Helpers.Result.Failure(string)*42"0
+.LabsAndCoursesManagement.Domain.Helpers.Result*)'%
+#Add at least a grade to the Student"û
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs   (M6
+4
+%1.LabsAndCoursesManagement.Domain.Helpers.Result*é
+2d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs" '(#Ô
+Ï
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs" &(
+
+%2void"<System.Collections.Generic.List<T>.ForEach(System.Action<T>)*0.
+,
+grades"System.Collections.Generic.List<T>*
+""è
+å
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs' '(#4
+%3.LabsAndCoursesManagement.Domain.Helpers.Result"8LabsAndCoursesManagement.Domain.Helpers.Result.Success()*42"0
+.LabsAndCoursesManagement.Domain.Helpers.Result"û
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs' '($6
+4
+%3.LabsAndCoursesManagement.Domain.Helpers.Result*Ê
+3d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs(	 ((	"{
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs( ((	
+implicit return:î
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs. (@,
+grades"System.Collections.Generic.List<T>B+)
+'LabsAndCoursesManagement.Domain.Student

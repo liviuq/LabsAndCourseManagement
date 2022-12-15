@@ -1,0 +1,40 @@
+
+@LabsAndCoursesManagement.API.Controllers.CoursesController.Get()w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs& &( "2*®
+
+0w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs( ((,å
+â
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs( ((&E
+%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*™–*“<
+:LabsAndCoursesManagement.API.Controllers.CoursesController"S
+courseRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>ÆÃ
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs( ((,/
+%1)System.Collections.Generic.IEnumerable<T>"ELabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.All()*IG
+E
+%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>2All()ÑÎ
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs( ((--
+%2'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*31
+/
+%1)System.Collections.Generic.IEnumerable<T>2Ok(object?)"ª
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs( ((./
+-
+%2'Microsoft.AspNetCore.Mvc.OkObjectResult*
+1w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs)	 )(	"Ž
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs) )(	
+implicit return*”
+2w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs&" &("
+
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs& &( 
+%3"__entrypoint*
+0B><
+:LabsAndCoursesManagement.API.Controllers.CoursesController

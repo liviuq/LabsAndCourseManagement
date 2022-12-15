@@ -1,0 +1,56 @@
+
+OLabsAndCoursesManagement.API.Controllers.StudentsController.Delete(System.Guid)x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs, ,(#"2*ƒ
+0x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs. 0(3Ë
+Â
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs. .(E
+%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*õò*ï=
+;LabsAndCoursesManagement.API.Controllers.StudentsController"T
+studentRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>»≈
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs. .((
+
+%1void"SLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.Delete(System.Guid)*IG
+E
+%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>*
+""2Delete(System.Guid)Ë
+Â
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs/ /(E
+%2?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*õò*ï=
+;LabsAndCoursesManagement.API.Controllers.StudentsController"T
+studentRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>≤Ø
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs/ /(+
+
+%3void"MLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.SaveChanges()*IG
+E
+%2?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>2SaveChanges()¿Ω
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs0 0(4-
+%4'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*!
+Student deleted succesfully2Ok(object?)"´
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs0 0(5/
+-
+%4'Microsoft.AspNetCore.Mvc.OkObjectResult*è
+1x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs1	 1(	"è
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs1 1(	
+implicit return*†
+2x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs,, ,(,õ
+ò
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs, ,(#
+%5"__entrypoint*
+""*
+0:ç
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs,$ ,(+
+idSystem.GuidB?=
+;LabsAndCoursesManagement.API.Controllers.StudentsController

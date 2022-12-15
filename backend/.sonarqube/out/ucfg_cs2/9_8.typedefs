@@ -1,0 +1,8 @@
+Ù
+;LabsAndCoursesManagement.API.Controllers.StudentsController'Microsoft.AspNetCore.Mvc.ControllerBaseobject‹
+çStudentsController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Student>, AutoMapper.IMapper)…LabsAndCoursesManagement.API.Controllers.StudentsController.StudentsController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Student>, AutoMapper.IMapper)¥
+:Create(LabsAndCoursesManagement.API.DTOs.CreateStudentDto)vLabsAndCoursesManagement.API.Controllers.StudentsController.Create(LabsAndCoursesManagement.API.DTOs.CreateStudentDto)J
+Get()ALabsAndCoursesManagement.API.Controllers.StudentsController.Get()h
+GetById(System.Guid)PLabsAndCoursesManagement.API.Controllers.StudentsController.GetById(System.Guid)f
+Delete(System.Guid)OLabsAndCoursesManagement.API.Controllers.StudentsController.Delete(System.Guid)œ
+GUpdate(System.Guid, LabsAndCoursesManagement.API.DTOs.CreateStudentDto)ÉLabsAndCoursesManagement.API.Controllers.StudentsController.Update(System.Guid, LabsAndCoursesManagement.API.DTOs.CreateStudentDto)

@@ -1,0 +1,124 @@
+
+vLabsAndCoursesManagement.API.Controllers.StudentsController.Create(LabsAndCoursesManagement.API.DTOs.CreateStudentDto)x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (#"2*˚
+0x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (/Ä
+˝
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs ( 
+%0AutoMapper.IMapper"__id*a_*]=
+;LabsAndCoursesManagement.API.Controllers.StudentsController"
+mapperAutoMapper.IMapper÷”
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (2-
+%1'LabsAndCoursesManagement.Domain.Student"0AutoMapper.IMapperBase.Map<TDestination>(object)*
+
+%0AutoMapper.IMapper*=;
+9
+dto2LabsAndCoursesManagement.API.DTOs.CreateStudentDto2Map<TDestination>(object)Í
+Á
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (22
+student'LabsAndCoursesManagement.Domain.Student"__id*1/
+-
+%1'LabsAndCoursesManagement.Domain.StudentË
+Â
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (E
+%2?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*õò*ï=
+;LabsAndCoursesManagement.API.Controllers.StudentsController"T
+studentRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>ˇ¸
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (*-
+%3'LabsAndCoursesManagement.Domain.Student"FLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.Add(T)*IG
+E
+%2?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>*64
+2
+student'LabsAndCoursesManagement.Domain.Student2Add(T)Ë
+Â
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (E
+%4?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*õò*ï=
+;LabsAndCoursesManagement.API.Controllers.StudentsController"T
+studentRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>≤Ø
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (+
+
+%5void"MLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.SaveChanges()*IG
+E
+%4?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>2SaveChanges()¯ı
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (0,
+%6&Microsoft.AspNetCore.Mvc.CreatedResult"@Microsoft.AspNetCore.Mvc.ControllerBase.Created(string, object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+""*64
+2
+student'LabsAndCoursesManagement.Domain.Student2Created(string, object?)"™
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (1.
+,
+%6&Microsoft.AspNetCore.Mvc.CreatedResult*è
+1x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs	 (	"è
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (	
+implicit return*»
+2x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.csD (DÍ
+Á
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (#]
+9
+dto2LabsAndCoursesManagement.API.DTOs.CreateStudentDto" 
+<Email>k__BackingFieldstring"__entrypointŸ
+÷
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (#L
+9
+dto2LabsAndCoursesManagement.API.DTOs.CreateStudentDto"
+Emailstring"__entrypointÓ
+Î
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (#a
+9
+dto2LabsAndCoursesManagement.API.DTOs.CreateStudentDto"$
+<FirstName>k__BackingFieldstring"__entrypoint›
+⁄
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (#P
+9
+dto2LabsAndCoursesManagement.API.DTOs.CreateStudentDto"
+	FirstNamestring"__entrypointÌ
+Í
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (#`
+9
+dto2LabsAndCoursesManagement.API.DTOs.CreateStudentDto"#
+<LastName>k__BackingFieldstring"__entrypoint‹
+Ÿ
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (#O
+9
+dto2LabsAndCoursesManagement.API.DTOs.CreateStudentDto"
+LastNamestring"__entrypointÍ
+Á
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (#]
+9
+dto2LabsAndCoursesManagement.API.DTOs.CreateStudentDto" 
+<Group>k__BackingFieldstring"__entrypointŸ
+÷
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (#L
+9
+dto2LabsAndCoursesManagement.API.DTOs.CreateStudentDto"
+Groupstring"__entrypointë
+é
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (#
+%7"__entrypoint*
+0:µ
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs$ (C9
+dto2LabsAndCoursesManagement.API.DTOs.CreateStudentDtoB?=
+;LabsAndCoursesManagement.API.Controllers.StudentsController

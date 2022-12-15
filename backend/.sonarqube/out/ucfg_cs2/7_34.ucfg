@@ -1,0 +1,67 @@
+
+vLabsAndCoursesManagement.Infrastructure.Migrations._1234.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)É
+yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124220620_1234.cs  (""0*ô
+0É
+yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124220620_1234.cs (¯ı
+É
+yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124220620_1234.cs (#_
+%0YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"aMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropPrimaryKey(string, string, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+PK_Didactics*
+	Didactics*
+""2'DropPrimaryKey(string, string, string?)©¶
+É
+yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124220620_1234.cs (N
+%1System.Guid"System.GuidÚ
+Ô
+É
+yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124220620_1234.cs" (&
+
+%2void"System.Guid.Guid(string)*
+
+%1System.Guid**(&
+$00000000-0000-0000-0000-000000000000Ÿ÷
+É
+yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124220620_1234.cs (O_
+%3YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"»Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.AddColumn<T>(string, string, string?, bool?, int?, bool, string?, bool, object?, string?, string?, bool?, string?, string?, int?, int?, bool?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+Id*
+	Didactics*
+
+TEXT*
+""*
+""*
+""*
+""*
+""*
+
+%1System.Guid*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""2éAddColumn<T>(string, string, string?, bool?, int?, bool, string?, bool, object?, string?, string?, bool?, string?, string?, int?, int?, bool?)êç
+É
+yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124220620_1234.cs (_
+%4YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"hMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.AddPrimaryKey(string, string, string, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+PK_Didactics*
+	Didactics*
+Id*
+""2.AddPrimaryKey(string, string, string, string?)*
+1*ß
+1É
+yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124220620_1234.cs	 (	"õ
+É
+yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124220620_1234.cs (	
+implicit return:’
+É
+yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124220620_1234.cs# (DM
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilderB<:
+8LabsAndCoursesManagement.Infrastructure.Migrations._1234

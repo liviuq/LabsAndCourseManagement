@@ -13,14 +13,12 @@ namespace LabsAndCoursesManagement.API.Controllers
     [EnableCors]
     public class CoursesController : ControllerBase
     {
-        private readonly IRepository<Grade> gradeRepository;
         private readonly IRepository<Course> courseRepository;
         private readonly IMapper mapper;
 
 
-        public CoursesController(IRepository<Grade> gradeRepository, IRepository<Course> courseRepository, IMapper mapper)
+        public CoursesController(IRepository<Course> courseRepository, IMapper mapper)
         {
-            this.gradeRepository = gradeRepository;
             this.courseRepository = courseRepository;
             this.mapper = mapper;
         }

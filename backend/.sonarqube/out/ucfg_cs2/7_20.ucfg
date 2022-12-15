@@ -1,0 +1,53 @@
+
+RLabsAndCoursesManagement.Infrastructure.Generics.Repository<T>.Delete(System.Guid)x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs4 4(""0*ª
+0x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs5 6()Ñ
+Î
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs5 5(=
+%07LabsAndCoursesManagement.Infrastructure.DatabaseContext"__id*Œ‰*†@
+>LabsAndCoursesManagement.Infrastructure.Generics.Repository<T>"B
+context7LabsAndCoursesManagement.Infrastructure.DatabaseContext¿¼
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs5 5()
+%1T"HMicrosoft.EntityFrameworkCore.DbContext.Find<TEntity>(params object?[]?)*A?
+=
+%07LabsAndCoursesManagement.Infrastructure.DatabaseContext*
+""2 Find<TEntity>(params object?[]?)œ
+™
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs5 5()
+
+entryT"__id*	
+
+%1TÑ
+Î
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs6 6(=
+%27LabsAndCoursesManagement.Infrastructure.DatabaseContext"__id*Œ‰*†@
+>LabsAndCoursesManagement.Infrastructure.Generics.Repository<T>"B
+context7LabsAndCoursesManagement.Infrastructure.DatabaseContext¼¹
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs6 6(2
+%3,Microsoft.EntityFrameworkCore.DbSet<TEntity>"6Microsoft.EntityFrameworkCore.DbContext.Set<TEntity>()*A?
+=
+%27LabsAndCoursesManagement.Infrastructure.DatabaseContext2Set<TEntity>()ÝÚ
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs6 6(*G
+%4AMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>"<Microsoft.EntityFrameworkCore.DbSet<TEntity>.Remove(TEntity)*64
+2
+%3,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+
+
+entryT2Remove(TEntity)*
+1*
+1x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs7	 7(	"
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs7 7(	
+implicit return:
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs4# 4(*
+idSystem.GuidBB@
+>LabsAndCoursesManagement.Infrastructure.Generics.Repository<T>

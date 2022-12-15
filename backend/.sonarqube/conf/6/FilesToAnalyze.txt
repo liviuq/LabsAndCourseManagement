@@ -1,0 +1,6 @@
+﻿D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Grade.cs
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs

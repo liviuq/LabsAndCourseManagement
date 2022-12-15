@@ -1,0 +1,169 @@
+
+\LabsAndCoursesManagement.API.Controllers.DidacticController.Create(System.Guid, System.Guid)x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (#"5*€
+0x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs !(è
+å
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (+E
+%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*›˜*•=
+;LabsAndCoursesManagement.API.Controllers.DidacticController"T
+teacherRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>åâ
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (:-
+%1'LabsAndCoursesManagement.Domain.Teacher"PLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.Get(System.Guid)*IG
+E
+%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>*
+""2Get(System.Guid)ê
+ç
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (:2
+teacher'LabsAndCoursesManagement.Domain.Teacher"__id*1/
+-
+%1'LabsAndCoursesManagement.Domain.Teacherç
+ä
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs ()E
+%2?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*š—*”=
+;LabsAndCoursesManagement.API.Controllers.DidacticController"S
+courseRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>äá
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (7,
+%3&LabsAndCoursesManagement.Domain.Course"PLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.Get(System.Guid)*IG
+E
+%2?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>*
+""2Get(System.Guid)ç
+ä
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (70
+course&LabsAndCoursesManagement.Domain.Course"__id*0.
+,
+%3&LabsAndCoursesManagement.Domain.Courseý
+ú
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs! !(
+
+%4bool""object.operator ==(object, object)*
+"
+object*64
+2
+teacher'LabsAndCoursesManagement.Domain.Teacher*
+""*
+1
+2*ƒ
+2x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs!# !(1û
+ø
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs!# !(1
+
+%5bool""object.operator ==(object, object)*
+"
+object*42
+0
+course&LabsAndCoursesManagement.Domain.Course*
+""*
+1
+3*É
+1x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs# #(!›˜
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs# #(!-
+%6'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"«
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs# #("/
+-
+%6'Microsoft.AspNetCore.Mvc.NotFoundResult*ã
+3x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs& ,(4×Ô
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs&$ &(2.
+%7(LabsAndCoursesManagement.Domain.Didactic"(LabsAndCoursesManagement.Domain.Didacticò
+ï
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs&( &(0
+
+%8void"3LabsAndCoursesManagement.Domain.Didactic.Didactic()*20
+.
+%7(LabsAndCoursesManagement.Domain.Didacticñ
+î
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs& &(28
+tempDidactic(LabsAndCoursesManagement.Domain.Didactic"__id*20
+.
+%7(LabsAndCoursesManagement.Domain.Didacticê
+ç
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs' '(9
+
+%9void"iLabsAndCoursesManagement.Domain.Didactic.AttachDidacticToTeacher(LabsAndCoursesManagement.Domain.Teacher)*<:
+8
+tempDidactic(LabsAndCoursesManagement.Domain.Didactic*64
+2
+teacher'LabsAndCoursesManagement.Domain.Teacherç
+ä
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs( ((7
+%10void"gLabsAndCoursesManagement.Domain.Didactic.AttachDidacticToCourse(LabsAndCoursesManagement.Domain.Course)*<:
+8
+tempDidactic(LabsAndCoursesManagement.Domain.Didactic*42
+0
+course&LabsAndCoursesManagement.Domain.Courseê
+ç
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs* *(F
+%11?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*œ™*–=
+;LabsAndCoursesManagement.API.Controllers.DidacticController"U
+didacticRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>ˆ…
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs* *(0/
+%12(LabsAndCoursesManagement.Domain.Didactic"FLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.Add(T)*JH
+F
+%11?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>*<:
+8
+tempDidactic(LabsAndCoursesManagement.Domain.Didactic2Add(T)ê
+ç
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs+ +(F
+%13?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*œ™*–=
+;LabsAndCoursesManagement.API.Controllers.DidacticController"U
+didacticRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>´±
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs+ +(,
+%14void"MLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.SaveChanges()*JH
+F
+%13?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>2SaveChanges()ÿü
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs, ,(5-
+%15&Microsoft.AspNetCore.Mvc.CreatedResult"@Microsoft.AspNetCore.Mvc.ControllerBase.Created(string, object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+""*<:
+8
+tempDidactic(LabsAndCoursesManagement.Domain.Didactic2Created(string, object?)"«
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs, ,(6/
+-
+%15&Microsoft.AspNetCore.Mvc.CreatedResult*
+4x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs-	 -(	"
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs- -(	
+implicit return*«
+5x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.csB (B¦
+£
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (#
+%16"__entrypoint*
+""*
+""*
+0:”
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs$ (2
+	teacherIdSystem.Guid:“
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs4 (A
+courseIdSystem.GuidB?=
+;LabsAndCoursesManagement.API.Controllers.DidacticController

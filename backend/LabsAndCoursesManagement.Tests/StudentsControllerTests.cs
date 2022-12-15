@@ -17,6 +17,8 @@ namespace LabsAndCoursesManagement.Tests
             var content = await response.Content.ReadAsStringAsync();
 
             var students = JsonConvert.DeserializeObject<List<Student>>(content);
+
+            Assert.IsTrue(students != null);
             Assert.IsTrue(students.Any(s => s.Email == "mockemail"));
 
             // ensure deleted

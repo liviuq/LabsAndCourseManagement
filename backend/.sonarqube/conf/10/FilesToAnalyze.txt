@@ -1,0 +1,12 @@
+﻿D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.Tests\CoursesControllerTests.cs
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.Tests\DidacticControllerTests.cs
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.Tests\GradeControllerTests.cs
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.Tests\IntegrationTest.cs
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.Tests\StudentsControllerTests.cs
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.Tests\Usings.cs
+C:\Users\hiimC\.nuget\packages\microsoft.net.test.sdk\17.4.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs
+C:\Users\hiimC\.nuget\packages\microsoft.testplatform.testhost\17.4.0\build\netcoreapp3.1\x64\testhost.exe
+C:\Users\hiimC\.nuget\packages\microsoft.testplatform.testhost\17.4.0\build\netcoreapp3.1\x64\testhost.dll
+C:\Users\hiimC\.nuget\packages\mstest.testadapter\3.0.0\build\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\hiimC\.nuget\packages\mstest.testadapter\3.0.0\build\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\hiimC\.nuget\packages\mstest.testadapter\3.0.0\build\net6.0\Microsoft.TestPlatform.AdapterUtilities.dll

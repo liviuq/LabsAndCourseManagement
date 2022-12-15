@@ -1,0 +1,53 @@
+
+wLabsAndCoursesManagement.Infrastructure.Migrations.init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)ƒ
+yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124210812_init.csa  a($"0*ˆ
+0ƒ
+yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124210812_init.csc p( ÈÅ
+ƒ
+yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124210812_init.csc d( _
+%0YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"TMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropTable(string, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*	
+Courses*
+""2DropTable(string, string?)ÊÇ
+ƒ
+yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124210812_init.csf g("_
+%1YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"TMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropTable(string, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+	Didactics*
+""2DropTable(string, string?)ÇÄ
+ƒ
+yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124210812_init.csi j(_
+%2YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"TMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropTable(string, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+
+Grades*
+""2DropTable(string, string?)ÉÆ
+ƒ
+yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124210812_init.csl m(!_
+%3YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"TMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropTable(string, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+
+Teachers*
+""2DropTable(string, string?)ÉÆ
+ƒ
+yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124210812_init.cso p(!_
+%4YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"TMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropTable(string, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+
+Students*
+""2DropTable(string, string?)*
+1*§
+1ƒ
+yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124210812_init.csq	 q(	"›
+ƒ
+yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124210812_init.csq q(	
+implicit return:Õ
+ƒ
+yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124210812_init.csa% a(FM
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilderB;9
+7LabsAndCoursesManagement.Infrastructure.Migrations.init

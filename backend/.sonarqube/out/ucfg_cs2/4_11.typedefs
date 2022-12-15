@@ -1,0 +1,9 @@
+Ø
+
+:LabsAndCoursesManagement.API.Controllers.CoursesController'Microsoft.AspNetCore.Mvc.ControllerBaseobject°
+CoursesController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Grade>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Course>, AutoMapper.IMapper)´LabsAndCoursesManagement.API.Controllers.CoursesController.CoursesController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Grade>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Course>, AutoMapper.IMapper)±
+9Create(LabsAndCoursesManagement.API.DTOs.CreateCourseDto)tLabsAndCoursesManagement.API.Controllers.CoursesController.Create(LabsAndCoursesManagement.API.DTOs.CreateCourseDto)I
+Get()@LabsAndCoursesManagement.API.Controllers.CoursesController.Get()g
+GetById(System.Guid)OLabsAndCoursesManagement.API.Controllers.CoursesController.GetById(System.Guid)e
+Delete(System.Guid)NLabsAndCoursesManagement.API.Controllers.CoursesController.Delete(System.Guid)Ã
+FUpdate(System.Guid, LabsAndCoursesManagement.API.DTOs.CreateCourseDto)ÅLabsAndCoursesManagement.API.Controllers.CoursesController.Update(System.Guid, LabsAndCoursesManagement.API.DTOs.CreateCourseDto)

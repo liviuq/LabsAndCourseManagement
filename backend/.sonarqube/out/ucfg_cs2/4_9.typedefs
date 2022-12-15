@@ -1,0 +1,8 @@
+ú
+9LabsAndCoursesManagement.API.Controllers.GradesController'Microsoft.AspNetCore.Mvc.ControllerBaseobjectÏ
+÷GradesController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Student>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Grade>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Course>, AutoMapper.IMapper)êLabsAndCoursesManagement.API.Controllers.GradesController.GradesController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Student>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Grade>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Course>, AutoMapper.IMapper)„
+RCreate(System.Guid, System.Guid, LabsAndCoursesManagement.API.DTOs.CreateGradeDto)åLabsAndCoursesManagement.API.Controllers.GradesController.Create(System.Guid, System.Guid, LabsAndCoursesManagement.API.DTOs.CreateGradeDto)H
+Get()?LabsAndCoursesManagement.API.Controllers.GradesController.Get()^
+Get(System.Guid)JLabsAndCoursesManagement.API.Controllers.GradesController.Get(System.Guid)d
+Delete(System.Guid)MLabsAndCoursesManagement.API.Controllers.GradesController.Delete(System.Guid)»
+EUpdate(System.Guid, LabsAndCoursesManagement.API.DTOs.CreateGradeDto)LabsAndCoursesManagement.API.Controllers.GradesController.Update(System.Guid, LabsAndCoursesManagement.API.DTOs.CreateGradeDto)

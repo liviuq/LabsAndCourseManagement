@@ -86,7 +86,7 @@ namespace LabsAndCoursesManagement.UnitTests
 
             // assert
             Assert.False(result.IsSuccess);
-            Assert.Equal(0, _student.Grades.Count);
+            Assert.Empty(_student.Grades);
             Assert.All(grades, grade => Assert.DoesNotContain(grade, _student.Grades));
         }
            

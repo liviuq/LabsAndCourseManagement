@@ -1,0 +1,11 @@
+±
+2LabsAndCoursesManagement.API.DTOs.CreateTeacherDtoobject[
+CreateTeacherDto()ELabsAndCoursesManagement.API.DTOs.CreateTeacherDto.CreateTeacherDto()Q
+FirstName.get@LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.FirstName.getQ
+FirstName.set@LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.FirstName.setO
+LastName.get?LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.LastName.getO
+LastName.set?LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.LastName.setI
+	Email.get<LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.Email.getI
+	Email.set<LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.Email.set[
+TeachingDegree.getELabsAndCoursesManagement.API.DTOs.CreateTeacherDto.TeachingDegree.get[
+TeachingDegree.setELabsAndCoursesManagement.API.DTOs.CreateTeacherDto.TeachingDegree.set

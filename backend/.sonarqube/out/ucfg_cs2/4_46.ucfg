@@ -1,0 +1,48 @@
+
+…LabsAndCoursesManagement.API.Controllers.StudentsController.StudentsController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Student>, AutoMapper.IMapper)x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (!"3*˚
+1x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs	 (	w
+u
+
+%0void"8Microsoft.AspNetCore.Mvc.ControllerBase.ControllerBase()*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+0*Å
+0x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs ( ı
+Ú
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (6ï=
+;LabsAndCoursesManagement.API.Controllers.StudentsController"T
+studentRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*XV
+T
+studentRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>Ñ
+Å
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs ( ]=
+;LabsAndCoursesManagement.API.Controllers.StudentsController"
+mapperAutoMapper.IMapper"__id* 
+
+mapperAutoMapper.IMapper*
+2*è
+2x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs	 (	"è
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (	
+implicit return*∏
+3x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.csY (Y≥
+∞
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (!
+%1"__entrypoint* 
+
+mapperAutoMapper.IMapper*
+1:–
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs" (HT
+studentRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>:ò
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.csJ (X
+mapperAutoMapper.IMapperB?=
+;LabsAndCoursesManagement.API.Controllers.StudentsController

@@ -1,0 +1,9 @@
+å
+1LabsAndCoursesManagement.API.DTOs.CreateCourseDtoobjectX
+CreateCourseDto()CLabsAndCoursesManagement.API.DTOs.CreateCourseDto.CreateCourseDto()H
+	Title.get;LabsAndCoursesManagement.API.DTOs.CreateCourseDto.Title.getH
+	Title.set;LabsAndCoursesManagement.API.DTOs.CreateCourseDto.Title.setN
+Semester.get>LabsAndCoursesManagement.API.DTOs.CreateCourseDto.Semester.getN
+Semester.set>LabsAndCoursesManagement.API.DTOs.CreateCourseDto.Semester.setL
+Credits.get=LabsAndCoursesManagement.API.DTOs.CreateCourseDto.Credits.getL
+Credits.set=LabsAndCoursesManagement.API.DTOs.CreateCourseDto.Credits.set

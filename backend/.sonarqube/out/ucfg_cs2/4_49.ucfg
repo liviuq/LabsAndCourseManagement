@@ -1,0 +1,40 @@
+
+ALabsAndCoursesManagement.API.Controllers.TeachersController.Get()w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs# #( "2*∞
+
+0w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs% %(-Á
+‰
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs% %('E
+%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*õò*ï=
+;LabsAndCoursesManagement.API.Controllers.TeachersController"T
+teacherRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>∆√
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs% %(-/
+%1)System.Collections.Generic.IEnumerable<T>"ELabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.All()*IG
+E
+%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>2All()—Œ
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs% %(.-
+%2'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*31
+/
+%1)System.Collections.Generic.IEnumerable<T>2Ok(object?)"™
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs% %(//
+-
+%2'Microsoft.AspNetCore.Mvc.OkObjectResult*ç
+1w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs&	 &(	"é
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs& &(	
+implicit return*î
+2w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs#" #("ê
+ç
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs# #( 
+%3"__entrypoint*
+0B?=
+;LabsAndCoursesManagement.API.Controllers.TeachersController

@@ -1,0 +1,8 @@
+•
+
+;LabsAndCoursesManagement.API.Controllers.DidacticController'Microsoft.AspNetCore.Mvc.ControllerBaseobjectÐ
+ÇDidacticController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Teacher>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Didactic>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Course>)ƒLabsAndCoursesManagement.API.Controllers.DidacticController.DidacticController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Teacher>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Didactic>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Course>)€
+ Create(System.Guid, System.Guid)\LabsAndCoursesManagement.API.Controllers.DidacticController.Create(System.Guid, System.Guid)J
+Get()ALabsAndCoursesManagement.API.Controllers.DidacticController.Get()f
+Delete(System.Guid)OLabsAndCoursesManagement.API.Controllers.DidacticController.Delete(System.Guid)š
+-Update(System.Guid, System.Guid, System.Guid)iLabsAndCoursesManagement.API.Controllers.DidacticController.Update(System.Guid, System.Guid, System.Guid)

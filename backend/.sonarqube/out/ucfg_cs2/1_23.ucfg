@@ -1,0 +1,46 @@
+
+gLabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories.StudentRepository.Get(System.Guid)”
+‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs ("0*Ì
+0”
+‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs (eî
+ë
+”
+‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs (=
+%07LabsAndCoursesManagement.Infrastructure.DatabaseContext"__id*Œ‰*†@
+>LabsAndCoursesManagement.Infrastructure.Generics.Repository<T>"B
+context7LabsAndCoursesManagement.Infrastructure.DatabaseContext×
+Ô
+”
+‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs (#2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"DLabsAndCoursesManagement.Infrastructure.DatabaseContext.Students.get*A?
+=
+%07LabsAndCoursesManagement.Infrastructure.DatabaseContext½
+º
+”
+‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs (FR
+%2LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>"ÂMicrosoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.Include<TEntity, TProperty>(System.Linq.IQueryable<TEntity>, System.Linq.Expressions.Expression<System.Func<TEntity, TProperty>>)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*64
+2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""Ù
+Ö
+”
+‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs (f-
+%3'LabsAndCoursesManagement.Domain.Student"ŽSystem.Linq.Queryable.FirstOrDefault<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*VT
+R
+%2LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>*
+"""È
+”
+‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs (g/
+-
+%3'LabsAndCoursesManagement.Domain.Student*É
+1”
+‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs	 (	"¬
+”
+‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs (	
+implicit return:ª
+”
+‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs ("
+idSystem.GuidBZX
+VLabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories.StudentRepository

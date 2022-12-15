@@ -1,0 +1,12 @@
+ç
+(LabsAndCoursesManagement.Domain.DidacticobjectA
+
+Didactic()3LabsAndCoursesManagement.Domain.Didactic.Didactic()©
+>AttachDidacticToCourse(LabsAndCoursesManagement.Domain.Course)gLabsAndCoursesManagement.Domain.Didactic.AttachDidacticToCourse(LabsAndCoursesManagement.Domain.Course)­
+@AttachDidacticToTeacher(LabsAndCoursesManagement.Domain.Teacher)iLabsAndCoursesManagement.Domain.Didactic.AttachDidacticToTeacher(LabsAndCoursesManagement.Domain.Teacher)9
+Id.get/LabsAndCoursesManagement.Domain.Didactic.Id.get9
+Id.set/LabsAndCoursesManagement.Domain.Didactic.Id.setG
+TeacherId.get6LabsAndCoursesManagement.Domain.Didactic.TeacherId.getG
+TeacherId.set6LabsAndCoursesManagement.Domain.Didactic.TeacherId.setE
+CourseId.get5LabsAndCoursesManagement.Domain.Didactic.CourseId.getE
+CourseId.set5LabsAndCoursesManagement.Domain.Didactic.CourseId.set

@@ -1,0 +1,47 @@
+
+uLabsAndCoursesManagement.Infrastructure.Migrations._123.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)‚
+xD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124212303_123.cs  (""0*ô
+0‚
+xD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124212303_123.cs (#ñî
+‚
+xD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124212303_123.cs ( _
+%0YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"aMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropPrimaryKey(string, string, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+	PK_Grades*
+
+Grades*
+""2'DropPrimaryKey(string, string, string?)‰†
+‚
+xD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124212303_123.cs (_
+%1YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"hMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.AddPrimaryKey(string, string, string, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+	PK_Grades*
+
+Grades*
+Id*
+""2.AddPrimaryKey(string, string, string, string?)äá
+‚
+xD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124212303_123.cs ($_
+%2YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"~Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateIndex(string, string, string, string?, bool, string?, bool[]?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+IX_Grades_StudentId*
+
+Grades*
+	StudentId*
+""*
+""*
+""*
+""2DCreateIndex(string, string, string, string?, bool, string?, bool[]?)*
+1*¥
+1‚
+xD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124212303_123.cs	 (	"š
+‚
+xD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124212303_123.cs (	
+implicit return:Ô
+‚
+xD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124212303_123.cs# (DM
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilderB;9
+7LabsAndCoursesManagement.Infrastructure.Migrations._123

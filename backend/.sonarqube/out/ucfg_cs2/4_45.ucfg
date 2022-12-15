@@ -1,0 +1,88 @@
+
+tLabsAndCoursesManagement.API.Controllers.CoursesController.Create(LabsAndCoursesManagement.API.DTOs.CreateCourseDto)w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs (#"2*‚
+0w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs "(.˛
+˚
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs (
+%0AutoMapper.IMapper"__id*`^*\<
+:LabsAndCoursesManagement.API.Controllers.CoursesController"
+mapperAutoMapper.IMapper”–
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs (0,
+%1&LabsAndCoursesManagement.Domain.Course"0AutoMapper.IMapperBase.Map<TDestination>(object)*
+
+%0AutoMapper.IMapper*<:
+8
+dto1LabsAndCoursesManagement.API.DTOs.CreateCourseDto2Map<TDestination>(object)Ê
+„
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs (00
+course&LabsAndCoursesManagement.Domain.Course"__id*0.
+,
+%1&LabsAndCoursesManagement.Domain.CourseÂ
+‚
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs   (E
+%2?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*ôñ*ì<
+:LabsAndCoursesManagement.API.Controllers.CoursesController"S
+courseRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>˚¯
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs   ((,
+%3&LabsAndCoursesManagement.Domain.Course"FLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.Add(T)*IG
+E
+%2?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>*42
+0
+course&LabsAndCoursesManagement.Domain.Course2Add(T)Â
+‚
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs! !(E
+%4?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*ôñ*ì<
+:LabsAndCoursesManagement.API.Controllers.CoursesController"S
+courseRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>±Æ
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs! !(*
+
+%5void"MLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.SaveChanges()*IG
+E
+%4?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>2SaveChanges()ıÚ
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs" "(/,
+%6&Microsoft.AspNetCore.Mvc.CreatedResult"@Microsoft.AspNetCore.Mvc.ControllerBase.Created(string, object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+""*42
+0
+course&LabsAndCoursesManagement.Domain.Course2Created(string, object?)"©
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs" "(0.
+,
+%6&Microsoft.AspNetCore.Mvc.CreatedResult*ç
+1w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs#	 #(	"é
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs# #(	
+implicit return*Ÿ
+2w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.csC (CË
+Â
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs (#\
+8
+dto1LabsAndCoursesManagement.API.DTOs.CreateCourseDto" 
+<Title>k__BackingFieldstring"__entrypoint◊
+‘
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs (#K
+8
+dto1LabsAndCoursesManagement.API.DTOs.CreateCourseDto"
+Titlestring"__entrypointê
+ç
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs (#
+%7"__entrypoint*
+0:≥
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs$ (B8
+dto1LabsAndCoursesManagement.API.DTOs.CreateCourseDtoB><
+:LabsAndCoursesManagement.API.Controllers.CoursesController

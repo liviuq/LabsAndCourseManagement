@@ -1,0 +1,9 @@
+Ç
+.LabsAndCoursesManagement.Domain.Helpers.ResultobjectC
+Result()7LabsAndCoursesManagement.Domain.Helpers.Result.Result()E
+	Error.get8LabsAndCoursesManagement.Domain.Helpers.Result.Error.getE
+	Error.set8LabsAndCoursesManagement.Domain.Helpers.Result.Error.setM
+IsSuccess.get<LabsAndCoursesManagement.Domain.Helpers.Result.IsSuccess.getM
+IsSuccess.set<LabsAndCoursesManagement.Domain.Helpers.Result.IsSuccess.setM
+IsFailure.get<LabsAndCoursesManagement.Domain.Helpers.Result.IsFailure.getM
+IsFailure.set<LabsAndCoursesManagement.Domain.Helpers.Result.IsFailure.set

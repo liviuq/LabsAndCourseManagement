@@ -1,0 +1,16 @@
+j
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.csutf-8v
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.csutf-8w
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.csutf-8t
+kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.csutf-8w
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.csutf-8v
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.csutf-8m
+dD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateCourseDto.csutf-8l
+cD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateGradeDto.csutf-8n
+eD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateStudentDto.csutf-8n
+eD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateTeacherDto.csutf-8`
+WD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Program.csutf-8ò
+åD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\obj\Debug\net7.0\LabsAndCoursesManagement.API.GlobalUsings.g.csutf-8ò
+åD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.csutf-8ñ
+äD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\obj\Debug\net7.0\LabsAndCoursesManagement.API.AssemblyInfo.csutf-8©
+ùD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\obj\Debug\net7.0\LabsAndCoursesManagement.API.MvcApplicationPartsAssemblyInfo.csutf-8

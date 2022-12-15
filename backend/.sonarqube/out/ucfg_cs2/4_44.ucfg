@@ -1,0 +1,39 @@
+
+BLabsAndCoursesManagement.API.AutoMapperProfile.AutoMapperProfile()k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs	 	( "1*½
+1k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs	 (	F
+D
+
+%0void"AutoMapper.Profile.Profile()*
+AutoMapper.Profile*
+0*õ
+0k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs (2ý
+ú
+k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs (0:
+%14AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
+AutoMapper.Profileý
+ú
+k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs (.:
+%24AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
+AutoMapper.Profileý
+ú
+k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs (2:
+%34AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
+AutoMapper.Profileý
+ú
+k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs (2:
+%44AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
+AutoMapper.Profile*
+2*õ
+2k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs	 (	"‚
+k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs (	
+implicit returnB20
+.LabsAndCoursesManagement.API.AutoMapperProfile

@@ -1,0 +1,11 @@
+x
+oD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.UnitTests\CourseUnitTests.csutf-8z
+qD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.UnitTests\DidacticUnitTests.csutf-8x
+oD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.UnitTests\GradesUnitTests.csutf-8z
+qD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.UnitTests\StudentsUnitTests.csutf-8y
+pD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.UnitTests\TeacherUnitTests.csutf-8o
+fD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.UnitTests\Usings.csutf-8}
+rC:\Users\hiimC\.nuget\packages\microsoft.net.test.sdk\17.3.2\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.csutf-8®
+¢D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.UnitTests\obj\Debug\net7.0\LabsAndCoursesManagement.UnitTests.GlobalUsings.g.csutf-8¨
+œD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.UnitTests\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.csutf-8¬
+ D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.UnitTests\obj\Debug\net7.0\LabsAndCoursesManagement.UnitTests.AssemblyInfo.csutf-8
