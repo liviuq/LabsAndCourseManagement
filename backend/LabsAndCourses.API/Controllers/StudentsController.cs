@@ -22,36 +22,40 @@ namespace LabsAndCoursesManagement.API.Controllers
             this.mapper = mapper; 
         }
         [HttpPost]
-        public IActionResult Create([FromBody] CreateStudentDto dto)
+        public async Task<IActionResult> Create([FromBody] CreateStudentDto dto)
         {
             var student = mapper.Map<Student>(dto);
-            studentRepository.Add(student);
-            studentRepository.SaveChanges();
+            await studentRepository.Add(student);
+            await studentRepository.SaveChanges();
             return Created(nameof(Get), student);
         }
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
-            return Ok(studentRepository.All());
+            return Ok(await studentRepository.All());
         }
+
 
         [HttpGet("{id:guid}")]
-        public IActionResult GetById(Guid id)
+        public async Task<IActionResult> GetById(Guid id)
         {
-            return Ok(studentRepository.Get(id));
-        }
-        [HttpDelete("{id:guid}")]
-        public IActionResult Delete(Guid id)
-        {
-            studentRepository.Delete(id);
-            studentRepository.SaveChanges();
-            return Ok("Student deleted succesfully");
+            return Ok(await studentRepository.Get(id));
         }
 
-        [HttpPut("{id:guid}")]
-        public IActionResult Update(Guid id, [FromBody] CreateStudentDto dto)
+        [HttpDelete("{id:guid}")]
+        public async Task<IActionResult> Delete(Guid id)
         {
-            var student = studentRepository.Get(id);
+            await studentRepository.Delete(id);
+            await studentRepository.SaveChanges();
+            
+            return Ok("Student deleted successfully");
+        }
+
+
+        [HttpPut("{id:guid}")]
+        public async Task<IActionResult> Update(Guid id, [FromBody] CreateStudentDto dto)
+        {
+            var student = await studentRepository.Get(id);
 
             if (student == null)
             {
@@ -60,10 +64,10 @@ namespace LabsAndCoursesManagement.API.Controllers
             var updatedStudent = mapper.Map<Student>(dto);
             student.Update(updatedStudent);
 
-            studentRepository.Update(id, student);
-            studentRepository.SaveChanges();
-            return Ok("Student updated succesfully");
+            await studentRepository.Update(id, student);
+            await studentRepository.SaveChanges();
+            
+            return Ok("Student updated successfully");
         }
-
     }
 }

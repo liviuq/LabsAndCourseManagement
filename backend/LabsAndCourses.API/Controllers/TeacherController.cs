@@ -50,9 +50,9 @@ namespace LabsAndCoursesManagement.API.Controllers
         }
 
         [HttpPut("{id:guid}")]
-        public IActionResult Update(Guid id, [FromBody] CreateTeacherDto dto)
+        public async Task<IActionResult> Update(Guid id, [FromBody] CreateTeacherDto dto)
         {
-            var teacher = teacherRepository.Get(id);
+            var teacher = await teacherRepository.Get(id);
 
             if (teacher == null)
             {
@@ -62,9 +62,9 @@ namespace LabsAndCoursesManagement.API.Controllers
             var updatedTeacher = mapper.Map<Teacher>(dto);
             teacher.Update(updatedTeacher);
 
-            teacherRepository.Update(id, teacher);
-            teacherRepository.SaveChanges();
-            return Ok("Teacher updated succesfully");
+            await teacherRepository.Update(id, teacher);
+            await teacherRepository.SaveChanges();
+            return Ok("Teacher updated successfully");
         }
 
     }

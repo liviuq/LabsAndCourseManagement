@@ -25,10 +25,10 @@ namespace LabsAndCoursesManagement.API.Controllers
         }
 
         [HttpPost("teacher/{teacherId:guid}/course/{courseId:guid}")]
-        public IActionResult Create(Guid teacherId, Guid courseId)
+        public async Task<IActionResult> Create(Guid teacherId, Guid courseId)
         {
-            var teacher = teacherRepository.Get(teacherId);
-            var course = courseRepository.Get(courseId);
+            var teacher = await teacherRepository.Get(teacherId);
+            var course = await courseRepository.Get(courseId);
 
             if (teacher == null || course == null)
             {
@@ -39,35 +39,35 @@ namespace LabsAndCoursesManagement.API.Controllers
             tempDidactic.AttachDidacticToTeacher(teacher);
             tempDidactic.AttachDidacticToCourse(course);
 
-            didacticRepository.Add(tempDidactic);
-            didacticRepository.SaveChanges();
+            await didacticRepository.Add(tempDidactic);
+            await didacticRepository.SaveChanges();
             return Created(nameof(Get), tempDidactic);
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
-            return Ok(didacticRepository.All());
+            return Ok(await didacticRepository.All());
         }
         [HttpDelete("{id:guid}")]
-        public IActionResult Delete(Guid id)
+        public async Task<IActionResult> Delete(Guid id)
         {
-            didacticRepository.Delete(id);
-            didacticRepository.SaveChanges();
-            return Ok("Didactic deleted succesfully");
+            await didacticRepository.Delete(id);
+            await didacticRepository.SaveChanges();
+            return Ok("Didactic deleted successfully");
         }
         [HttpPut("{id:guid}")]
-        public IActionResult Update(Guid id, Guid teacherId, Guid courseId)
+        public async Task<IActionResult> Update(Guid id, Guid teacherId, Guid courseId)
         {
-            var tempDidactic = didacticRepository.Get(id);
+            var tempDidactic = await didacticRepository.Get(id);
             
             if (tempDidactic == null)
             {
                 return NotFound();
             }
             
-            var teacher = teacherRepository.Get(teacherId);
-            var course = courseRepository.Get(courseId);
+            var teacher = await teacherRepository.Get(teacherId);
+            var course = await courseRepository.Get(courseId);
 
             if (teacher == null || course == null)
             {
@@ -75,12 +75,13 @@ namespace LabsAndCoursesManagement.API.Controllers
             }
             
             
+
             tempDidactic.AttachDidacticToTeacher(teacher);
             tempDidactic.AttachDidacticToCourse(course);
             
-            didacticRepository.Update(tempDidactic.Id, tempDidactic);
-            didacticRepository.SaveChanges();
-            return Ok("Didactic updated succesfully");
+            await didacticRepository.Update(tempDidactic.Id, tempDidactic);
+            await didacticRepository.SaveChanges();
+            return Ok("Didactic updated successfully");
         }
     }
 }

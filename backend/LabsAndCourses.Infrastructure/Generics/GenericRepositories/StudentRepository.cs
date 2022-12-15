@@ -11,17 +11,15 @@ namespace LabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories
         }
 
         override
-        public Student? Get(Guid id)
+        public async Task<Student?> Get(Guid id)
         {
-            return context.Students.Include(student => student.Grades).FirstOrDefault(x => x.Id == id);
+            return await context.Students.Include(student => student.Grades).FirstOrDefaultAsync(x => x.Id == id);
         }
 
         override
-        public IEnumerable<Student> All()
+        public async Task<IEnumerable<Student>> All()
         {
-            return context.Students.Include(student => student.Grades).ToList();
+            return await context.Students.Include(student => student.Grades).ToListAsync();
         }
-
-
     }
 }

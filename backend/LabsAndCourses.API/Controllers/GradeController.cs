@@ -28,11 +28,11 @@ namespace LabsAndCoursesManagement.API.Controllers
         }
 
         [HttpPost("student/{studentId:guid}/course/{courseId:guid}")]
-        public IActionResult Create(Guid studentId, Guid courseId,
+        public async Task<IActionResult> Create(Guid studentId, Guid courseId,
             [FromBody] CreateGradeDto dto)
         {
-            var student = studentRepository.Get(studentId);
-            var course = courseRepository.Get(courseId);
+            var student = await studentRepository.Get(studentId);
+            var course = await courseRepository.Get(courseId);
 
             if (student == null || course == null)
             {
@@ -46,20 +46,20 @@ namespace LabsAndCoursesManagement.API.Controllers
 
             student.RegisterGradesToStudent(new List<Grade>{tempGrade});
 
-            gradeRepository.Add(tempGrade);
-            gradeRepository.SaveChanges();
+            await gradeRepository.Add(tempGrade);
+            await gradeRepository.SaveChanges();
             return Created(nameof(Get), tempGrade);
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
-            return Ok(gradeRepository.All());
+            return Ok(await gradeRepository.All());
         }
         [HttpGet("{id:guid}")]
-        public IActionResult Get(Guid id)
+        public async Task<IActionResult> Get(Guid id)
         {
-            var grade = gradeRepository.Get(id);
+            var grade = await gradeRepository.Get(id);
             if (grade == null)
             {
                 return NotFound();
@@ -68,17 +68,17 @@ namespace LabsAndCoursesManagement.API.Controllers
         }
         
         [HttpDelete("{id:guid}")]
-        public IActionResult Delete(Guid id)
+        public async Task<IActionResult> Delete(Guid id)
         {
-            gradeRepository.Delete(id);
-            gradeRepository.SaveChanges();
-            return Ok("Grade deleted succesfully");
+            await gradeRepository.Delete(id);
+            await gradeRepository.SaveChanges();
+            return Ok("Grade deleted successfully");
         }
 
         [HttpPut("{id:guid}")]
-        public IActionResult Update(Guid id, [FromBody] CreateGradeDto dto)
+        public async Task<IActionResult> Update(Guid id, [FromBody] CreateGradeDto dto)
         {
-            var grade = gradeRepository.Get(id);
+            var grade = await gradeRepository.Get(id);
 
             if (grade == null)
             {
@@ -88,8 +88,8 @@ namespace LabsAndCoursesManagement.API.Controllers
             var updatedGrade = mapper.Map<Grade>(dto);
             grade.Update(updatedGrade);
 
-            gradeRepository.Update(id, grade);
-            gradeRepository.SaveChanges();
+            await gradeRepository.Update(id, grade);
+            await gradeRepository.SaveChanges();
             return Ok(grade);
         }
     }

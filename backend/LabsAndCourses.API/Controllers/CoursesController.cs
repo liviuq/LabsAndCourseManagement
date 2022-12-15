@@ -16,43 +16,44 @@ namespace LabsAndCoursesManagement.API.Controllers
         private readonly IRepository<Course> courseRepository;
         private readonly IMapper mapper;
 
-
         public CoursesController(IRepository<Course> courseRepository, IMapper mapper)
         {
             this.courseRepository = courseRepository;
             this.mapper = mapper;
         }
 
+
         [HttpPost]
-        public IActionResult Create([FromBody] CreateCourseDto dto)
+        public async Task<IActionResult> Create([FromBody] CreateCourseDto dto)
         {
             var course = mapper.Map<Course>(dto);
-            courseRepository.Add(course);
-            courseRepository.SaveChanges();
+            await courseRepository.Add(course);
+            await courseRepository.SaveChanges();
             return Created(nameof(Get), course);
         }
 
+
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
-            return Ok(courseRepository.All());
+            return Ok(await courseRepository.All());
         }
         [HttpGet("{id:guid}")]
-        public IActionResult GetById(Guid id)
+        public async Task<IActionResult> GetById(Guid id)
         {
-            return Ok(courseRepository.Get(id));
+            return Ok(await courseRepository.Get(id));
         }
         [HttpDelete("{id:guid}")]
-        public IActionResult Delete(Guid id)
+        public async Task<IActionResult> Delete(Guid id)
         {
-            courseRepository.Delete(id);
-            courseRepository.SaveChanges();
-            return Ok("Course deleted succesfully");
+            await courseRepository.Delete(id);
+            await courseRepository.SaveChanges();
+            return Ok("Course deleted successfully");
         }
         [HttpPut("{id:guid}")]
-        public IActionResult Update(Guid id, [FromBody] CreateCourseDto dto)
+        public async Task<IActionResult> Update(Guid id, [FromBody] CreateCourseDto dto)
         {
-            var course = courseRepository.Get(id);
+            var course = await courseRepository.Get(id);
             
             if (course == null)
             {
@@ -62,9 +63,9 @@ namespace LabsAndCoursesManagement.API.Controllers
             var updatedCourse = mapper.Map<Course>(dto);
             course.Update(updatedCourse);
 
-            courseRepository.Update(id, course);
-            courseRepository.SaveChanges();
-            return Ok("Course updated succesfully");
+            await courseRepository.Update(id, course);
+            await courseRepository.SaveChanges();
+            return Ok("Course updated successfully");
         }
 
     }

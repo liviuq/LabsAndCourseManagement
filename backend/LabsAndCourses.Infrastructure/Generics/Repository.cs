@@ -1,4 +1,5 @@
-﻿using System.Linq.Expressions;
+﻿using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace LabsAndCoursesManagement.Infrastructure.Generics
 {
@@ -12,54 +13,60 @@ namespace LabsAndCoursesManagement.Infrastructure.Generics
             this.context = context;
         }
 
-        public virtual T Add(T entity)
+        public virtual async Task<T> Add(T entity)
         {
-            return context
-                .Add(entity)
+            return (await context
+                    .AddAsync(entity))
                 .Entity;
         }
 
-        public virtual IEnumerable<T> Find(Expression<Func<T, bool>> predicate)
+        public virtual async Task<IEnumerable<T>> Find(Expression<Func<T, bool>> predicate)
         {
-            return context.Set<T>()
+            return await context.Set<T>()
                 .AsQueryable()
-                .Where(predicate).ToList();
+                .Where(predicate).ToListAsync();
         }
 
-        public virtual T? Get(Guid id)
+        public virtual async Task<T?> Get(Guid id)
         {
-            return context.Find<T>(id);
+            return await context.FindAsync<T>(id);
         }
 
-        public virtual IEnumerable<T> All()
+        public virtual async Task<IEnumerable<T>> All()
         {
-            return context.Set<T>()
-                .ToList();
+            return await context.Set<T>().ToListAsync();
         }
 
-        public virtual T? Update(Guid id, T entity)
+        public virtual async Task<T?> Update(Guid id, T entity)
         {
-            var entityToUpdate = context.Find<T>(id);
+            var entityToUpdate = await context.FindAsync<T>(id);
             if (entityToUpdate == null)
-                return null;
-                    
-            context.Set<T>().Remove(entityToUpdate);
-            context.SaveChanges();
-
-            return context.Add(entity).Entity;     
-        }
-
-        public virtual void Delete(Guid id) {
-            var entry = context.Find<T>(id);
-            if(entry != null)
             {
-                context.Set<T>().Remove(entry);
+                return null;
             }
+
+            context.Entry(entityToUpdate).CurrentValues.SetValues(entity);
+            return entityToUpdate;
         }
 
-        public void SaveChanges()
+        // delete async
+        public virtual async Task<T?> Delete(Guid id)
         {
-            context.SaveChanges();
+            var entityToDelete = await context.FindAsync<T>(id);
+            if (entityToDelete == null)
+            {
+                return null;
+            }
+
+            context.Set<T>().Remove(entityToDelete);
+            await context.SaveChangesAsync();
+
+            return entityToDelete;
+        }
+
+        public async Task SaveChanges()
+        {
+            await context.SaveChangesAsync();
         }
     }
 }

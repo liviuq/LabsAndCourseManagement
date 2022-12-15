@@ -5,12 +5,12 @@ namespace LabsAndCoursesManagement.Infrastructure.Generics
 {
     public interface IRepository<T>
     {
-        T Add(T entity);
-        T? Update(Guid id, T entity);
-        T? Get(Guid id);
-        IEnumerable<T> All();
-        IEnumerable<T> Find(Expression<Func<T, bool>> predicate);
-        void Delete(Guid id);
-        void SaveChanges();
+        Task<T> Add(T entity);
+        Task<T?> Update(Guid id, T entity);
+        Task<T?> Get(Guid id);
+        Task<IEnumerable<T>> All();
+        Task<IEnumerable<T>> Find(Expression<Func<T, bool>> predicate);
+        Task<T?> Delete(Guid id);
+        Task SaveChanges();
     }
 }
