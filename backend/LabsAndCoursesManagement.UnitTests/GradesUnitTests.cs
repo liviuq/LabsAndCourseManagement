@@ -58,16 +58,16 @@ namespace LabsAndCoursesManagement.UnitTests
         }
 
         [Fact]
-        public void Grade_AttachGradeToCourse_AttachesGradeToCourse()
+        public async Task Grade_AttachGradeToCourse_AttachesGradeToCourse()
         {
             // arrange
             // setup get course
             var courseMock = new Course("mockCourse", 3, 4);
-            _courseDbMock.Setup(x => x.Get(It.IsAny<Guid>())).Returns(courseMock);
+            _courseDbMock.Setup(x => x.Get(It.IsAny<Guid>())).ReturnsAsync(courseMock);
 
             // act
             // attach grade to course get from db
-            var tempCourse = _courseDbMock.Object.Get(courseMock.Id);
+            var tempCourse = await _courseDbMock.Object.Get(courseMock.Id);
             Assert.NotNull(tempCourse);
             _grade.AttachGradeToCourse(tempCourse);
 
@@ -79,16 +79,16 @@ namespace LabsAndCoursesManagement.UnitTests
         }
 
         [Fact]
-        public void Grade_AttachGradeToStudent_AttachesGradeToStudent()
+        public async Task Grade_AttachGradeToStudent_AttachesGradeToStudent()
         {
             // arrange
             // setup get student
             var studentMock = new Student("mockemail", "mockName", "mockLastName", 3, "2B4", 500);
-            _studentDbMock.Setup(x => x.Get(It.IsAny<Guid>())).Returns(studentMock);
+            _studentDbMock.Setup(x => x.Get(It.IsAny<Guid>())).ReturnsAsync(studentMock);
 
             // act
             // attach grade to student get from db
-            var tempStudent = _studentDbMock.Object.Get(studentMock.Id);
+            var tempStudent = await _studentDbMock.Object.Get(studentMock.Id);
             Assert.NotNull(tempStudent);
             _grade.AttachGradeToStudent(tempStudent);
 
