@@ -1,46 +1,47 @@
 
-gLabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories.StudentRepository.Get(System.Guid)”
-‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs ("0*Ì
-0”
-‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs (eî
-ë
-”
-‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs (=
-%07LabsAndCoursesManagement.Infrastructure.DatabaseContext"__id*Œ‰*†@
->LabsAndCoursesManagement.Infrastructure.Generics.Repository<T>"B
-context7LabsAndCoursesManagement.Infrastructure.DatabaseContext×
-Ô
-”
-‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs (#2
-%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"DLabsAndCoursesManagement.Infrastructure.DatabaseContext.Students.get*A?
-=
-%07LabsAndCoursesManagement.Infrastructure.DatabaseContext½
-º
-”
-‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs (FR
-%2LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>"ÂMicrosoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.Include<TEntity, TProperty>(System.Linq.IQueryable<TEntity>, System.Linq.Expressions.Expression<System.Func<TEntity, TProperty>>)*FD"B
-@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*64
-2
-%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
-""Ù
-Ö
-”
-‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs (f-
-%3'LabsAndCoursesManagement.Domain.Student"ŽSystem.Linq.Queryable.FirstOrDefault<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
-System.Linq.Queryable*VT
-R
-%2LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>*
-"""È
-”
-‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs (g/
--
-%3'LabsAndCoursesManagement.Domain.Student*É
-1”
-‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs	 (	"¬
-”
-‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs (	
-implicit return:ª
-”
-‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs ("
-idSystem.GuidBZX
-VLabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories.StudentRepository
+uLabsAndCoursesManagement.Infrastructure.Migrations._123.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)‚
+xD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124212303_123.cs  (""0*ô
+0‚
+xD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124212303_123.cs (#ñî
+‚
+xD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124212303_123.cs ( _
+%0YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"aMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropPrimaryKey(string, string, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+	PK_Grades*
+
+Grades*
+""2'DropPrimaryKey(string, string, string?)‰†
+‚
+xD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124212303_123.cs (_
+%1YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"hMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.AddPrimaryKey(string, string, string, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+	PK_Grades*
+
+Grades*
+Id*
+""2.AddPrimaryKey(string, string, string, string?)äá
+‚
+xD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124212303_123.cs ($_
+%2YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"~Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateIndex(string, string, string, string?, bool, string?, bool[]?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+IX_Grades_StudentId*
+
+Grades*
+	StudentId*
+""*
+""*
+""*
+""2DCreateIndex(string, string, string, string?, bool, string?, bool[]?)*
+1*¥
+1‚
+xD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124212303_123.cs	 (	"š
+‚
+xD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124212303_123.cs (	
+implicit return:Ô
+‚
+xD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124212303_123.cs# (DM
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilderB;9
+7LabsAndCoursesManagement.Infrastructure.Migrations._123

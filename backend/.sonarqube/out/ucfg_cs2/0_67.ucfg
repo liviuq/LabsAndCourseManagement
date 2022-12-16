@@ -1,18 +1,18 @@
 
-1LabsAndCoursesManagement.Domain.Teacher.Email.setd
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs+ (."0*×
+2LabsAndCoursesManagement.Domain.Student.Grades.setd
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs1 (4"0*­
 0d
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs/ (/Â
-¿
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs5 (5û
+ø
 d
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs# (/<)
-'LabsAndCoursesManagement.Domain.Teacher"
-Emailstring"__id*
-
-valuestring"¦
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs) (5Y)
+'LabsAndCoursesManagement.Domain.Student",
+Grades"System.Collections.Generic.List<T>"__id*/-
++
+value"System.Collections.Generic.List<T>"Ã
 d
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs# (/>*<)
-'LabsAndCoursesManagement.Domain.Teacher"
-Emailstring:
-valuestringB+)
-'LabsAndCoursesManagement.Domain.Teacher
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs) (5[*Y)
+'LabsAndCoursesManagement.Domain.Student",
+Grades"System.Collections.Generic.List<T>:-+
+value"System.Collections.Generic.List<T>B+)
+'LabsAndCoursesManagement.Domain.Student

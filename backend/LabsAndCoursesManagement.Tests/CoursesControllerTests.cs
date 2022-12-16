@@ -52,6 +52,7 @@ namespace LabsAndCoursesManagement.Tests
 
             var course = _db.Courses.FirstOrDefault(c => c.Title == "TestCourseGetById");
 
+            Assert.IsTrue(course != null);
             var response = await _httpClient.GetAsync($"api/courses/{course.Id}");
             var content = await response.Content.ReadAsStringAsync();
 

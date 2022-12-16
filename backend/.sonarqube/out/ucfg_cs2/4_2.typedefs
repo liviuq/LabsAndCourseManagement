@@ -1,11 +1,3 @@
-•
-0LabsAndCoursesManagement.API.DTOs.CreateGradeDtoobjectU
-CreateGradeDto()ALabsAndCoursesManagement.API.DTOs.CreateGradeDto.CreateGradeDto()G
-	Value.get:LabsAndCoursesManagement.API.DTOs.CreateGradeDto.Value.getG
-	Value.set:LabsAndCoursesManagement.API.DTOs.CreateGradeDto.Value.setO
-GradeDate.get>LabsAndCoursesManagement.API.DTOs.CreateGradeDto.GradeDate.getO
-GradeDate.set>LabsAndCoursesManagement.API.DTOs.CreateGradeDto.GradeDate.setQ
-IsLabGrade.get?LabsAndCoursesManagement.API.DTOs.CreateGradeDto.IsLabGrade.getQ
-IsLabGrade.set?LabsAndCoursesManagement.API.DTOs.CreateGradeDto.IsLabGrade.setS
-IsExamGrade.get@LabsAndCoursesManagement.API.DTOs.CreateGradeDto.IsExamGrade.getS
-IsExamGrade.set@LabsAndCoursesManagement.API.DTOs.CreateGradeDto.IsExamGrade.set
+§
+.LabsAndCoursesManagement.API.AutoMapperProfileAutoMapper.ProfileobjectY
+AutoMapperProfile()BLabsAndCoursesManagement.API.AutoMapperProfile.AutoMapperProfile()

@@ -1,37 +1,26 @@
 
-ELabsAndCoursesManagement.Infrastructure.Generics.Repository<T>.Add(T)x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs ("0*ü	
-0x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs (Ñ
-Î
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs (=
-%07LabsAndCoursesManagement.Infrastructure.DatabaseContext"__id*Œ‰*†@
->LabsAndCoursesManagement.Infrastructure.Generics.Repository<T>"B
-context7LabsAndCoursesManagement.Infrastructure.DatabaseContextðí
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs (G
-%1AMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>"=Microsoft.EntityFrameworkCore.DbContext.Add<TEntity>(TEntity)*A?
-=
-%07LabsAndCoursesManagement.Infrastructure.DatabaseContext*
-
-entityT2Add<TEntity>(TEntity)­ª
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs (
-%2T"LMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>.Entity.get*KI
-G
-%1AMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>2
-Entity.get"…
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs (	
-
-%2T*
-1x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs	 (	"
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs (	
-implicit return:‡
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs (%
-entityTBB@
->LabsAndCoursesManagement.Infrastructure.Generics.Repository<T>
+¡LabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories.StudentRepository.StudentRepository(LabsAndCoursesManagement.Infrastructure.DatabaseContext)”
+‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs ( "1*Ÿ
+1”
+‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs	 (	*
+0*Û
+0”
+‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs: (H¹
+¶
+”
+‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs: (I
+
+%0void"‚LabsAndCoursesManagement.Infrastructure.Generics.Repository<T>.Repository(LabsAndCoursesManagement.Infrastructure.DatabaseContext)*DB@
+>LabsAndCoursesManagement.Infrastructure.Generics.Repository<T>*FD
+B
+context7LabsAndCoursesManagement.Infrastructure.DatabaseContext*
+2*É
+2”
+‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs	 (	"¬
+”
+‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs (	
+implicit return:Û
+”
+‰D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\StudentRepository.cs! (8B
+context7LabsAndCoursesManagement.Infrastructure.DatabaseContextBZX
+VLabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories.StudentRepository

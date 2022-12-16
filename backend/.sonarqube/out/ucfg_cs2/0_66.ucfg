@@ -1,18 +1,16 @@
 
-4LabsAndCoursesManagement.Domain.Teacher.LastName.setd
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs. (1"0*Ý
+2LabsAndCoursesManagement.Domain.Student.Grades.getd
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs$ ('"0*ù
 0d
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs2 (2Å
-Â
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs( ((ø
+õ
 d
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs& (2?)
-'LabsAndCoursesManagement.Domain.Teacher"
-LastNamestring"__id*
-
-valuestring"©
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs$ (((
+%0"System.Collections.Generic.List<T>"__id*][*Y)
+'LabsAndCoursesManagement.Domain.Student",
+Grades"System.Collections.Generic.List<T>"’
 d
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs& (2A*?)
-'LabsAndCoursesManagement.Domain.Teacher"
-LastNamestring:
-valuestringB+)
-'LabsAndCoursesManagement.Domain.Teacher
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs$ ((*
+(
+%0"System.Collections.Generic.List<T>B+)
+'LabsAndCoursesManagement.Domain.Student

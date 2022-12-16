@@ -1,16 +1,18 @@
 
-@LabsAndCoursesManagement.API.DTOs.CreateStudentDto.FirstName.geto
-eD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateStudentDto.cs" (%"0*‘
+?LabsAndCoursesManagement.API.DTOs.CreateStudentDto.Semester.seto
+eD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateStudentDto.cs$ ('"0*ã
 0o
-eD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateStudentDto.cs& (&Ÿ
-÷
+eD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateStudentDto.cs( ((’
+“
 o
-eD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateStudentDto.cs" (&
-%0string"__id*OM*K4
-2LabsAndCoursesManagement.API.DTOs.CreateStudentDto"
-	FirstNamestring"Å
-o
-eD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateStudentDto.cs" (&
+eD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateStudentDto.cs$ ((G4
+2LabsAndCoursesManagement.API.DTOs.CreateStudentDto"
+Semesterint"__id*
 
-%0stringB64
+valueint"º
+o
+eD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateStudentDto.cs$ ((I*G4
+2LabsAndCoursesManagement.API.DTOs.CreateStudentDto"
+Semesterint:
+valueintB64
 2LabsAndCoursesManagement.API.DTOs.CreateStudentDto

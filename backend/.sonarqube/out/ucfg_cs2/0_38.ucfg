@@ -1,18 +1,18 @@
 
-4LabsAndCoursesManagement.Domain.Student.Semester.setd
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs+ (."0*Ô
+1LabsAndCoursesManagement.Domain.Student.Email.setd
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs+ (."0*×
 0d
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs/ (/¿
-¼
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs/ (/Â
+¿
 d
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs# (/<)
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs# (/<)
 'LabsAndCoursesManagement.Domain.Student"
-Semesterint"__id*
-
-valueint"¦
+Emailstring"__id*
+
+valuestring"¦
 d
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs# (/>*<)
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs# (/>*<)
 'LabsAndCoursesManagement.Domain.Student"
-Semesterint:
-valueintB+)
+Emailstring:
+valuestringB+)
 'LabsAndCoursesManagement.Domain.Student

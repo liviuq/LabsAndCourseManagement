@@ -1,45 +1,39 @@
 
-OLabsAndCoursesManagement.API.Controllers.CoursesController.GetById(System.Guid)w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs+ +($"2*È
+BLabsAndCoursesManagement.API.AutoMapperProfile.AutoMapperProfile()k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs	 	( "1*½
+1k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs	 (	F
+D
 
-0w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs- -(-å
-â
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs- -(&E
-%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*™–*“<
-:LabsAndCoursesManagement.API.Controllers.CoursesController"S
-courseRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>ãà
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs- -(.,
-%1&LabsAndCoursesManagement.Domain.Course"PLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.Get(System.Guid)*IG
-E
-%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>*
-""2Get(System.Guid)ÎË
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs- -(/-
-%2'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*0.
-,
-%1&LabsAndCoursesManagement.Domain.Course2Ok(object?)"ª
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs- -(0/
--
-%2'Microsoft.AspNetCore.Mvc.OkObjectResult*
-1w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs.	 .(	"Ž
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs. .(	
-implicit return*ž
-2w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs+- +(-š
-—
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs+ +($
-%3"__entrypoint*
-""*
-0:Œ
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs+% +(,
-idSystem.GuidB><
-:LabsAndCoursesManagement.API.Controllers.CoursesController
+%0void"AutoMapper.Profile.Profile()*
+AutoMapper.Profile*
+0*õ
+0k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs (2ý
+ú
+k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs (0:
+%14AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
+AutoMapper.Profileý
+ú
+k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs (.:
+%24AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
+AutoMapper.Profileý
+ú
+k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs (2:
+%34AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
+AutoMapper.Profileý
+ú
+k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs (2:
+%44AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
+AutoMapper.Profile*
+2*õ
+2k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs	 (	"‚
+k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs (	
+implicit returnB20
+.LabsAndCoursesManagement.API.AutoMapperProfile

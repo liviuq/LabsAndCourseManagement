@@ -1,73 +1,16 @@
 
-SLabsAndCoursesManagement.Domain.Grade.Update(LabsAndCoursesManagement.Domain.Grade)b
-XD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Grade.cs& &("0*À
-0b
-XD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Grade.cs( +(2Þ
-Û
-b
-XD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Grade.cs( ((&	
-%0int"/LabsAndCoursesManagement.Domain.Grade.Value.get*97
-5
-updatedGrade%LabsAndCoursesManagement.Domain.Gradeß
-Ü
-b
-XD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Grade.cs( ((&	
-%1int"/LabsAndCoursesManagement.Domain.Grade.Value.set*+)'
-%LabsAndCoursesManagement.Domain.Grade*
-	
-%0intî
-ë
-b
-XD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Grade.cs) )(.
-%2System.DateTime"3LabsAndCoursesManagement.Domain.Grade.GradeDate.get*97
-5
-updatedGrade%LabsAndCoursesManagement.Domain.Gradeû
-ø
-b
-XD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Grade.cs) )(.
-%3System.DateTime"3LabsAndCoursesManagement.Domain.Grade.GradeDate.set*+)'
-%LabsAndCoursesManagement.Domain.Grade*
-
-%2System.DateTimeä
-á
-b
-XD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Grade.cs* *(0
-
-%4bool"4LabsAndCoursesManagement.Domain.Grade.IsLabGrade.get*97
-5
-updatedGrade%LabsAndCoursesManagement.Domain.Gradeæ
-ã
-b
-XD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Grade.cs* *(0
-
-%5bool"4LabsAndCoursesManagement.Domain.Grade.IsLabGrade.set*+)'
-%LabsAndCoursesManagement.Domain.Grade*
-
-
-%4boolå
-â
-b
-XD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Grade.cs+ +(2
-
-%6bool"5LabsAndCoursesManagement.Domain.Grade.IsExamGrade.get*97
-5
-updatedGrade%LabsAndCoursesManagement.Domain.Gradeç
-ä
-b
-XD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Grade.cs+ +(2
-
-%7bool"5LabsAndCoursesManagement.Domain.Grade.IsExamGrade.set*+)'
-%LabsAndCoursesManagement.Domain.Grade*
-
-
-%6bool*
-1*â
-1b
-XD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Grade.cs,	 ,(	"y
-b
-XD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Grade.cs, ,(	
-implicit return:›
-b
-XD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Grade.cs& &(-5
-updatedGrade%LabsAndCoursesManagement.Domain.GradeB)'
-%LabsAndCoursesManagement.Domain.Grade
+.LabsAndCoursesManagement.Domain.Student.Id.getd
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs ("0*¯
+0d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs (Æ
+Ã
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs (
+%0System.Guid"__id*B@*>)
+'LabsAndCoursesManagement.Domain.Student"
+IdSystem.Guid"{
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs (
+
+%0System.GuidB+)
+'LabsAndCoursesManagement.Domain.Student

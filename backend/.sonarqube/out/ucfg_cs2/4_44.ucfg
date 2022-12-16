@@ -1,39 +1,56 @@
 
-BLabsAndCoursesManagement.API.AutoMapperProfile.AutoMapperProfile()k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs	 	( "1*Ω
-1k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs	 (	F
-D
+ÉLabsAndCoursesManagement.API.Controllers.DidacticController.DidacticController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Teacher>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Didactic>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Course>)x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (!"3*˚
+1x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs	 (	w
+u
 
-%0void"AutoMapper.Profile.Profile()*
-AutoMapper.Profile*
-0*ı
-0k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs (2˝
-˙
-k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs (0:
-%14AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
-AutoMapper.Profile˝
-˙
-k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs (.:
-%24AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
-AutoMapper.Profile˝
-˙
-k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs (2:
-%34AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
-AutoMapper.Profile˝
-˙
-k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs (2:
-%44AutoMapper.IMappingExpression<TSource, TDestination>"5AutoMapper.Profile.CreateMap<TSource, TDestination>()*
-AutoMapper.Profile*
-2*ı
-2k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs	 (	"Ç
-k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\AutoMapperProfile.cs (	
-implicit returnB20
-.LabsAndCoursesManagement.API.AutoMapperProfile
+%0void"8Microsoft.AspNetCore.Mvc.ControllerBase.ControllerBase()*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+0*Í	
+0x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (4ı
+Ú
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (6ï=
+;LabsAndCoursesManagement.API.Controllers.DidacticController"T
+teacherRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*XV
+T
+teacherRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>˜
+Ù
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (8ñ=
+;LabsAndCoursesManagement.API.Controllers.DidacticController"U
+didacticRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*YW
+U
+didacticRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>Û
+
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (4î=
+;LabsAndCoursesManagement.API.Controllers.DidacticController"S
+courseRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*WU
+S
+courseRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>*
+2*è
+2x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs	 (	"è
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (	
+implicit return*ò
+3z
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.csô (ôë
+é
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (!
+%1"__entrypoint*
+1:–
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs" (HT
+teacherRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>:—
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.csJ (rU
+didacticRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>:–
+y
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cst (òS
+courseRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>B?=
+;LabsAndCoursesManagement.API.Controllers.DidacticController

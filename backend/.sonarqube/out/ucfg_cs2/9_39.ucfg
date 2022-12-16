@@ -1,18 +1,48 @@
 
->LabsAndCoursesManagement.API.DTOs.CreateCourseDto.Semester.setn
-dD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateCourseDto.cs$ ('"0*Ü
-0n
-dD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateCourseDto.cs( ((”
-–
-n
-dD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateCourseDto.cs$ ((F3
-1LabsAndCoursesManagement.API.DTOs.CreateCourseDto"
-Semesterint"__id*
-
-valueint"∫
-n
-dD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateCourseDto.cs$ ((H*F3
-1LabsAndCoursesManagement.API.DTOs.CreateCourseDto"
-Semesterint:
-valueintB53
-1LabsAndCoursesManagement.API.DTOs.CreateCourseDto
+…LabsAndCoursesManagement.API.Controllers.TeachersController.TeachersController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Teacher>, AutoMapper.IMapper)w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs (!"3*˙
+1w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs	 (	w
+u
+
+%0void"8Microsoft.AspNetCore.Mvc.ControllerBase.ControllerBase()*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+0*˛
+0w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs ( Ù
+Ò
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs (6ï=
+;LabsAndCoursesManagement.API.Controllers.TeachersController"T
+teacherRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*XV
+T
+teacherRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>É
+Ä
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs ( ]=
+;LabsAndCoursesManagement.API.Controllers.TeachersController"
+mapperAutoMapper.IMapper"__id* 
+
+mapperAutoMapper.IMapper*
+2*ç
+2w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs	 (	"é
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs (	
+implicit return*∂
+3w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.csY (Y≤
+Ø
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs (!
+%1"__entrypoint* 
+
+mapperAutoMapper.IMapper*
+1:œ
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs" (HT
+teacherRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>:ó
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.csJ (X
+mapperAutoMapper.IMapperB?=
+;LabsAndCoursesManagement.API.Controllers.TeachersController

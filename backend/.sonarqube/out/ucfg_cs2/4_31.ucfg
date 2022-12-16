@@ -1,18 +1,18 @@
 
-:LabsAndCoursesManagement.API.DTOs.CreateGradeDto.Value.setm
-cD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateGradeDto.cs! ($"0*û
+@LabsAndCoursesManagement.API.DTOs.CreateGradeDto.IsExamGrade.getm
+cD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateGradeDto.cs" (%"0*Ç
 0m
-cD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateGradeDto.cs% (%Î
-Ë
+cD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateGradeDto.cs& (&Ó
+Ð
 m
-cD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateGradeDto.cs! (%B2
-0LabsAndCoursesManagement.API.DTOs.CreateGradeDto"
-Valueint"__id*
-
-valueint"µ
+cD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateGradeDto.cs" (&
+
+%0bool"__id*MK*I2
+0LabsAndCoursesManagement.API.DTOs.CreateGradeDto"
+IsExamGradebool"}
 m
-cD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateGradeDto.cs! (%D*B2
-0LabsAndCoursesManagement.API.DTOs.CreateGradeDto"
-Valueint:
-valueintB42
+cD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateGradeDto.cs" (&
+
+
+%0boolB42
 0LabsAndCoursesManagement.API.DTOs.CreateGradeDto

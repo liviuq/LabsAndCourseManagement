@@ -1,18 +1,18 @@
 
-6LabsAndCoursesManagement.Domain.Didactic.TeacherId.sete
-[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs- (0"0*ó
-0e
-[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs1 (1Ò
-Ï
-e
-[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs% (1F*
-(LabsAndCoursesManagement.Domain.Didactic"
-	TeacherIdSystem.Guid"__id*
+-LabsAndCoursesManagement.Domain.Course.Id.setc
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs& ()"0*Û
+0c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs* (*Ç
+Ä
+c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (*=(
+&LabsAndCoursesManagement.Domain.Course"
+IdSystem.Guid"__id*
 
-valueSystem.Guid"±
-e
-[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs% (1H*F*
-(LabsAndCoursesManagement.Domain.Didactic"
-	TeacherIdSystem.Guid:
-valueSystem.GuidB,*
-(LabsAndCoursesManagement.Domain.Didactic
+valueSystem.Guid"¦
+c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (*?*=(
+&LabsAndCoursesManagement.Domain.Course"
+IdSystem.Guid:
+valueSystem.GuidB*(
+&LabsAndCoursesManagement.Domain.Course

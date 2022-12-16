@@ -1,24 +1,0 @@
-
-|LabsAndCoursesManagement.Infrastructure.DatabaseContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)t
-jD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\DatabaseContext.cs  (-"0*ù
-0t
-jD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\DatabaseContext.cs (Oø
-õ
-t
-jD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\DatabaseContext.cs (P;
-%05Microsoft.EntityFrameworkCore.DbContextOptionsBuilder"ëMicrosoft.EntityFrameworkCore.SqliteDbContextOptionsBuilderExtensions.UseSqlite(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, string?, System.Action<Microsoft.EntityFrameworkCore.Infrastructure.SqliteDbContextOptionsBuilder>?)*KI"G
-EMicrosoft.EntityFrameworkCore.SqliteDbContextOptionsBuilderExtensions*KI
-G
-optionsBuilder5Microsoft.EntityFrameworkCore.DbContextOptionsBuilder*.,*
-(DataSource = LabsAndCoursesManagement.db*
-""*
-1*‡
-1t
-jD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\DatabaseContext.cs	 (	"‹
-t
-jD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\DatabaseContext.cs (	
-implicit return:¿
-t
-jD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\DatabaseContext.cs. (TG
-optionsBuilder5Microsoft.EntityFrameworkCore.DbContextOptionsBuilderB;9
-7LabsAndCoursesManagement.Infrastructure.DatabaseContext

@@ -1,143 +1,48 @@
 
-ÅLabsAndCoursesManagement.API.Controllers.CoursesController.Update(System.Guid, LabsAndCoursesManagement.API.DTOs.CreateCourseDto)w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs7 7(#"4*∏
+…LabsAndCoursesManagement.API.Controllers.StudentsController.StudentsController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Student>, AutoMapper.IMapper)x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (!"3*˚
+1x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs	 (	w
+u
 
-0w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs9 ;(Â
-‚
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs9 9()E
-%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*ôñ*ì<
-:LabsAndCoursesManagement.API.Controllers.CoursesController"S
-courseRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>„‡
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs9 9(1,
-%1&LabsAndCoursesManagement.Domain.Course"PLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.Get(System.Guid)*IG
-E
-%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>*
-""2Get(System.Guid)Ê
-„
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs9 9(10
-course&LabsAndCoursesManagement.Domain.Course"__id*0.
-,
-%1&LabsAndCoursesManagement.Domain.Course˙
-˜
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs; ;(
-
-%2bool""object.operator ==(object, object)*
-"
-object*42
-0
-course&LabsAndCoursesManagement.Domain.Course*
-""*
-1
-2*∆
-1w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs= =(!öó
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs= =(!-
-%3'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*-+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2
-NotFound()"™
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs= =("/
--
-%3'Microsoft.AspNetCore.Mvc.NotFoundResult*µ
-2w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs@ E(2˛
-˚
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs@  @(&
-%4AutoMapper.IMapper"__id*`^*\<
-:LabsAndCoursesManagement.API.Controllers.CoursesController"
-mapperAutoMapper.IMapper”–
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs@  @(7,
-%5&LabsAndCoursesManagement.Domain.Course"0AutoMapper.IMapperBase.Map<TDestination>(object)*
-
-%4AutoMapper.IMapper*<:
-8
-dto1LabsAndCoursesManagement.API.DTOs.CreateCourseDto2Map<TDestination>(object)Ì
-Í
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs@ @(77
-updatedCourse&LabsAndCoursesManagement.Domain.Course"__id*0.
-,
-%5&LabsAndCoursesManagement.Domain.Course“
-œ
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.csA A((
-
-%6void"ULabsAndCoursesManagement.Domain.Course.Update(LabsAndCoursesManagement.Domain.Course)*42
-0
-course&LabsAndCoursesManagement.Domain.Course*;9
-7
-updatedCourse&LabsAndCoursesManagement.Domain.CourseÂ
-‚
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.csC C(E
-%7?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*ôñ*ì<
-:LabsAndCoursesManagement.API.Controllers.CoursesController"S
-courseRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>•¢
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.csC C(/,
-%8&LabsAndCoursesManagement.Domain.Course"VLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.Update(System.Guid, T)*IG
-E
-%7?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>*
-""*42
-0
-course&LabsAndCoursesManagement.Domain.Course2Update(System.Guid, T)Â
-‚
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.csD D(E
-%9?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*ôñ*ì<
-:LabsAndCoursesManagement.API.Controllers.CoursesController"S
-courseRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>≤Ø
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.csD D(*
-%10void"MLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.SaveChanges()*IG
-E
-%9?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>2SaveChanges()øº
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.csE E(3.
-%11'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
-'Microsoft.AspNetCore.Mvc.ControllerBase* 
-Course updated succesfully2Ok(object?)"´
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.csE E(40
-.
-%11'Microsoft.AspNetCore.Mvc.OkObjectResult*ç
-3w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.csF	 F(	"é
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.csF F(	
-implicit return*‰
-4w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs7L 7(LË
-Â
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs7 7(#\
-8
-dto1LabsAndCoursesManagement.API.DTOs.CreateCourseDto" 
-<Title>k__BackingFieldstring"__entrypoint◊
-‘
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs7 7(#K
-8
-dto1LabsAndCoursesManagement.API.DTOs.CreateCourseDto"
-Titlestring"__entrypointõ
-ò
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs7 7(#
-%12"__entrypoint*
-""*
-0:å
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs7$ 7(+
-idSystem.Guid:≥
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs7- 7(K8
-dto1LabsAndCoursesManagement.API.DTOs.CreateCourseDtoB><
-:LabsAndCoursesManagement.API.Controllers.CoursesController
+%0void"8Microsoft.AspNetCore.Mvc.ControllerBase.ControllerBase()*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+0*Å
+0x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs ( ı
+Ú
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (6ï=
+;LabsAndCoursesManagement.API.Controllers.StudentsController"T
+studentRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*XV
+T
+studentRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>Ñ
+Å
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs ( ]=
+;LabsAndCoursesManagement.API.Controllers.StudentsController"
+mapperAutoMapper.IMapper"__id* 
+
+mapperAutoMapper.IMapper*
+2*è
+2x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs	 (	"è
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (	
+implicit return*∏
+3x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.csY (Y≥
+∞
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs (!
+%1"__entrypoint* 
+
+mapperAutoMapper.IMapper*
+1:–
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs" (HT
+studentRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>:ò
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.csJ (X
+mapperAutoMapper.IMapperB?=
+;LabsAndCoursesManagement.API.Controllers.StudentsController

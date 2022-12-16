@@ -1,3 +1,5 @@
-—
-WLabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories.DidacticRepository>LabsAndCoursesManagement.Infrastructure.Generics.Repository<T>objectó
-KDidacticRepository(LabsAndCoursesManagement.Infrastructure.DatabaseContext)£LabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories.DidacticRepository.DidacticRepository(LabsAndCoursesManagement.Infrastructure.DatabaseContext)
+÷
+VLabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories.StudentRepository>LabsAndCoursesManagement.Infrastructure.Generics.Repository<T>objectð
+JStudentRepository(LabsAndCoursesManagement.Infrastructure.DatabaseContext)¡LabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories.StudentRepository.StudentRepository(LabsAndCoursesManagement.Infrastructure.DatabaseContext){
+Get(System.Guid)gLabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories.StudentRepository.Get(System.Guid)e
+All()\LabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories.StudentRepository.All()

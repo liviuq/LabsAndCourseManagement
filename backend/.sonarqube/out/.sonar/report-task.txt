@@ -3,5 +3,5 @@ projectKey=liviuq_LabsAndCourseManagement
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.35751
 dashboardUrl=https://sonarcloud.io/dashboard?id=liviuq_LabsAndCourseManagement
-ceTaskId=AYUW4f4WdRu1my1qNz7X
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYUW4f4WdRu1my1qNz7X
+ceTaskId=AYUaOwVV62pNQScO8ENO
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYUaOwVV62pNQScO8ENO

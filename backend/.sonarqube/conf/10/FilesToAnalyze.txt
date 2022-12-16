@@ -3,6 +3,7 @@ D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManageme
 D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.Tests\GradeControllerTests.cs
 D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.Tests\IntegrationTest.cs
 D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.Tests\StudentsControllerTests.cs
+D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.Tests\TeachersControllerTests.cs
 D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.Tests\Usings.cs
 C:\Users\hiimC\.nuget\packages\microsoft.net.test.sdk\17.4.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs
 C:\Users\hiimC\.nuget\packages\microsoft.testplatform.testhost\17.4.0\build\netcoreapp3.1\x64\testhost.exe

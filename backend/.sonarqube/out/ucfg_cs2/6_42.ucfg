@@ -1,18 +1,67 @@
 
-:LabsAndCoursesManagement.Domain.Teacher.TeachingDegree.setd
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs4 (7"0*é
+WLabsAndCoursesManagement.Domain.Teacher.Update(LabsAndCoursesManagement.Domain.Teacher)d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs ("0*ö
 0d
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs8 (8Ë
-È
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs (:í
+ê
 d
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs, (8E)
-'LabsAndCoursesManagement.Domain.Teacher"
-TeachingDegreestring"__id*
-
-valuestring"¯
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs (0
+%0string"5LabsAndCoursesManagement.Domain.Teacher.FirstName.get*=;
+9
+updatedTeacher'LabsAndCoursesManagement.Domain.Teacherï
+ì
 d
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs, (8G*E)
-'LabsAndCoursesManagement.Domain.Teacher"
-TeachingDegreestring:
-valuestringB+)
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs (0
+%1string"5LabsAndCoursesManagement.Domain.Teacher.FirstName.set*-+)
+'LabsAndCoursesManagement.Domain.Teacher*
+
+%0stringì
+é
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs (.
+%2string"4LabsAndCoursesManagement.Domain.Teacher.LastName.get*=;
+9
+updatedTeacher'LabsAndCoursesManagement.Domain.Teacherî
+ë
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs (.
+%3string"4LabsAndCoursesManagement.Domain.Teacher.LastName.set*-+)
+'LabsAndCoursesManagement.Domain.Teacher*
+
+%2stringé
+æ
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs ((
+%4string"1LabsAndCoursesManagement.Domain.Teacher.Email.get*=;
+9
+updatedTeacher'LabsAndCoursesManagement.Domain.Teacherë
+è
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs ((
+%5string"1LabsAndCoursesManagement.Domain.Teacher.Email.set*-+)
+'LabsAndCoursesManagement.Domain.Teacher*
+
+%4stringò
+ï
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs (:
+%6string":LabsAndCoursesManagement.Domain.Teacher.TeachingDegree.get*=;
+9
+updatedTeacher'LabsAndCoursesManagement.Domain.Teacherô
+ñ
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs (:
+%7string":LabsAndCoursesManagement.Domain.Teacher.TeachingDegree.set*-+)
+'LabsAndCoursesManagement.Domain.Teacher*
+
+%6string*
+1*æ
+1d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs	 (	"{
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs (	
+implicit return:¡
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs (19
+updatedTeacher'LabsAndCoursesManagement.Domain.TeacherB+)
 'LabsAndCoursesManagement.Domain.Teacher

@@ -1,124 +1,12 @@
 
-vLabsAndCoursesManagement.API.Controllers.TeachersController.Create(LabsAndCoursesManagement.API.DTOs.CreateTeacherDto)w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs (#"2*Ò
-0w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs  (/ˇ
-¸
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs ( 
-%0AutoMapper.IMapper"__id*a_*]=
-;LabsAndCoursesManagement.API.Controllers.TeachersController"
-mapperAutoMapper.IMapper’“
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs (2-
-%1'LabsAndCoursesManagement.Domain.Teacher"0AutoMapper.IMapperBase.Map<TDestination>(object)*
-
-%0AutoMapper.IMapper*=;
-9
-dto2LabsAndCoursesManagement.API.DTOs.CreateTeacherDto2Map<TDestination>(object)È
-Ê
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs (22
-teacher'LabsAndCoursesManagement.Domain.Teacher"__id*1/
--
-%1'LabsAndCoursesManagement.Domain.TeacherÁ
-‰
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs (E
-%2?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*õò*ï=
-;LabsAndCoursesManagement.API.Controllers.TeachersController"T
-teacherRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>˛˚
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs (*-
-%3'LabsAndCoursesManagement.Domain.Teacher"FLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.Add(T)*IG
-E
-%2?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>*64
-2
-teacher'LabsAndCoursesManagement.Domain.Teacher2Add(T)Á
-‰
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs (E
-%4?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*õò*ï=
-;LabsAndCoursesManagement.API.Controllers.TeachersController"T
-teacherRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>±Æ
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs (+
-
-%5void"MLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.SaveChanges()*IG
-E
-%4?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>2SaveChanges()˜Ù
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs   (0,
-%6&Microsoft.AspNetCore.Mvc.CreatedResult"@Microsoft.AspNetCore.Mvc.ControllerBase.Created(string, object?)*-+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*
-""*64
-2
-teacher'LabsAndCoursesManagement.Domain.Teacher2Created(string, object?)"©
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs   (1.
-,
-%6&Microsoft.AspNetCore.Mvc.CreatedResult*ç
-1w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs!	 !(	"é
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs! !(	
-implicit return*–
-2w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.csD (DÌ
-Í
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs (#a
-9
-dto2LabsAndCoursesManagement.API.DTOs.CreateTeacherDto"$
-<FirstName>k__BackingFieldstring"__entrypoint‹
-Ÿ
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs (#P
-9
-dto2LabsAndCoursesManagement.API.DTOs.CreateTeacherDto"
-	FirstNamestring"__entrypointÏ
-È
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs (#`
-9
-dto2LabsAndCoursesManagement.API.DTOs.CreateTeacherDto"#
-<LastName>k__BackingFieldstring"__entrypoint€
-ÿ
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs (#O
-9
-dto2LabsAndCoursesManagement.API.DTOs.CreateTeacherDto"
-LastNamestring"__entrypointÈ
-Ê
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs (#]
-9
-dto2LabsAndCoursesManagement.API.DTOs.CreateTeacherDto" 
-<Email>k__BackingFieldstring"__entrypointÿ
-’
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs (#L
-9
-dto2LabsAndCoursesManagement.API.DTOs.CreateTeacherDto"
-Emailstring"__entrypointÚ
-Ô
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs (#f
-9
-dto2LabsAndCoursesManagement.API.DTOs.CreateTeacherDto")
-<TeachingDegree>k__BackingFieldstring"__entrypoint·
-ﬁ
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs (#U
-9
-dto2LabsAndCoursesManagement.API.DTOs.CreateTeacherDto"
-TeachingDegreestring"__entrypointê
-ç
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs (#
-%7"__entrypoint*
-0:¥
-w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs$ (C9
-dto2LabsAndCoursesManagement.API.DTOs.CreateTeacherDtoB?=
-;LabsAndCoursesManagement.API.Controllers.TeachersController
+Program.Program()a
+WD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Program.cs8 8("1*k
+1a
+WD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Program.cs; ;(*
+0*‡
+0a
+WD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Program.cs; ;("x
+a
+WD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Program.cs; ;(
+implicit returnB	
+Program

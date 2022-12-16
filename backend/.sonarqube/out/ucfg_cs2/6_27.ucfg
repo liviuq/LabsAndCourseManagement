@@ -1,18 +1,16 @@
 
-<LabsAndCoursesManagement.Domain.Helpers.Result.IsSuccess.setk
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs- (0"0*ü
-0k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs1 (1Ð
-Í
-k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs% (1E0
-.LabsAndCoursesManagement.Domain.Helpers.Result"
-	IsSuccessbool"__id*
-
-valuebool"¶
-k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs% (1G*E0
-.LabsAndCoursesManagement.Domain.Helpers.Result"
-	IsSuccessbool:
-valueboolB20
-.LabsAndCoursesManagement.Domain.Helpers.Result
+.LabsAndCoursesManagement.Domain.Teacher.Id.getd
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs ("0*¯
+0d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs (Æ
+Ã
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs (
+%0System.Guid"__id*B@*>)
+'LabsAndCoursesManagement.Domain.Teacher"
+IdSystem.Guid"{
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs (
+
+%0System.GuidB+)
+'LabsAndCoursesManagement.Domain.Teacher

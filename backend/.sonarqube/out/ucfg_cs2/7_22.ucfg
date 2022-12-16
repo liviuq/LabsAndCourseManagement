@@ -1,32 +1,24 @@
 
-ŸLabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories.CourseRepository.CourseRepository(LabsAndCoursesManagement.Infrastructure.DatabaseContext)“
-ˆD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\CourseRepository.cs ("1*ž
-1“
-ˆD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\CourseRepository.cs
-	 
-(	*
-0*Ù
-0“
-ˆD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\CourseRepository.cs9 (G¸
-µ
-“
-ˆD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\CourseRepository.cs9 (H
-
-%0void"‚LabsAndCoursesManagement.Infrastructure.Generics.Repository<T>.Repository(LabsAndCoursesManagement.Infrastructure.DatabaseContext)*DB@
->LabsAndCoursesManagement.Infrastructure.Generics.Repository<T>*FD
-B
-context7LabsAndCoursesManagement.Infrastructure.DatabaseContext*
-2*Ç
-2“
-ˆD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\CourseRepository.cs
-	 
-(	"«
-“
-ˆD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\CourseRepository.cs
- 
-(	
-implicit return:Ú
-“
-ˆD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\CourseRepository.cs  (7B
-context7LabsAndCoursesManagement.Infrastructure.DatabaseContextBYW
-ULabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories.CourseRepository
+|LabsAndCoursesManagement.Infrastructure.DatabaseContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)t
+jD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\DatabaseContext.cs  (-"0*ù
+0t
+jD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\DatabaseContext.cs (Oø
+õ
+t
+jD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\DatabaseContext.cs (P;
+%05Microsoft.EntityFrameworkCore.DbContextOptionsBuilder"ëMicrosoft.EntityFrameworkCore.SqliteDbContextOptionsBuilderExtensions.UseSqlite(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, string?, System.Action<Microsoft.EntityFrameworkCore.Infrastructure.SqliteDbContextOptionsBuilder>?)*KI"G
+EMicrosoft.EntityFrameworkCore.SqliteDbContextOptionsBuilderExtensions*KI
+G
+optionsBuilder5Microsoft.EntityFrameworkCore.DbContextOptionsBuilder*.,*
+(DataSource = LabsAndCoursesManagement.db*
+""*
+1*‡
+1t
+jD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\DatabaseContext.cs	 (	"‹
+t
+jD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\DatabaseContext.cs (	
+implicit return:¿
+t
+jD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\DatabaseContext.cs. (TG
+optionsBuilder5Microsoft.EntityFrameworkCore.DbContextOptionsBuilderB;9
+7LabsAndCoursesManagement.Infrastructure.DatabaseContext

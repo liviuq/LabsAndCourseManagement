@@ -1,12 +1,23 @@
-—
-&LabsAndCoursesManagement.Domain.Courseobject[
-Course(string, int, int)?LabsAndCoursesManagement.Domain.Course.Course(string, int, int)‡
-.Update(LabsAndCoursesManagement.Domain.Course)ULabsAndCoursesManagement.Domain.Course.Update(LabsAndCoursesManagement.Domain.Course)7
-Id.get-LabsAndCoursesManagement.Domain.Course.Id.get7
-Id.set-LabsAndCoursesManagement.Domain.Course.Id.set=
-	Title.get0LabsAndCoursesManagement.Domain.Course.Title.get=
-	Title.set0LabsAndCoursesManagement.Domain.Course.Title.setC
-Semester.get3LabsAndCoursesManagement.Domain.Course.Semester.getC
-Semester.set3LabsAndCoursesManagement.Domain.Course.Semester.setA
-Credits.get2LabsAndCoursesManagement.Domain.Course.Credits.getA
-Credits.set2LabsAndCoursesManagement.Domain.Course.Credits.set
+÷
+'LabsAndCoursesManagement.Domain.Studentobject
+2Student(string, string, string, int, string, int?)ZLabsAndCoursesManagement.Domain.Student.Student(string, string, string, int, string, int?)ë
+_RegisterGradesToStudent(System.Collections.Generic.List<LabsAndCoursesManagement.Domain.Grade>)‡LabsAndCoursesManagement.Domain.Student.RegisterGradesToStudent(System.Collections.Generic.List<LabsAndCoursesManagement.Domain.Grade>)Š
+/Update(LabsAndCoursesManagement.Domain.Student)WLabsAndCoursesManagement.Domain.Student.Update(LabsAndCoursesManagement.Domain.Student)8
+Id.get.LabsAndCoursesManagement.Domain.Student.Id.get8
+Id.set.LabsAndCoursesManagement.Domain.Student.Id.set>
+	Email.get1LabsAndCoursesManagement.Domain.Student.Email.get>
+	Email.set1LabsAndCoursesManagement.Domain.Student.Email.setF
+FirstName.get5LabsAndCoursesManagement.Domain.Student.FirstName.getF
+FirstName.set5LabsAndCoursesManagement.Domain.Student.FirstName.setD
+LastName.get4LabsAndCoursesManagement.Domain.Student.LastName.getD
+LastName.set4LabsAndCoursesManagement.Domain.Student.LastName.setD
+Semester.get4LabsAndCoursesManagement.Domain.Student.Semester.getD
+Semester.set4LabsAndCoursesManagement.Domain.Student.Semester.set>
+	Group.get1LabsAndCoursesManagement.Domain.Student.Group.get>
+	Group.set1LabsAndCoursesManagement.Domain.Student.Group.setJ
+Scholarship.get7LabsAndCoursesManagement.Domain.Student.Scholarship.getJ
+Scholarship.set7LabsAndCoursesManagement.Domain.Student.Scholarship.set@
+
+Grades.get2LabsAndCoursesManagement.Domain.Student.Grades.get@
+
+Grades.set2LabsAndCoursesManagement.Domain.Student.Grades.set

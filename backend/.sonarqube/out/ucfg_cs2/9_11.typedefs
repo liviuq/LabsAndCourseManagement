@@ -1,8 +1,8 @@
-ú
-9LabsAndCoursesManagement.API.Controllers.GradesController'Microsoft.AspNetCore.Mvc.ControllerBaseobjectÏ
-÷GradesController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Student>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Grade>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Course>, AutoMapper.IMapper)êLabsAndCoursesManagement.API.Controllers.GradesController.GradesController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Student>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Grade>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Course>, AutoMapper.IMapper)„
-RCreate(System.Guid, System.Guid, LabsAndCoursesManagement.API.DTOs.CreateGradeDto)åLabsAndCoursesManagement.API.Controllers.GradesController.Create(System.Guid, System.Guid, LabsAndCoursesManagement.API.DTOs.CreateGradeDto)H
-Get()?LabsAndCoursesManagement.API.Controllers.GradesController.Get()^
-Get(System.Guid)JLabsAndCoursesManagement.API.Controllers.GradesController.Get(System.Guid)d
-Delete(System.Guid)MLabsAndCoursesManagement.API.Controllers.GradesController.Delete(System.Guid)»
-EUpdate(System.Guid, LabsAndCoursesManagement.API.DTOs.CreateGradeDto)LabsAndCoursesManagement.API.Controllers.GradesController.Update(System.Guid, LabsAndCoursesManagement.API.DTOs.CreateGradeDto)
+Ù
+;LabsAndCoursesManagement.API.Controllers.TeachersController'Microsoft.AspNetCore.Mvc.ControllerBaseobject‹
+çTeachersController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Teacher>, AutoMapper.IMapper)…LabsAndCoursesManagement.API.Controllers.TeachersController.TeachersController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Teacher>, AutoMapper.IMapper)¥
+:Create(LabsAndCoursesManagement.API.DTOs.CreateTeacherDto)vLabsAndCoursesManagement.API.Controllers.TeachersController.Create(LabsAndCoursesManagement.API.DTOs.CreateTeacherDto)J
+Get()ALabsAndCoursesManagement.API.Controllers.TeachersController.Get()h
+GetById(System.Guid)PLabsAndCoursesManagement.API.Controllers.TeachersController.GetById(System.Guid)f
+Delete(System.Guid)OLabsAndCoursesManagement.API.Controllers.TeachersController.Delete(System.Guid)œ
+GUpdate(System.Guid, LabsAndCoursesManagement.API.DTOs.CreateTeacherDto)ÉLabsAndCoursesManagement.API.Controllers.TeachersController.Update(System.Guid, LabsAndCoursesManagement.API.DTOs.CreateTeacherDto)

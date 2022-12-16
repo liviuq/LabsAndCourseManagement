@@ -1,34 +1,26 @@
 
-DLabsAndCoursesManagement.Infrastructure.Generics.Repository<T>.All()x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs"& "()"0*’
+£LabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories.DidacticRepository.DidacticRepository(LabsAndCoursesManagement.Infrastructure.DatabaseContext)•
+ŠD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\DidacticRepository.cs (!"1* 
+1•
+ŠD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\DidacticRepository.cs		 	(	*
+0*Ý
+0•
+ŠD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\DidacticRepository.cs; (Iº
+·
+•
+ŠD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\DidacticRepository.cs; (J
 
-0x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs$ %(Ñ
-Î
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs$ $(=
-%07LabsAndCoursesManagement.Infrastructure.DatabaseContext"__id*Œ‰*†@
->LabsAndCoursesManagement.Infrastructure.Generics.Repository<T>"B
-context7LabsAndCoursesManagement.Infrastructure.DatabaseContext¼¹
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs$ $(#2
-%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"6Microsoft.EntityFrameworkCore.DbContext.Set<TEntity>()*A?
-=
-%07LabsAndCoursesManagement.Infrastructure.DatabaseContext2Set<TEntity>()Ö
-Ó
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs$ %((
-%2"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*64
-2
-%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"¦
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs$ %(*
-(
-%2"System.Collections.Generic.List<T>*
-1x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs&	 &(	"
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\Repository.cs& &(	
-implicit returnBB@
->LabsAndCoursesManagement.Infrastructure.Generics.Repository<T>
+%0void"‚LabsAndCoursesManagement.Infrastructure.Generics.Repository<T>.Repository(LabsAndCoursesManagement.Infrastructure.DatabaseContext)*DB@
+>LabsAndCoursesManagement.Infrastructure.Generics.Repository<T>*FD
+B
+context7LabsAndCoursesManagement.Infrastructure.DatabaseContext*
+2*Ë
+2•
+ŠD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\DidacticRepository.cs		 	(	"­
+•
+ŠD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\DidacticRepository.cs	 	(	
+implicit return:Ü
+•
+ŠD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Generics\GenericRepositories\DidacticRepository.cs" (9B
+context7LabsAndCoursesManagement.Infrastructure.DatabaseContextB[Y
+WLabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories.DidacticRepository

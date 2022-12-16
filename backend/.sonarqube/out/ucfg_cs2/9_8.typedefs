@@ -1,8 +1,11 @@
-Ù
-;LabsAndCoursesManagement.API.Controllers.StudentsController'Microsoft.AspNetCore.Mvc.ControllerBaseobject‹
-çStudentsController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Student>, AutoMapper.IMapper)…LabsAndCoursesManagement.API.Controllers.StudentsController.StudentsController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Student>, AutoMapper.IMapper)¥
-:Create(LabsAndCoursesManagement.API.DTOs.CreateStudentDto)vLabsAndCoursesManagement.API.Controllers.StudentsController.Create(LabsAndCoursesManagement.API.DTOs.CreateStudentDto)J
-Get()ALabsAndCoursesManagement.API.Controllers.StudentsController.Get()h
-GetById(System.Guid)PLabsAndCoursesManagement.API.Controllers.StudentsController.GetById(System.Guid)f
-Delete(System.Guid)OLabsAndCoursesManagement.API.Controllers.StudentsController.Delete(System.Guid)œ
-GUpdate(System.Guid, LabsAndCoursesManagement.API.DTOs.CreateStudentDto)ÉLabsAndCoursesManagement.API.Controllers.StudentsController.Update(System.Guid, LabsAndCoursesManagement.API.DTOs.CreateStudentDto)
+±
+2LabsAndCoursesManagement.API.DTOs.CreateTeacherDtoobject[
+CreateTeacherDto()ELabsAndCoursesManagement.API.DTOs.CreateTeacherDto.CreateTeacherDto()Q
+FirstName.get@LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.FirstName.getQ
+FirstName.set@LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.FirstName.setO
+LastName.get?LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.LastName.getO
+LastName.set?LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.LastName.setI
+	Email.get<LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.Email.getI
+	Email.set<LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.Email.set[
+TeachingDegree.getELabsAndCoursesManagement.API.DTOs.CreateTeacherDto.TeachingDegree.get[
+TeachingDegree.setELabsAndCoursesManagement.API.DTOs.CreateTeacherDto.TeachingDegree.set
