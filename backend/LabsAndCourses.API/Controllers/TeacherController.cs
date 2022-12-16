@@ -24,29 +24,29 @@ namespace LabsAndCoursesManagement.API.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create([FromBody] CreateTeacherDto dto)
+        public async Task<IActionResult> Create([FromBody] CreateTeacherDto dto)
         {
             var teacher = mapper.Map<Teacher>(dto);
-            teacherRepository.Add(teacher);
-            teacherRepository.SaveChanges();
+            await teacherRepository.Add(teacher);
+            await teacherRepository.SaveChanges();
             return Created(nameof(Get), teacher);
         }
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
-            return Ok(teacherRepository.All());
+            return Ok(await teacherRepository.All());
         }
         [HttpGet("{id:guid}")]
-        public IActionResult GetById(Guid id)
+        public async Task<IActionResult> GetById(Guid id)
         {
-            return Ok(teacherRepository.Get(id));
+            return Ok(await teacherRepository.Get(id));
         }
         [HttpDelete("{id:guid}")]
-        public IActionResult Delete(Guid id)
+        public async Task<IActionResult> Delete(Guid id)
         {
-            teacherRepository.Delete(id);
-            teacherRepository.SaveChanges();
-            return Ok("Teacher deleted succesfully");
+            await teacherRepository.Delete(id);
+            await teacherRepository.SaveChanges();
+            return Ok("Teacher deleted successfully");
         }
 
         [HttpPut("{id:guid}")]
