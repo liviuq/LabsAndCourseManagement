@@ -15,11 +15,9 @@ namespace LabsAndCoursesManagement.API.Validators
                 .LessThanOrEqualTo(DateTime.Now)
                 .WithMessage("Grade Date can't be in the future.");
             RuleFor(item => item.IsLabGrade)
-                .Must(x => x == false || x == true)
-                .WithMessage("IsLabGrade must be true or false.");
+                .NotNull();
             RuleFor(item => item.IsExamGrade)
-                .Must(x => x == false || x == true)
-                .WithMessage("IsExamGrade must be true or false.");
+                .NotNull();
         }
     }
 }
