@@ -27,16 +27,16 @@ export const Header: React.FC = () => {
       zIndex="10"
     >
       <GiBookmarklet
-        onClick={() => navigate("/")}
+        onClick={() => navigate("/home")}
         size="4vh"
         color="#00ABB3"
         cursor="pointer"
       />
       <Flex align="center" gap="32px">
-        <Flex align="center" gap="12px">
+        {/* <Flex align="center" gap="12px">
           <Text fontSize="lg">Administrator</Text>
           <Avatar boxSize="32px" bg="#00ABB3" />
-        </Flex>
+        </Flex> */}
         <LangChanger />
       </Flex>
     </Flex>

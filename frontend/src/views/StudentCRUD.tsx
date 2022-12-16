@@ -38,7 +38,7 @@ export const StudentCRUD: React.FC = () => {
       scholarship: 0
     }
   );
-  
+
   useEffect(() => {
     console.log(studentCreateInput)
   }, [studentCreateInput])

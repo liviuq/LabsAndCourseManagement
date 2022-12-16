@@ -5,7 +5,7 @@ import React from "react";
 export const Sidebar: React.FC = () => {
   const navigate = useNavigate();
   return (
-    <Flex h="94vh" w="15%" minW="300px" bg="#EAEAEA" direction="column">
+    <Flex h="94vh" w="350px" bg="#EAEAEA" direction="column">
       <Button
         onClick={() => navigate("/teacher")}
         variant="solid"

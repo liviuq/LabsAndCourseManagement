@@ -7,7 +7,7 @@ import {
   Route,
 } from "react-router-dom";
 import { AppFrame } from './shared';
-import { ErrorPage, Root, StudentCRUD, TeacherCRUD } from './views';
+import { BuildTeam, CoursePage, CreateCourse, ErrorPage, Home, Root, StudentCRUD, TeacherCRUD } from './views';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +24,23 @@ const router = createBrowserRouter([
         element: <StudentCRUD />,
       },
     ],
+
+  },
+  {
+    path: "home",
+    element: <Home />,
+  },
+  {
+    path: "create-course",
+    element: <CreateCourse />,
+  },
+  {
+    path: "build-team",
+    element: <BuildTeam />,
+  },
+  {
+    path: "course",
+    element: <CoursePage />,
   },
 ]);
 
