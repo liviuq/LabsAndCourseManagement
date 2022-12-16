@@ -43,5 +43,25 @@ namespace LabsAndCoursesManagement.Tests
             // ensure deleted
             _db.Courses.RemoveRange(_db.Courses);
         }
+
+        [TestMethod]
+        public async Task GetById_CheckIfReturnsPostedCourse()
+        {
+            _db.Courses.Add(new Course("TestCourseGetById", 1, 5));
+            _db.SaveChanges();
+
+            var course = _db.Courses.FirstOrDefault(c => c.Title == "TestCourseGetById");
+
+            var response = await _httpClient.GetAsync($"api/courses/{course.Id}");
+            var content = await response.Content.ReadAsStringAsync();
+
+            var courseFromResponse = JsonConvert.DeserializeObject<Course>(content);
+
+            Assert.IsTrue(courseFromResponse != null);
+            Assert.IsTrue(courseFromResponse.Title == "TestCourseGetById");
+
+            // ensure deleted
+            _db.Courses.RemoveRange(_db.Courses);
+        }
     }
 }
