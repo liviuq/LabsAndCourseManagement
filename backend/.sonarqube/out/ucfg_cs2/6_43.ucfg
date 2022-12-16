@@ -1,18 +1,28 @@
 
-0LabsAndCoursesManagement.Domain.Course.Title.setc
-YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs+ (."0*Ò
-0c
-YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs/ (/À
-½
-c
-YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs# (/;(
-&LabsAndCoursesManagement.Domain.Course"
-Titlestring"__id*
-
-valuestring"¤
-c
-YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs# (/=*;(
-&LabsAndCoursesManagement.Domain.Course"
-Titlestring:
-valuestringB*(
-&LabsAndCoursesManagement.Domain.Course
+gLabsAndCoursesManagement.Domain.Didactic.AttachDidacticToCourse(LabsAndCoursesManagement.Domain.Course)e
+[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs (*"0*Ò
+0e
+[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs ( â
+ß
+e
+[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs ( 
+%0System.Guid"-LabsAndCoursesManagement.Domain.Course.Id.get*42
+0
+course&LabsAndCoursesManagement.Domain.Courseû
+ø
+e
+[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs ( 
+%1System.Guid"5LabsAndCoursesManagement.Domain.Didactic.CourseId.set*.,*
+(LabsAndCoursesManagement.Domain.Didactic*
+
+%0System.Guid*
+1*è
+1e
+[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs	 (	"|
+e
+[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs (	
+implicit return:™
+e
+[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs+ (80
+course&LabsAndCoursesManagement.Domain.CourseB,*
+(LabsAndCoursesManagement.Domain.Didactic

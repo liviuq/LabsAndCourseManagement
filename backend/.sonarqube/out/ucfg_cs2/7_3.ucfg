@@ -1,26 +1,13 @@
 
-DLabsAndCoursesManagement.Infrastructure.DatabaseContext.Teachers.gett
-jD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\DatabaseContext.cs
- 
-(&"0*¥
+ILabsAndCoursesManagement.Infrastructure.DatabaseContext.DatabaseContext()t
+jD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\DatabaseContext.cs ( "0*û
 0t
-jD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\DatabaseContext.cs
-* 
-(8¤¡
+jD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\DatabaseContext.cs (r
+p
+
+%0void"3Microsoft.EntityFrameworkCore.DbContext.DbContext()*-+)
+'Microsoft.EntityFrameworkCore.DbContext"‹
 t
-jD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\DatabaseContext.cs
-* 
-(82
-%0,Microsoft.EntityFrameworkCore.DbSet<TEntity>"6Microsoft.EntityFrameworkCore.DbContext.Set<TEntity>()*-+)
-'Microsoft.EntityFrameworkCore.DbContext2Set<TEntity>()*
-1*‡
-1t
-jD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\DatabaseContext.cs
-9 
-(9"‹
-t
-jD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\DatabaseContext.cs
-8 
-(9
+jD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\DatabaseContext.cs (
 implicit returnB;9
 7LabsAndCoursesManagement.Infrastructure.DatabaseContext

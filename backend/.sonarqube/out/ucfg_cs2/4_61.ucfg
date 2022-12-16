@@ -1,40 +1,12 @@
 
-ALabsAndCoursesManagement.API.Controllers.StudentsController.Get()x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs! !( "2*µ
-
-0x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs# #(-Ë
-Â
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs# #('E
-%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*õò*ï=
-;LabsAndCoursesManagement.API.Controllers.StudentsController"T
-studentRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>«ƒ
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs# #(-/
-%1)System.Collections.Generic.IEnumerable<T>"ELabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.All()*IG
-E
-%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>2All()“œ
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs# #(.-
-%2'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*31
-/
-%1)System.Collections.Generic.IEnumerable<T>2Ok(object?)"´
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs# #(//
--
-%2'Microsoft.AspNetCore.Mvc.OkObjectResult*è
-1x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs$	 $(	"è
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs$ $(	
-implicit return*ñ
-2x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs!" !("ë
-é
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs! !( 
-%3"__entrypoint*
-0B?=
-;LabsAndCoursesManagement.API.Controllers.StudentsController
+Program.Program()a
+WD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Program.cs8 8("1*k
+1a
+WD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Program.cs; ;(*
+0*‡
+0a
+WD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Program.cs; ;("x
+a
+WD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Program.cs; ;(
+implicit returnB	
+Program

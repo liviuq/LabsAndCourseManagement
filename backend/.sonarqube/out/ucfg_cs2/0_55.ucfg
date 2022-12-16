@@ -1,28 +1,16 @@
 
-gLabsAndCoursesManagement.Domain.Didactic.AttachDidacticToCourse(LabsAndCoursesManagement.Domain.Course)e
-[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs (*"0*Ò
-0e
-[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs ( â
-ß
-e
-[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs ( 
-%0System.Guid"-LabsAndCoursesManagement.Domain.Course.Id.get*42
-0
-course&LabsAndCoursesManagement.Domain.Courseû
-ø
-e
-[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs ( 
-%1System.Guid"5LabsAndCoursesManagement.Domain.Didactic.CourseId.set*.,*
-(LabsAndCoursesManagement.Domain.Didactic*
-
-%0System.Guid*
-1*è
-1e
-[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs	 (	"|
-e
-[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs (	
-implicit return:™
-e
-[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs+ (80
-course&LabsAndCoursesManagement.Domain.CourseB,*
-(LabsAndCoursesManagement.Domain.Didactic
+4LabsAndCoursesManagement.Domain.Student.LastName.getd
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs! ($"0*¦
+0d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs% (%Â
+¿
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs! (%
+%0string"__id*CA*?)
+'LabsAndCoursesManagement.Domain.Student"
+LastNamestring"v
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs! (%
+
+%0stringB+)
+'LabsAndCoursesManagement.Domain.Student

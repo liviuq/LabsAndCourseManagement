@@ -1,18 +1,35 @@
 
--LabsAndCoursesManagement.Domain.Course.Id.setc
-YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs& ()"0*Û
-0c
-YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs* (*Ç
-Ä
-c
-YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (*=(
-&LabsAndCoursesManagement.Domain.Course"
-IdSystem.Guid"__id*
-
-valueSystem.Guid"¦
-c
-YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (*?*=(
-&LabsAndCoursesManagement.Domain.Course"
-IdSystem.Guid:
-valueSystem.GuidB*(
-&LabsAndCoursesManagement.Domain.Course
+8LabsAndCoursesManagement.Domain.Helpers.Result.Success()k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs
+ 
+($"0*ä
+0k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs (0ÖÓ
+k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs (24
+%0.LabsAndCoursesManagement.Domain.Helpers.Result".LabsAndCoursesManagement.Domain.Helpers.Resultï
+ì
+k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs (
+
+%1void"7LabsAndCoursesManagement.Domain.Helpers.Result.Result()*86
+4
+%0.LabsAndCoursesManagement.Domain.Helpers.Resultþ
+û
+k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs  (0
+
+%2bool"<LabsAndCoursesManagement.Domain.Helpers.Result.IsSuccess.set*86
+4
+%0.LabsAndCoursesManagement.Domain.Helpers.Result*
+"""¥
+k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs (36
+4
+%0.LabsAndCoursesManagement.Domain.Helpers.Result*õ
+1k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs	 (	"‚
+k
+aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs (	
+implicit returnB2"0
+.LabsAndCoursesManagement.Domain.Helpers.Result

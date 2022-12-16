@@ -1,15 +1,11 @@
-Ý
-2LabsAndCoursesManagement.API.DTOs.CreateStudentDtoobject[
-CreateStudentDto()ELabsAndCoursesManagement.API.DTOs.CreateStudentDto.CreateStudentDto()I
-	Email.get<LabsAndCoursesManagement.API.DTOs.CreateStudentDto.Email.getI
-	Email.set<LabsAndCoursesManagement.API.DTOs.CreateStudentDto.Email.setQ
-FirstName.get@LabsAndCoursesManagement.API.DTOs.CreateStudentDto.FirstName.getQ
-FirstName.set@LabsAndCoursesManagement.API.DTOs.CreateStudentDto.FirstName.setO
-LastName.get?LabsAndCoursesManagement.API.DTOs.CreateStudentDto.LastName.getO
-LastName.set?LabsAndCoursesManagement.API.DTOs.CreateStudentDto.LastName.setO
-Semester.get?LabsAndCoursesManagement.API.DTOs.CreateStudentDto.Semester.getO
-Semester.set?LabsAndCoursesManagement.API.DTOs.CreateStudentDto.Semester.setI
-	Group.get<LabsAndCoursesManagement.API.DTOs.CreateStudentDto.Group.getI
-	Group.set<LabsAndCoursesManagement.API.DTOs.CreateStudentDto.Group.setU
-Scholarship.getBLabsAndCoursesManagement.API.DTOs.CreateStudentDto.Scholarship.getU
-Scholarship.setBLabsAndCoursesManagement.API.DTOs.CreateStudentDto.Scholarship.set
+±
+2LabsAndCoursesManagement.API.DTOs.CreateTeacherDtoobject[
+CreateTeacherDto()ELabsAndCoursesManagement.API.DTOs.CreateTeacherDto.CreateTeacherDto()Q
+FirstName.get@LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.FirstName.getQ
+FirstName.set@LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.FirstName.setO
+LastName.get?LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.LastName.getO
+LastName.set?LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.LastName.setI
+	Email.get<LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.Email.getI
+	Email.set<LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.Email.set[
+TeachingDegree.getELabsAndCoursesManagement.API.DTOs.CreateTeacherDto.TeachingDegree.get[
+TeachingDegree.setELabsAndCoursesManagement.API.DTOs.CreateTeacherDto.TeachingDegree.set

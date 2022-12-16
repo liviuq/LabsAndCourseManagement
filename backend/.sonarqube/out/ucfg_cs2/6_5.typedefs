@@ -1,12 +1,14 @@
-ç
-(LabsAndCoursesManagement.Domain.DidacticobjectA
-
-Didactic()3LabsAndCoursesManagement.Domain.Didactic.Didactic()©
->AttachDidacticToCourse(LabsAndCoursesManagement.Domain.Course)gLabsAndCoursesManagement.Domain.Didactic.AttachDidacticToCourse(LabsAndCoursesManagement.Domain.Course)­
-@AttachDidacticToTeacher(LabsAndCoursesManagement.Domain.Teacher)iLabsAndCoursesManagement.Domain.Didactic.AttachDidacticToTeacher(LabsAndCoursesManagement.Domain.Teacher)9
-Id.get/LabsAndCoursesManagement.Domain.Didactic.Id.get9
-Id.set/LabsAndCoursesManagement.Domain.Didactic.Id.setG
-TeacherId.get6LabsAndCoursesManagement.Domain.Didactic.TeacherId.getG
-TeacherId.set6LabsAndCoursesManagement.Domain.Didactic.TeacherId.setE
-CourseId.get5LabsAndCoursesManagement.Domain.Didactic.CourseId.getE
-CourseId.set5LabsAndCoursesManagement.Domain.Didactic.CourseId.set
+î
+'LabsAndCoursesManagement.Domain.Teacherobjectz
+'Teacher(string, string, string, string)OLabsAndCoursesManagement.Domain.Teacher.Teacher(string, string, string, string)Š
+/Update(LabsAndCoursesManagement.Domain.Teacher)WLabsAndCoursesManagement.Domain.Teacher.Update(LabsAndCoursesManagement.Domain.Teacher)8
+Id.get.LabsAndCoursesManagement.Domain.Teacher.Id.get8
+Id.set.LabsAndCoursesManagement.Domain.Teacher.Id.setF
+FirstName.get5LabsAndCoursesManagement.Domain.Teacher.FirstName.getF
+FirstName.set5LabsAndCoursesManagement.Domain.Teacher.FirstName.setD
+LastName.get4LabsAndCoursesManagement.Domain.Teacher.LastName.getD
+LastName.set4LabsAndCoursesManagement.Domain.Teacher.LastName.set>
+	Email.get1LabsAndCoursesManagement.Domain.Teacher.Email.get>
+	Email.set1LabsAndCoursesManagement.Domain.Teacher.Email.setP
+TeachingDegree.get:LabsAndCoursesManagement.Domain.Teacher.TeachingDegree.getP
+TeachingDegree.set:LabsAndCoursesManagement.Domain.Teacher.TeachingDegree.set

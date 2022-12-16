@@ -1,16 +1,28 @@
 
--LabsAndCoursesManagement.Domain.Course.Id.getc
-YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs ("0*«
-0c
-YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (Ä
-Á
-c
-YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (
-%0System.Guid"__id*A?*=(
-&LabsAndCoursesManagement.Domain.Course"
-IdSystem.Guid"z
-c
-YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (
+iLabsAndCoursesManagement.Domain.Didactic.AttachDidacticToTeacher(LabsAndCoursesManagement.Domain.Teacher)e
+[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs (+"0*Ö
+0e
+[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs ("å
+â
+e
+[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs ("
+%0System.Guid".LabsAndCoursesManagement.Domain.Teacher.Id.get*64
+2
+teacher'LabsAndCoursesManagement.Domain.Teacherü
+ù
+e
+[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs ("
+%1System.Guid"6LabsAndCoursesManagement.Domain.Didactic.TeacherId.set*.,*
+(LabsAndCoursesManagement.Domain.Didactic*
 
-%0System.GuidB*(
-&LabsAndCoursesManagement.Domain.Course
+%0System.Guid*
+1*è
+1e
+[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs	 (	"|
+e
+[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs (	
+implicit return:›
+e
+[D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Didactic.cs, (;2
+teacher'LabsAndCoursesManagement.Domain.TeacherB,*
+(LabsAndCoursesManagement.Domain.Didactic

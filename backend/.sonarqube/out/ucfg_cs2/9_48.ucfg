@@ -1,40 +1,44 @@
 
-@LabsAndCoursesManagement.API.Controllers.CoursesController.Get()w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs& &( "2*®
+OLabsAndCoursesManagement.API.Controllers.CoursesController.GetById(System.Guid)w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs*) *(0"2*ž
 
 0w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs( ((,å
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs, ,(3å
 â
 w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs( ((&E
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs, ,(,E
 %0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*™–*“<
 :LabsAndCoursesManagement.API.Controllers.CoursesController"S
-courseRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>ÆÃ
+courseRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>áÞ
 w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs( ((,/
-%1)System.Collections.Generic.IEnumerable<T>"ELabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.All()*IG
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs, ,(4*
+%1$System.Threading.Tasks.Task<TResult>"PLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.Get(System.Guid)*IG
 E
-%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>2All()ÑÎ
+%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>*
+""2Get(System.Guid)¦£
 w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs( ((--
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs, ,(5-
 %2'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*31
-/
-%1)System.Collections.Generic.IEnumerable<T>2Ok(object?)"ª
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+""2Ok(object?)"ª
 w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs( ((./
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs, ,(6/
 -
 %2'Microsoft.AspNetCore.Mvc.OkObjectResult*
 1w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs)	 )(	"Ž
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs-	 -(	"Ž
 w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs) )(	
-implicit return*”
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs- -(	
+implicit return*ž
 2w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs&" &("
-
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs*9 *(9š
+—
 w
-mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs& &( 
-%3"__entrypoint*
-0B><
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs*) *(0
+%3"__entrypoint*
+""*
+0:Œ
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\CoursesController.cs*1 *(8
+idSystem.GuidB><
 :LabsAndCoursesManagement.API.Controllers.CoursesController

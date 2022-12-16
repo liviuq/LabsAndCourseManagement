@@ -1,18 +1,39 @@
 
->LabsAndCoursesManagement.API.DTOs.CreateCourseDto.Semester.setn
-dD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateCourseDto.cs$ ('"0*Ü
-0n
-dD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateCourseDto.cs( ((”
-–
-n
-dD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateCourseDto.cs$ ((F3
-1LabsAndCoursesManagement.API.DTOs.CreateCourseDto"
-Semesterint"__id*
-
-valueint"∫
-n
-dD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateCourseDto.cs$ ((H*F3
-1LabsAndCoursesManagement.API.DTOs.CreateCourseDto"
-Semesterint:
-valueintB53
-1LabsAndCoursesManagement.API.DTOs.CreateCourseDto
+ALabsAndCoursesManagement.API.Controllers.TeachersController.Get()w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs#) #(,"2*Ä
+
+0w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs% %(3Á
+‰
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs% %(-E
+%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*õò*ï=
+;LabsAndCoursesManagement.API.Controllers.TeachersController"T
+teacherRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>¡æ
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs% %(3*
+%1$System.Threading.Tasks.Task<TResult>"ELabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.All()*IG
+E
+%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>2All()¶£
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs% %(4-
+%2'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+""2Ok(object?)"™
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs% %(5/
+-
+%2'Microsoft.AspNetCore.Mvc.OkObjectResult*ç
+1w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs&	 &(	"é
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs& &(	
+implicit return*î
+2w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs#. #(.ê
+ç
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs#) #(,
+%3"__entrypoint*
+0B?=
+;LabsAndCoursesManagement.API.Controllers.TeachersController

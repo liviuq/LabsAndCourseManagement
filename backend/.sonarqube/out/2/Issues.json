@@ -11,7 +11,106 @@
         "language": "en-US"
       },
       "results": [
-      ]
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class '_1234' to match pascal case naming rules, trim underscores from the name.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Facultate/.net/Proiect/LabsAndCourseManagement/backend/LabsAndCourses.Infrastructure/Migrations/20221124220620_1234.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 26,
+                  "endLine": 9,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class '_123' to match pascal case naming rules, trim underscores from the name.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Facultate/.net/Proiect/LabsAndCourseManagement/backend/LabsAndCourses.Infrastructure/Migrations/20221124212303_123.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 26,
+                  "endLine": 8,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4581",
+          "level": "warning",
+          "message": "Use 'Guid.NewGuid()' or 'Guid.Empty' or add arguments to this GUID instantiation.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Facultate/.net/Proiect/LabsAndCourseManagement/backend/LabsAndCourses.Infrastructure/Migrations/20221124220620_1234.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 31,
+                  "endLine": 23,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are using PascalCase. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4581": {
+          "id": "S4581",
+          "shortDescription": "\"new Guid()\" should not be used",
+          "fullDescription": "When the syntax new Guid() (i.e. parameterless instantiation) is used, it must be that one of three things is wanted:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4581",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
     }
   ]
 }

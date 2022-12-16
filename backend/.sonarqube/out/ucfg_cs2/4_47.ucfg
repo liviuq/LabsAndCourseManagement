@@ -1,40 +1,54 @@
 
-ALabsAndCoursesManagement.API.Controllers.DidacticController.Get()x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs0 0( "2*∂
-
-0x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs2 2(.È
-Ê
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs2 2((E
-%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*úô*ñ=
-;LabsAndCoursesManagement.API.Controllers.DidacticController"U
-didacticRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>«ƒ
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs2 2(./
-%1)System.Collections.Generic.IEnumerable<T>"ELabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.All()*IG
+OLabsAndCoursesManagement.API.Controllers.TeachersController.Delete(System.Guid)w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs-) -(/"2*ı
+0w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs/ 1(4Á
+‰
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs/ /(#E
+%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*õò*ï=
+;LabsAndCoursesManagement.API.Controllers.TeachersController"T
+teacherRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>Á‰
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs/ /(.*
+%1$System.Threading.Tasks.Task<TResult>"SLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.Delete(System.Guid)*IG
 E
-%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>2All()“œ
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs2 2(/-
-%2'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*31
-/
-%1)System.Collections.Generic.IEnumerable<T>2Ok(object?)"´
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs2 2(0/
+%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>*
+""2Delete(System.Guid)Á
+‰
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs0 0(#E
+%2?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*õò*ï=
+;LabsAndCoursesManagement.API.Controllers.TeachersController"T
+teacherRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>»≈
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs0 0(1!
+%3System.Threading.Tasks.Task"MLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.SaveChanges()*IG
+E
+%2?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>2SaveChanges()¿Ω
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs1 1(5-
+%4'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*" 
+Teacher deleted successfully2Ok(object?)"™
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs1 1(6/
 -
-%2'Microsoft.AspNetCore.Mvc.OkObjectResult*è
-1x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs3	 3(	"è
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs3 3(	
-implicit return*ñ
-2x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs0" 0("ë
-é
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs0 0( 
-%3"__entrypoint*
-0B?=
-;LabsAndCoursesManagement.API.Controllers.DidacticController
+%4'Microsoft.AspNetCore.Mvc.OkObjectResult*ç
+1w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs2	 2(	"é
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs2 2(	
+implicit return*û
+2w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs-8 -(8ö
+ó
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs-) -(/
+%5"__entrypoint*
+""*
+0:å
+w
+mD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\TeacherController.cs-0 -(7
+idSystem.GuidB?=
+;LabsAndCoursesManagement.API.Controllers.TeachersController

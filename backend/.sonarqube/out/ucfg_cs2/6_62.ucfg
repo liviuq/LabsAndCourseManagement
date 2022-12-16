@@ -1,16 +1,54 @@
 
-1LabsAndCoursesManagement.Domain.Student.Email.getd
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs (!"0*£
-0d
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs" ("¿
-¼
-d
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs ("
-%0string"__id*@>*<)
-'LabsAndCoursesManagement.Domain.Student"
-Emailstring"v
-d
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs ("
+ULabsAndCoursesManagement.Domain.Course.Update(LabsAndCoursesManagement.Domain.Course)c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs ("0*Þ
+0c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (+å
+â
+c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs ('
+%0string"0LabsAndCoursesManagement.Domain.Course.Title.get*;9
+7
+updatedCourse&LabsAndCoursesManagement.Domain.Courseè
+å
+c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs ('
+%1string"0LabsAndCoursesManagement.Domain.Course.Title.set*,*(
+&LabsAndCoursesManagement.Domain.Course*
 
-%0stringB+)
-'LabsAndCoursesManagement.Domain.Student
+%0stringå
+â
+c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (-	
+%2int"3LabsAndCoursesManagement.Domain.Course.Semester.get*;9
+7
+updatedCourse&LabsAndCoursesManagement.Domain.Courseå
+â
+c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (-	
+%3int"3LabsAndCoursesManagement.Domain.Course.Semester.set*,*(
+&LabsAndCoursesManagement.Domain.Course*
+	
+%2intä
+á
+c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (+	
+%4int"2LabsAndCoursesManagement.Domain.Course.Credits.get*;9
+7
+updatedCourse&LabsAndCoursesManagement.Domain.Courseä
+á
+c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (+	
+%5int"2LabsAndCoursesManagement.Domain.Course.Credits.set*,*(
+&LabsAndCoursesManagement.Domain.Course*
+	
+%4int*
+1*ä
+1c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs	 (	"z
+c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (	
+implicit return:ž
+c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (/7
+updatedCourse&LabsAndCoursesManagement.Domain.CourseB*(
+&LabsAndCoursesManagement.Domain.Course

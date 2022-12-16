@@ -139,7 +139,7 @@
     <Property Name="sonar.maintenance_mode.link">https://sonarcloud.statuspage.io/incidents/66vlr4dc3jwy</Property>
     <Property Name="sonar.maintenance_mode.message">Results of analyses performed prior to 6:15am CET may not be available yet and will be progressively provided throughout coming hours. Results of analysis performed after 8:00am CET are available.</Property>
     <Property Name="sonar.maintenance_mode.start_date">3/27/2022 12:00:00 AM</Property>
-    <Property Name="sonar.core.startTime">12/15/2022 6:52:45 PM</Property>
+    <Property Name="sonar.core.startTime">12/16/2022 11:14:22 AM</Property>
   </ServerSettings>
   <LocalSettings>
     <Property Name="sonar.host.url">https://sonarcloud.io</Property>

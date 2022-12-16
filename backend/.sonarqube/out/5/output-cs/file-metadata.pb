@@ -3,7 +3,8 @@ rD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagem
 sD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.Tests\DidacticControllerTests.csutf-8y
 pD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.Tests\GradeControllerTests.csutf-8t
 kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.Tests\IntegrationTest.csutf-8|
-sD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.Tests\StudentsControllerTests.csutf-8k
+sD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.Tests\StudentsControllerTests.csutf-8|
+sD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.Tests\TeachersControllerTests.csutf-8k
 bD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.Tests\Usings.csutf-8}
 rC:\Users\hiimC\.nuget\packages\microsoft.net.test.sdk\17.4.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.csutf-8¦
 šD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCoursesManagement.Tests\obj\Debug\net7.0\LabsAndCoursesManagement.Tests.GlobalUsings.g.csutf-8¤

@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RuleSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Rules for SonarQube" Description="This rule set was automatically generated from SonarQube" ToolsVersion="14.0">
-  <Rules AnalyzerId="SonarAnalyzer.Security" RuleNamespace="SonarAnalyzer.Security">
-    <Rule Id="S2631" Action="Warning" />
-    <Rule Id="S5135" Action="Warning" />
-    <Rule Id="S5146" Action="Warning" />
-    <Rule Id="S2078" Action="Warning" />
-    <Rule Id="S5883" Action="Warning" />
-    <Rule Id="S5145" Action="Warning" />
-    <Rule Id="S2076" Action="Warning" />
-    <Rule Id="S5334" Action="Warning" />
-    <Rule Id="S3649" Action="Warning" />
-    <Rule Id="S5131" Action="Warning" />
-    <Rule Id="S5144" Action="Warning" />
-    <Rule Id="S2083" Action="Warning" />
-    <Rule Id="S6287" Action="Warning" />
-    <Rule Id="S6350" Action="Warning" />
-    <Rule Id="S6096" Action="Warning" />
-    <Rule Id="S2091" Action="Warning" />
-    <Rule Id="S5167" Action="None" />
-  </Rules>
   <Rules AnalyzerId="SonarAnalyzer.CSharp" RuleNamespace="SonarAnalyzer.CSharp">
+    <Rule Id="S107" Action="Warning" />
     <Rule Id="S4502" Action="Warning" />
     <Rule Id="S4507" Action="Warning" />
     <Rule Id="S4787" Action="None" />
@@ -168,7 +150,6 @@
     <Rule Id="S3898" Action="None" />
     <Rule Id="S3996" Action="None" />
     <Rule Id="S3059" Action="None" />
-    <Rule Id="S107" Action="Warning" />
     <Rule Id="S3992" Action="None" />
     <Rule Id="S3990" Action="None" />
     <Rule Id="S3216" Action="None" />
@@ -418,5 +399,24 @@
     <Rule Id="S4200" Action="Warning" />
     <Rule Id="S4214" Action="Warning" />
     <Rule Id="S4456" Action="Warning" />
+  </Rules>
+  <Rules AnalyzerId="SonarAnalyzer.Security" RuleNamespace="SonarAnalyzer.Security">
+    <Rule Id="S2631" Action="Warning" />
+    <Rule Id="S5135" Action="Warning" />
+    <Rule Id="S5146" Action="Warning" />
+    <Rule Id="S2078" Action="Warning" />
+    <Rule Id="S5883" Action="Warning" />
+    <Rule Id="S5145" Action="Warning" />
+    <Rule Id="S2076" Action="Warning" />
+    <Rule Id="S5334" Action="Warning" />
+    <Rule Id="S3649" Action="Warning" />
+    <Rule Id="S5131" Action="Warning" />
+    <Rule Id="S5144" Action="Warning" />
+    <Rule Id="S2083" Action="Warning" />
+    <Rule Id="S6287" Action="Warning" />
+    <Rule Id="S6350" Action="Warning" />
+    <Rule Id="S6096" Action="Warning" />
+    <Rule Id="S2091" Action="Warning" />
+    <Rule Id="S5167" Action="None" />
   </Rules>
 </RuleSet>

@@ -1,9 +1,8 @@
-Ø
-
-:LabsAndCoursesManagement.API.Controllers.CoursesController'Microsoft.AspNetCore.Mvc.ControllerBaseobject°
-CoursesController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Grade>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Course>, AutoMapper.IMapper)´LabsAndCoursesManagement.API.Controllers.CoursesController.CoursesController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Grade>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Course>, AutoMapper.IMapper)±
-9Create(LabsAndCoursesManagement.API.DTOs.CreateCourseDto)tLabsAndCoursesManagement.API.Controllers.CoursesController.Create(LabsAndCoursesManagement.API.DTOs.CreateCourseDto)I
-Get()@LabsAndCoursesManagement.API.Controllers.CoursesController.Get()g
-GetById(System.Guid)OLabsAndCoursesManagement.API.Controllers.CoursesController.GetById(System.Guid)e
-Delete(System.Guid)NLabsAndCoursesManagement.API.Controllers.CoursesController.Delete(System.Guid)Ã
-FUpdate(System.Guid, LabsAndCoursesManagement.API.DTOs.CreateCourseDto)ÅLabsAndCoursesManagement.API.Controllers.CoursesController.Update(System.Guid, LabsAndCoursesManagement.API.DTOs.CreateCourseDto)
+Ù
+;LabsAndCoursesManagement.API.Controllers.StudentsController'Microsoft.AspNetCore.Mvc.ControllerBaseobject‹
+çStudentsController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Student>, AutoMapper.IMapper)…LabsAndCoursesManagement.API.Controllers.StudentsController.StudentsController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Student>, AutoMapper.IMapper)¥
+:Create(LabsAndCoursesManagement.API.DTOs.CreateStudentDto)vLabsAndCoursesManagement.API.Controllers.StudentsController.Create(LabsAndCoursesManagement.API.DTOs.CreateStudentDto)J
+Get()ALabsAndCoursesManagement.API.Controllers.StudentsController.Get()h
+GetById(System.Guid)PLabsAndCoursesManagement.API.Controllers.StudentsController.GetById(System.Guid)f
+Delete(System.Guid)OLabsAndCoursesManagement.API.Controllers.StudentsController.Delete(System.Guid)œ
+GUpdate(System.Guid, LabsAndCoursesManagement.API.DTOs.CreateStudentDto)ÉLabsAndCoursesManagement.API.Controllers.StudentsController.Update(System.Guid, LabsAndCoursesManagement.API.DTOs.CreateStudentDto)

@@ -1,16 +1,18 @@
 
-;LabsAndCoursesManagement.API.DTOs.CreateCourseDto.Title.getn
-dD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateCourseDto.cs (!"0*Ì
+=LabsAndCoursesManagement.API.DTOs.CreateCourseDto.Credits.setn
+dD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateCourseDto.cs# (&"0*„
 0n
-dD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateCourseDto.cs" ("Ó
-Ð
+dD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateCourseDto.cs' ('Ò
+Ï
 n
-dD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateCourseDto.cs ("
-%0string"__id*JH*F3
-1LabsAndCoursesManagement.API.DTOs.CreateCourseDto"
-Titlestring"€
-n
-dD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateCourseDto.cs ("
+dD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateCourseDto.cs# ('E3
+1LabsAndCoursesManagement.API.DTOs.CreateCourseDto"
+Creditsint"__id*
 
-%0stringB53
+valueint"¹
+n
+dD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\DTOs\CreateCourseDto.cs# ('G*E3
+1LabsAndCoursesManagement.API.DTOs.CreateCourseDto"
+Creditsint:
+valueintB53
 1LabsAndCoursesManagement.API.DTOs.CreateCourseDto

@@ -1,11 +1,8 @@
-±
-2LabsAndCoursesManagement.API.DTOs.CreateTeacherDtoobject[
-CreateTeacherDto()ELabsAndCoursesManagement.API.DTOs.CreateTeacherDto.CreateTeacherDto()Q
-FirstName.get@LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.FirstName.getQ
-FirstName.set@LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.FirstName.setO
-LastName.get?LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.LastName.getO
-LastName.set?LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.LastName.setI
-	Email.get<LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.Email.getI
-	Email.set<LabsAndCoursesManagement.API.DTOs.CreateTeacherDto.Email.set[
-TeachingDegree.getELabsAndCoursesManagement.API.DTOs.CreateTeacherDto.TeachingDegree.get[
-TeachingDegree.setELabsAndCoursesManagement.API.DTOs.CreateTeacherDto.TeachingDegree.set
+•
+
+;LabsAndCoursesManagement.API.Controllers.DidacticController'Microsoft.AspNetCore.Mvc.ControllerBaseobjectÐ
+ÇDidacticController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Teacher>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Didactic>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Course>)ƒLabsAndCoursesManagement.API.Controllers.DidacticController.DidacticController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Teacher>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Didactic>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Course>)€
+ Create(System.Guid, System.Guid)\LabsAndCoursesManagement.API.Controllers.DidacticController.Create(System.Guid, System.Guid)J
+Get()ALabsAndCoursesManagement.API.Controllers.DidacticController.Get()f
+Delete(System.Guid)OLabsAndCoursesManagement.API.Controllers.DidacticController.Delete(System.Guid)š
+-Update(System.Guid, System.Guid, System.Guid)iLabsAndCoursesManagement.API.Controllers.DidacticController.Update(System.Guid, System.Guid, System.Guid)

@@ -405,7 +405,7 @@ IsLabGrade**& 0
 ;++2 3
 },, 	
 }-- 
-}.. §
+}.. ¶
 aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs
 	namespace 	$
 LabsAndCoursesManagement
@@ -421,15 +421,16 @@ aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain
 Result 
 { 
 public 
-string 
-Error 
-{ 
-get !
-;! "
-private# *
-set+ .
-;. /
-}0 1
+string 
+? 
+Error 
+{ 
+get "
+;" #
+private$ +
+set, /
+;/ 0
+}1 2
 public 
 bool 
 	IsSuccess 

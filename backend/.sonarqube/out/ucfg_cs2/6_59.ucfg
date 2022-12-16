@@ -1,44 +1,18 @@
 
->LabsAndCoursesManagement.Domain.Helpers.Result.Failure(string)k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs ($"0*î	
-0k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs (ÖÓ
-k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs (4
-%0.LabsAndCoursesManagement.Domain.Helpers.Result".LabsAndCoursesManagement.Domain.Helpers.Resultï
-ì
-k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs (
-
-%1void"7LabsAndCoursesManagement.Domain.Helpers.Result.Result()*86
-4
-%0.LabsAndCoursesManagement.Domain.Helpers.Resultþ
-û
-k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs ( 
-
-%2bool"<LabsAndCoursesManagement.Domain.Helpers.Result.IsFailure.set*86
-4
-%0.LabsAndCoursesManagement.Domain.Helpers.Result*
-""‡
-„
-k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs (
-%3string"8LabsAndCoursesManagement.Domain.Helpers.Result.Error.set*86
-4
-%0.LabsAndCoursesManagement.Domain.Helpers.Result*
-
-errorstring"¥
-k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs (6
-4
-%0.LabsAndCoursesManagement.Domain.Helpers.Result*õ
-1k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs	 (	"‚
-k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs (	
-implicit return:~
-k
-aD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Helpers\Result.cs% (1
-errorstringB2"0
-.LabsAndCoursesManagement.Domain.Helpers.Result
+.LabsAndCoursesManagement.Domain.Student.Id.setd
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs& ()"0*à
+0d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs* (*É
+Æ
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs (*>)
+'LabsAndCoursesManagement.Domain.Student"
+IdSystem.Guid"__id*
+
+valueSystem.Guid"¨
+d
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs (*@*>)
+'LabsAndCoursesManagement.Domain.Student"
+IdSystem.Guid:
+valueSystem.GuidB+)
+'LabsAndCoursesManagement.Domain.Student

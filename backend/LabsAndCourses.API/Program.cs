@@ -1,3 +1,7 @@
+
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using LabsAndCoursesManagement.API.Validators;
 using LabsAndCoursesManagement.Domain;
 using LabsAndCoursesManagement.Infrastructure;
 using LabsAndCoursesManagement.Infrastructure.Generics;
@@ -22,7 +26,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
-
 builder.Services.AddScoped<DatabaseContext>();
 
 // with generic implementation
@@ -31,6 +34,14 @@ builder.Services.AddScoped<IRepository<Teacher>, TeacherRepository>();
 builder.Services.AddScoped<IRepository<Course>, CourseRepository>();
 builder.Services.AddScoped<IRepository<Grade>, GradeRepository>();
 builder.Services.AddScoped<IRepository<Didactic>, DidacticRepository>();
+
+// Fluent Validation
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddFluentValidationClientsideAdapters();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateCourseDtoValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateGradeDtoValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateStudentDtoValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateTeacherDtoValidator>();
 
 
 var app = builder.Build();

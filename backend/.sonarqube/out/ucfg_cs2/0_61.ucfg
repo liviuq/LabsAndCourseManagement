@@ -1,18 +1,18 @@
 
-5LabsAndCoursesManagement.Domain.Teacher.FirstName.setd
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs/ (2"0*ß
+4LabsAndCoursesManagement.Domain.Student.Semester.setd
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs+ (."0*Ô
 0d
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs3 (3Æ
-Ã
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs/ (/¿
+¼
 d
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs' (3@)
-'LabsAndCoursesManagement.Domain.Teacher"
-	FirstNamestring"__id*
-
-valuestring"ª
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs# (/<)
+'LabsAndCoursesManagement.Domain.Student"
+Semesterint"__id*
+
+valueint"¦
 d
-ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Teacher.cs' (3B*@)
-'LabsAndCoursesManagement.Domain.Teacher"
-	FirstNamestring:
-valuestringB+)
-'LabsAndCoursesManagement.Domain.Teacher
+ZD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Student.cs# (/>*<)
+'LabsAndCoursesManagement.Domain.Student"
+Semesterint:
+valueintB+)
+'LabsAndCoursesManagement.Domain.Student

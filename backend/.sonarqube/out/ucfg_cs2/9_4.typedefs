@@ -1,9 +1,8 @@
-Â
-1LabsAndCoursesManagement.API.DTOs.CreateCourseDtoobjectX
-CreateCourseDto()CLabsAndCoursesManagement.API.DTOs.CreateCourseDto.CreateCourseDto()H
-	Title.get;LabsAndCoursesManagement.API.DTOs.CreateCourseDto.Title.getH
-	Title.set;LabsAndCoursesManagement.API.DTOs.CreateCourseDto.Title.setN
-Semester.get>LabsAndCoursesManagement.API.DTOs.CreateCourseDto.Semester.getN
-Semester.set>LabsAndCoursesManagement.API.DTOs.CreateCourseDto.Semester.setL
-Credits.get=LabsAndCoursesManagement.API.DTOs.CreateCourseDto.Credits.getL
-Credits.set=LabsAndCoursesManagement.API.DTOs.CreateCourseDto.Credits.set
+Â
+:LabsAndCoursesManagement.API.Controllers.CoursesController'Microsoft.AspNetCore.Mvc.ControllerBaseobject◊
+ãCoursesController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Course>, AutoMapper.IMapper)∆LabsAndCoursesManagement.API.Controllers.CoursesController.CoursesController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Course>, AutoMapper.IMapper)±
+9Create(LabsAndCoursesManagement.API.DTOs.CreateCourseDto)tLabsAndCoursesManagement.API.Controllers.CoursesController.Create(LabsAndCoursesManagement.API.DTOs.CreateCourseDto)I
+Get()@LabsAndCoursesManagement.API.Controllers.CoursesController.Get()g
+GetById(System.Guid)OLabsAndCoursesManagement.API.Controllers.CoursesController.GetById(System.Guid)e
+Delete(System.Guid)NLabsAndCoursesManagement.API.Controllers.CoursesController.Delete(System.Guid)Ã
+FUpdate(System.Guid, LabsAndCoursesManagement.API.DTOs.CreateCourseDto)ÅLabsAndCoursesManagement.API.Controllers.CoursesController.Update(System.Guid, LabsAndCoursesManagement.API.DTOs.CreateCourseDto)

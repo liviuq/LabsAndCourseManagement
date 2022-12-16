@@ -24,6 +24,15 @@
   </Settings>
   <Rules>
     <Rule>
+      <Key>S107</Key>
+      <Parameters>
+        <Parameter>
+          <Key>max</Key>
+          <Value>7</Value>
+        </Parameter>
+      </Parameters>
+    </Rule>
+    <Rule>
       <Key>S4502</Key>
     </Rule>
     <Rule>
@@ -377,15 +386,6 @@
     </Rule>
     <Rule>
       <Key>S4035</Key>
-    </Rule>
-    <Rule>
-      <Key>S107</Key>
-      <Parameters>
-        <Parameter>
-          <Key>max</Key>
-          <Value>7</Value>
-        </Parameter>
-      </Parameters>
     </Rule>
     <Rule>
       <Key>S3442</Key>

@@ -12,9 +12,7 @@ yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infras
 xD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124212303_123.csutf-8ç
 ÅD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124212303_123.Designer.csutf-8Ç
 yD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124220620_1234.csutf-8é
-ÇD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124220620_1234.Designer.csutf-8å
-ÇD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221125101153_testMigration.csutf-8ó
-ãD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221125101153_testMigration.Designer.csutf-8é
+ÇD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\20221124220620_1234.Designer.csutf-8é
 ÇD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\Migrations\DatabaseContextModelSnapshot.csutf-8Æ
 ¢D:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\obj\Debug\net7.0\LabsAndCoursesManagement.Infrastructure.GlobalUsings.g.csutf-8£
 óD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Infrastructure\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.csutf-8¨

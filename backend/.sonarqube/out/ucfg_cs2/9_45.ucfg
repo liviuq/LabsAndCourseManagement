@@ -1,68 +1,56 @@
 
-êLabsAndCoursesManagement.API.Controllers.GradesController.GradesController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Student>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Grade>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Course>, AutoMapper.IMapper)u
-kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.cs ("3*¯
-1u
-kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.cs	 (	w
+ÉLabsAndCoursesManagement.API.Controllers.DidacticController.DidacticController(LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Teacher>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Didactic>, LabsAndCoursesManagement.Infrastructure.Generics.IRepository<LabsAndCoursesManagement.Domain.Course>)x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (!"3*˚
+1x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs	 (	w
 u
 
 %0void"8Microsoft.AspNetCore.Mvc.ControllerBase.ControllerBase()*-+)
 'Microsoft.AspNetCore.Mvc.ControllerBase*
-0*‘
-0u
-kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.cs ( 
-Ì
-u
-kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.cs (6ì;
-9LabsAndCoursesManagement.API.Controllers.GradesController"T
-studentRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*XV
+0*Í	
+0x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (4ı
+Ú
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (6ï=
+;LabsAndCoursesManagement.API.Controllers.DidacticController"T
+teacherRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*XV
 T
-studentRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>Ï
-È
-u
-kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.cs (2ë;
-9LabsAndCoursesManagement.API.Controllers.GradesController"R
-gradeRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*VT
-R
-gradeRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>Ó
-Î
-u
-kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.cs (4í;
-9LabsAndCoursesManagement.API.Controllers.GradesController"S
+teacherRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>˜
+Ù
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (8ñ=
+;LabsAndCoursesManagement.API.Controllers.DidacticController"U
+didacticRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*YW
+U
+didacticRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>Û
+
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (4î=
+;LabsAndCoursesManagement.API.Controllers.DidacticController"S
 courseRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*WU
 S
-courseRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>ˇ
-¸
-u
-kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.cs ( [;
-9LabsAndCoursesManagement.API.Controllers.GradesController"
-mapperAutoMapper.IMapper"__id* 
-
-mapperAutoMapper.IMapper*
-2*â
-2u
-kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.cs	 (	"å
-u
-kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.cs (	
-implicit return*¥
-3w
-kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.cs° (°∞
-≠
-u
-kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.cs (
-%1"__entrypoint* 
-
-mapperAutoMapper.IMapper*
-1:Õ
-u
-kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.cs  (FT
-studentRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>:À
-u
-kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.csH (jR
-gradeRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>:Õ
-v
-kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.csl (êS
-courseRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>:ó
-w
-kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.csí (†
-mapperAutoMapper.IMapperB=;
-9LabsAndCoursesManagement.API.Controllers.GradesController
+courseRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>*
+2*è
+2x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs	 (	"è
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (	
+implicit return*ò
+3z
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.csô (ôë
+é
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs (!
+%1"__entrypoint*
+1:–
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cs" (HT
+teacherRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>:—
+x
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.csJ (rU
+didacticRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>:–
+y
+nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\DidacticController.cst (òS
+courseRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>B?=
+;LabsAndCoursesManagement.API.Controllers.DidacticController

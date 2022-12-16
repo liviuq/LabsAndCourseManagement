@@ -1,18 +1,57 @@
 
--LabsAndCoursesManagement.Domain.Course.Id.setc
-YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs& ()"0*Û
+?LabsAndCoursesManagement.Domain.Course.Course(string, int, int)c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs ("1*m
+1c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs	 (	*
+0*º	
 0c
-YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs* (*Ç
-Ä
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (¥
+¢
 c
-YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (*=(
-&LabsAndCoursesManagement.Domain.Course"
-IdSystem.Guid"__id*
-
-valueSystem.Guid"¦
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (
+%0System.Guid"System.Guid.NewGuid()*"
+System.Guidï
+ì
 c
-YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (*?*=(
-&LabsAndCoursesManagement.Domain.Course"
-IdSystem.Guid:
-valueSystem.GuidB*(
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (
+%1System.Guid"-LabsAndCoursesManagement.Domain.Course.Id.set*,*(
+&LabsAndCoursesManagement.Domain.Course*
+
+%0System.Guidë
+è
+c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs	 	(
+%2string"0LabsAndCoursesManagement.Domain.Course.Title.set*,*(
+&LabsAndCoursesManagement.Domain.Course*
+
+titlestringà
+İ
+c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs
+ 
+(	
+%3int"3LabsAndCoursesManagement.Domain.Course.Semester.set*,*(
+&LabsAndCoursesManagement.Domain.Course*
+""ß
+Ü
+c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (	
+%4int"2LabsAndCoursesManagement.Domain.Course.Credits.set*,*(
+&LabsAndCoursesManagement.Domain.Course*
+""*
+2*ä
+2c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs	 (	"z
+c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (	
+implicit return:v
+c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs (#
+titlestring:v
+c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs% (1
+semesterint:u
+c
+YD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.Domain\Course.cs3 (>
+creditsintB*(
 &LabsAndCoursesManagement.Domain.Course

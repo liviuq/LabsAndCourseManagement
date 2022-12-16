@@ -1,45 +1,54 @@
 
-PLabsAndCoursesManagement.API.Controllers.StudentsController.GetById(System.Guid)x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs' '($"2*—
-
-0x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs) )(.Ë
-Â
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs) )('E
-%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*õò*ï=
-;LabsAndCoursesManagement.API.Controllers.StudentsController"T
-studentRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>Â‚
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs) )(/-
-%1'LabsAndCoursesManagement.Domain.Student"PLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.Get(System.Guid)*IG
+MLabsAndCoursesManagement.API.Controllers.GradesController.Delete(System.Guid)u
+kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.csG) G(/"2*›
+0u
+kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.csI K(2·
+ﬁ
+u
+kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.csI I(!E
+%0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*óî*ë;
+9LabsAndCoursesManagement.API.Controllers.GradesController"R
+gradeRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>Â‚
+u
+kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.csI I(,*
+%1$System.Threading.Tasks.Task<TResult>"SLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.Delete(System.Guid)*IG
 E
 %0?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>*
-""2Get(System.Guid)–Õ
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs) )(0-
-%2'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*1/
+""2Delete(System.Guid)·
+ﬁ
+u
+kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.csJ J(!E
+%2?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>"__id*óî*ë;
+9LabsAndCoursesManagement.API.Controllers.GradesController"R
+gradeRepository?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>∆√
+u
+kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.csJ J(/!
+%3System.Threading.Tasks.Task"MLabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>.SaveChanges()*IG
+E
+%2?LabsAndCoursesManagement.Infrastructure.Generics.IRepository<T>2SaveChanges()ºπ
+u
+kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.csK K(3-
+%4'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase* 
+Grade deleted successfully2Ok(object?)"®
+u
+kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.csK K(4/
 -
-%1'LabsAndCoursesManagement.Domain.Student2Ok(object?)"´
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs) )(1/
--
-%2'Microsoft.AspNetCore.Mvc.OkObjectResult*è
-1x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs*	 *(	"è
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs* *(	
-implicit return*†
-2x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs'- '(-õ
-ò
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs' '($
-%3"__entrypoint*
+%4'Microsoft.AspNetCore.Mvc.OkObjectResult*â
+1u
+kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.csL	 L(	"å
+u
+kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.csL L(	
+implicit return*ö
+2u
+kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.csG8 G(8ò
+ï
+u
+kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.csG) G(/
+%5"__entrypoint*
 ""*
-0:ç
-x
-nD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\StudentsController.cs'% '(,
-idSystem.GuidB?=
-;LabsAndCoursesManagement.API.Controllers.StudentsController
+0:ä
+u
+kD:\Facultate\.net\Proiect\LabsAndCourseManagement\backend\LabsAndCourses.API\Controllers\GradeController.csG0 G(7
+idSystem.GuidB=;
+9LabsAndCoursesManagement.API.Controllers.GradesController
