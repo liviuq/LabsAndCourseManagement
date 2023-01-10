@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using LabsAndCoursesManagement.API.DTOs;
 using LabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories;
 using Microsoft.AspNetCore.Cors;
+using Microsoft.EntityFrameworkCore;
 
 namespace LabsAndCoursesManagement.API.Controllers
 {
@@ -14,10 +15,10 @@ namespace LabsAndCoursesManagement.API.Controllers
     public class DidacticController : ControllerBase
     {
         private readonly IRepository<Teacher> teacherRepository;
-        private readonly IRepository<Didactic> didacticRepository;
+        private readonly DidacticRepository didacticRepository;
         private readonly IRepository<Course> courseRepository;
 
-        public DidacticController(IRepository<Teacher> teacherRepository, IRepository<Didactic> didacticRepository, IRepository<Course> courseRepository)
+        public DidacticController(IRepository<Teacher> teacherRepository, DidacticRepository didacticRepository, IRepository<Course> courseRepository)
         {
             this.teacherRepository = teacherRepository;
             this.didacticRepository = didacticRepository;
@@ -49,6 +50,31 @@ namespace LabsAndCoursesManagement.API.Controllers
         {
             return Ok(await didacticRepository.All());
         }
+
+        [HttpGet("course/{courseId}/teachers")]
+        public async Task<ActionResult<List<Teacher>>> GetTeachersForCourse(Guid courseId)
+        {
+            var teachers = await didacticRepository.GetTeachersForCourse(courseId);
+            if (teachers == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(teachers);
+        }
+
+        [HttpGet("teacher/{teacherId}/courses")]
+        public async Task<ActionResult<List<Course>>> GetCoursesForTeacher(Guid teacherId)
+        {
+            var courses = await didacticRepository.GetCoursesForTeacher(teacherId);
+            if (courses == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(courses);
+        }
+
         [HttpDelete("{id:guid}")]
         public async Task<IActionResult> Delete(Guid id)
         {
@@ -56,6 +82,18 @@ namespace LabsAndCoursesManagement.API.Controllers
             await didacticRepository.SaveChanges();
             return Ok("Didactic deleted successfully");
         }
+
+        [HttpDelete("{teacherId}/{courseId}")]
+        public async Task<IActionResult> DeleteTeacherFromCourse(Guid teacherId, Guid courseId)
+        {
+            var didactic = await didacticRepository.DeleteTeacherFromCourse(teacherId, courseId);
+            if (didactic == null)
+            {
+                return NotFound();
+            }
+            return NoContent();
+        }
+
         [HttpPut("{id:guid}")]
         public async Task<IActionResult> Update(Guid id, Guid teacherId, Guid courseId)
         {

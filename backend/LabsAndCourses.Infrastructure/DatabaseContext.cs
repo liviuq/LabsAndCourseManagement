@@ -12,6 +12,7 @@ namespace LabsAndCoursesManagement.Infrastructure
         public DbSet<Grade> Grades => Set<Grade>();
         public DbSet<Course> Courses => Set<Course>();
         public DbSet<Didactic> Didactics => Set<Didactic>();
+        public DbSet<Enrollment> Enrollments => Set<Enrollment>();
 
         public void Save()
         {

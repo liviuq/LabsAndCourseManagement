@@ -34,6 +34,8 @@ builder.Services.AddScoped<IRepository<Teacher>, TeacherRepository>();
 builder.Services.AddScoped<IRepository<Course>, CourseRepository>();
 builder.Services.AddScoped<IRepository<Grade>, GradeRepository>();
 builder.Services.AddScoped<IRepository<Didactic>, DidacticRepository>();
+builder.Services.AddScoped<DidacticRepository>();
+builder.Services.AddScoped<EnrollmentRepository>();
 
 // Fluent Validation
 builder.Services.AddFluentValidationAutoValidation();
