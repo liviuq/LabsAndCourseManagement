@@ -14,6 +14,7 @@ namespace LabsAndCoursesManagement.Infrastructure.Generics.GenericRepositories
             var enrollments = await context.Enrollments
                                         .Where(d => d.CourseId == courseId)
                                         .Include(d => d.Student)
+                                        .Include(e => e.Student.Grades)
                                         .ToListAsync();
             return enrollments.Select(d => d.Student).ToList();
         }

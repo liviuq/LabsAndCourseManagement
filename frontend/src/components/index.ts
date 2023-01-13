@@ -1,1 +1,2 @@
-export * from "./EntityCard";
+export * from "./StudentsTable";
+export * from "./TeachersTable";

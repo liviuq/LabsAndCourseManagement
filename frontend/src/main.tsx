@@ -1,13 +1,19 @@
 import { ChakraProvider } from '@chakra-ui/react'
+import axios from 'axios';
+import { createEntityStore } from 'entity-of';
 import React, { Children } from 'react'
 import ReactDOM from 'react-dom/client'
+import { QueryClient, QueryClientProvider } from 'react-query';
 import {
   createBrowserRouter,
   RouterProvider,
   Route,
 } from "react-router-dom";
 import { AppFrame } from './shared';
-import { BuildTeam, CoursePage, CreateCourse, ErrorPage, Home, Root, StudentCRUD, TeacherCRUD } from './views';
+import { CourseView, ErrorPage, Root } from './views';
+import { Tutorial } from './views/Tutorial';
+
+createEntityStore()
 
 const router = createBrowserRouter([
   {
@@ -16,40 +22,29 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "teacher",
-        element: <TeacherCRUD />,
-      },
-      {
-        path: "student",
-        element: <StudentCRUD />,
-      },
+        path: "course/:id",
+        element: <CourseView />,
+      }
     ],
+  },
+  {
+    path: "tutorial",
+    element: <Tutorial />,
+  },
 
-  },
-  {
-    path: "home",
-    element: <Home />,
-  },
-  {
-    path: "create-course",
-    element: <CreateCourse />,
-  },
-  {
-    path: "build-team",
-    element: <BuildTeam />,
-  },
-  {
-    path: "course",
-    element: <CoursePage />,
-  },
+
 ]);
+
+axios.defaults.baseURL = 'https://localhost:7202/api'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <ChakraProvider>
-      <AppFrame>
-        <RouterProvider router={router} />
-      </AppFrame>
+      <QueryClientProvider client={new QueryClient()}>
+        <AppFrame>
+          <RouterProvider router={router} />
+        </AppFrame>
+      </QueryClientProvider>
     </ChakraProvider>
   </React.StrictMode>
 )
